@@ -1,0 +1,1 @@
+`.reduce()` method is used when the data source length and output length are going to be different lengths.
