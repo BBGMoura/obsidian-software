@@ -1,0 +1,3 @@
+In addition to inheriting parent members, subclasses can completely replace a parent method. This is called **overriding** a method. To override, a method is re-implemented in the subclass. The `@Override` annotation makes it clear that it is replacing a parent method.
+
+When two classes have identical method signatures but different behaviours, they exhibit **polymorphism**.  It's when an object of one type executes a method and an object of a different type executes the same method (or at least the same signature) and the behaviour is different.

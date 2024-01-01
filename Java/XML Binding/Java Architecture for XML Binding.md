@@ -1,0 +1,1 @@
+Java Architecture for XML Binding (JAXB) is a technology that allows you to map Java objects to XML representations and vice versa. 
