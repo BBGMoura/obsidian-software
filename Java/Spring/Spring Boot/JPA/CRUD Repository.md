@@ -31,3 +31,6 @@ Returns the number of entities available in type `long`.
 
 5. deleteById()
 Deletes the entity with the given id.
+
+
+[[Custom Queries]]
