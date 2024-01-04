@@ -13,20 +13,20 @@ JPA is a standard that can be implemented by an ORM (object-relational mapping).
 Instead, developers are able to work with easy-to-understand objects in their code, that the ORM “translates” or maps into queries against the underlying database relations.
 
 For example, instead of defining a database table in SQL…
-```
+``` sql
 CREATE TABLE plants (  name varchar,  type varchar,);
 ```
 …we can define a plain-old Java class:
-```
+``` java
 public class Plant {  private string name;  private string type;}
 ```
 
 Instead of writing SQL queries…
-```
-SELECT nameFROM plantsWHERE name='ficus';
+``` sql
+SELECT name FROM plants WHERE name='ficus';
 ```
 …we can use Java methods:
-```
+``` java
 Plant ficusName = plantRepository.findByName('ficus').name;
 ```
 
@@ -45,7 +45,7 @@ As long as an appropriate JDBC driver exists for a given database, implementatio
 ## H2
 H2 is a database type. It is a relational database written entirely in Java. It can run on the same kind of infrastructure as your application and can run entirely "in-memory". This makes it easy to use to test your Spring Boot application on your machine, without having to obtain a database server from elsewhere.
 
-To connect yo an embedded H2 database using Spring Data JPA, application properties need to be updated.  The type of information stored inside property files include:
+To connect you can embedded H2 database using Spring Data JPA, application properties need to be updated.  The type of information stored inside property files include:
 - database URL
 - number of logs the application should produce
 - the port the application runs on 
