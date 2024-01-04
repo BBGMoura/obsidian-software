@@ -3,3 +3,5 @@
 - [[CRUD Repository]]
 - [[Custom Queries]]
 - [[Connecting Repository to Controller]]
+- [[Testing JPA Queries]]
+
