@@ -1,7 +1,7 @@
 - [ ] to-do
 - [/] incomplete
 - [x] done
-- [-] canceled
+- [-] cancelled
 - [>] forwarded
 - [<] scheduling
 - [?] question
