@@ -6,10 +6,9 @@ kanban-plugin: basic
 
 ## To Do
 
-- [ ] [[Customer Repository]]
-- [ ] Room Repository
-- [ ] Booking Repository
-- [ ] BookingHistory Repository
+- [ ] Room Repository #feature
+- [ ] Booking Repository #feature
+- [ ] BookingHistory Repository #feature
 
 
 ## Ready For Development
@@ -18,6 +17,7 @@ kanban-plugin: basic
 
 ## In Progress
 
+- [ ] Customer Repository #feature<br>- [ ] extends CrudRepository<br>- [ ] findByEmail<br>- [ ] findByFirstAndLastName<br>- [ ] findByFirstName<br>- [ ] findByLastName<br><br>Tests:<br>- [ ] save<br>- [ ] update<br>- [ ] findByEmail<br>- [ ] findByFirstAndLastName<br>- [ ] findByFirstName<br>- [ ] findByLastName<br>- [ ] delete
 
 
 ## Testing
