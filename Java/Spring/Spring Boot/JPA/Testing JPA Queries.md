@@ -55,7 +55,8 @@ public void testUpdate()
 	// update bookRepository.save(b1); 
 	List<Book> result = bookRepository.findByTitle("Book A");
 	
-	assertEquals(1, result.size()); Book book = result.get(0); 
+	assertEquals(1, result.size()); 
+	Book book = result.get(0); 
 	assertNotNull(book.getId()); assertTrue(book.getId() > 0); 
 	assertEquals("Book A", book.getTitle()); 
 	assertEquals(BigDecimal.valueOf(19.99), book.getPrice()); 
