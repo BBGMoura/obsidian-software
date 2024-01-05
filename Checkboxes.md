@@ -15,4 +15,3 @@
 - [I] idea
 - [p] pros
 - [c] cons
-
