@@ -11,22 +11,22 @@ kanban-plugin: basic
 - [ ] F4 - BookingHistory Repository #feature
 
 
-## Ready For Development
-
-- [ ] B1- Cannot update customer #bug <br>Cannot update customer in `CustomerRepostioryTest` as there are no set methods in `Customer`.<br><br>Add to `CustomerRepository`<br>- [ ]  setFirstName<br>- [ ]  setLastName<br>- [ ]  setEmail
-
-
 ## Blocked
+
+
+
+## Ready For Development
 
 
 
 ## In Progress
 
-- [ ] F1 - Customer Repository #feature<br>- [ ] extends CrudRepository<br>- [ ] findByEmail<br>- [ ] findByFirstAndLastName<br>- [ ] findByFirstName<br>- [ ] findByLastName<br><br>Tests:<br>- [ ] save<br>- [ ] update<br>- [ ] findByEmail<br>- [ ] findByFirstAndLastName<br>- [ ] findByFirstName<br>- [ ] findByLastName<br>- [ ] delete
+- [ ] F1 - Customer Repository #feature<br>- [x] extends CrudRepository<br>- [x] findByEmail<br>- [ ] findByFirstAndLastName<br>- [ ] findByFirstName<br>- [ ] findByLastName<br><br>Tests:<br>- [x] save<br>- [ ] update<br>- [ ] findByEmail<br>- [ ] findByFirstAndLastName<br>- [ ] findByFirstName<br>- [ ] findByLastName<br>- [ ] delete
 
 
 ## Testing
 
+- [ ] B1- Cannot update customer #bug <br>Cannot update customer in `CustomerRepostioryTest` as there are no set methods in `Customer`.<br><br>Add to `CustomerRepository`<br>- [x]  setFirstName<br>- [x]  setLastName<br>- [x]  setEmail<br><br>**blocking F1**
 
 
 ## Completed
