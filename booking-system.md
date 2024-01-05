@@ -21,7 +21,7 @@ kanban-plugin: basic
 
 ## In Progress
 
-- [ ] F1 - Customer Repository #feature<br>- [x] extends CrudRepository<br>- [x] findByEmail<br>- [ ] findByFirstAndLastName<br>- [ ] findByFirstName<br>- [ ] findByLastName<br><br>Tests:<br>- [x] save<br>- [ ] update<br>- [ ] findByEmail<br>- [ ] findByFirstAndLastName<br>- [ ] findByFirstName<br>- [ ] findByLastName<br>- [ ] delete
+- [ ] F1 - Customer Repository #feature<br>- [x] extends CrudRepository<br>- [x] findByEmail<br>- [ ] findByFirstAndLastName<br>- [ ] findByFirstName<br>- [ ] findByLastName<br><br>Tests:<br>- [x] save<br>- [x] update<br>- [x] findByEmail<br>- [ ] findByFirstAndLastName<br>- [ ] findByFirstName<br>- [ ] findByLastName<br>- [ ] delete
 
 
 ## Testing
