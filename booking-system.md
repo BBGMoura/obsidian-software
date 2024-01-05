@@ -9,6 +9,8 @@ kanban-plugin: basic
 - [ ] F2 - Room Repository #feature
 - [ ] F3 -Booking Repository #feature
 - [ ] F4 - BookingHistory Repository #feature
+- [ ] F5 - Customer Service #feature
+- [ ] F6 - Customer Controller #feature
 
 
 ## Blocked
@@ -17,15 +19,16 @@ kanban-plugin: basic
 
 ## Ready For Development
 
+- [ ] D1 - Make WorkFlow for each Model #design
 
 
 ## In Progress
 
-- [ ] F1 - Customer Repository #feature<br>- [x] extends CrudRepository<br>- [x] findByEmail<br>- [ ] findByFirstAndLastName<br>- [ ] findByFirstName<br>- [ ] findByLastName<br><br>Tests:<br>- [x] save<br>- [x] update<br>- [x] findByEmail<br>- [ ] findByFirstAndLastName<br>- [ ] findByFirstName<br>- [ ] findByLastName<br>- [ ] delete
 
 
 ## Testing
 
+- [ ] F1 - Customer Repository #feature<br>- [x] extends CrudRepository<br>- [x] findByEmail<br>- [x] findByFirstAndLastName<br>- [x] findByFirstName<br>- [x] findByLastName<br><br>Tests:<br>- [x] save<br>- [x] update<br>- [x] findByEmail<br>- [x] findByFirstAndLastName<br>- [x] findByFirstName<br>- [x] findByLastName<br>- [x] delete
 - [ ] B1- Cannot update customer #bug <br>Cannot update customer in `CustomerRepostioryTest` as there are no set methods in `Customer`.<br><br>Add to `CustomerRepository`<br>- [x]  setFirstName<br>- [x]  setLastName<br>- [x]  setEmail<br><br>**blocking F1**
 
 
