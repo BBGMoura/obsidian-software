@@ -23,7 +23,7 @@ kanban-plugin: basic
 ## In Progress
 
 - [ ] D1 - Make WorkFlow for each Model #design<br>- [ ] customer<br>- [ ] room<br>- [ ] booking<br>- [ ] booking history<br><br>@{2024-01-05}
-- [ ] F5 - Customer Service #feature<br>- [ ] create customer<br>- [ ] view customers<br>- [ ] update customer<br>- [ ] delete customer<br><br>CustomerDTO<br>- [ ] create customerDTO<br><br>CustomerMapper<br>- [ ] create customerMapper <br>@{2024-01-05}
+- [ ] F5 - Customer Service #feature<br>- [ ] create customer<br>- [ ] view all customers<br>- [ ] view by id<br>- [ ] view by first name<br>- [ ] view by last name<br>- [ ] view by fist and last name<br>- [ ] view by email <br>- [ ] update customer<br>- [ ] delete customer<br><br>CustomerDTO<br>- [ ] create customerDTO<br><br>CustomerMapper<br>- [ ] create customerMapper <br>@{2024-01-10}
 
 
 ## Testing
