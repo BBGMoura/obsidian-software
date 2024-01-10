@@ -18,12 +18,12 @@ kanban-plugin: basic
 ## Ready For Development
 
 - [ ] F2 - Room Repository #feature<br>- [ ] extend CrudRepository<br>- [ ] findByName<br><br>Tests:<br>- [ ] save<br>- [ ] findByName<br>- [ ] update<br>- [ ] delete<br><br>@{2024-01-05}
-- [ ] F5 - Customer Service #feature<br>- [ ] create customer<br>- [ ] view customers<br>- [ ] update customer<br>- [ ] delete customer<br><br>@{2024-01-05}
 
 
 ## In Progress
 
 - [ ] D1 - Make WorkFlow for each Model #design<br>- [ ] customer<br>- [ ] room<br>- [ ] booking<br>- [ ] booking history<br><br>@{2024-01-05}
+- [ ] F5 - Customer Service #feature<br>- [ ] create customer<br>- [ ] view customers<br>- [ ] update customer<br>- [ ] delete customer<br><br>CustomerDTO<br>- [ ] create customerDTO<br><br>CustomerMapper<br>- [ ] create customerMapper <br>@{2024-01-05}
 
 
 ## Testing
