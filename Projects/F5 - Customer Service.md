@@ -1,0 +1,1 @@
+Want to change the implementantion to instead use Model Mapper library. Will have more research on this before continuing to code. As i i bleive individual mappers on the service layer seems abit tedioyus and can possibly be doen better.
