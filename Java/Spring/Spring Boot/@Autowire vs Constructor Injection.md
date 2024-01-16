@@ -7,7 +7,7 @@ There are three ways to do Dependency Injection using the Spring Framework:
 - Setter Injection uses public setters to set the value of the attributes/fields.
 - Constructor  Injection happens at the time of creating the object itself.
 
-## Field Injection
+# Field Injection
 Field Injection is achieved by adding the **@Autowire** annotation to a class field. It allows the automatic wiring of the dependency.  
 
 Auto-wiring (**@Autowire**) is one of the most commonly seen anti-patterns in codebases that use Spring IoC/DI Framework. 
@@ -25,7 +25,7 @@ Auto-wiring (**@Autowire**) is one of the most commonly seen anti-patterns in co
 
 **@Autowire** violates some good code design principle.
 
-## Dependency Inversion (D from [[SOLID]])
+### Dependency Inversion (D from [[SOLID]])
  If you want to use the class outside the application container. For example, for unit testing, you are forced to use a Spring container to instantiate your class as there are no other ways to set the @Autowire fields.
 
 Therefore, no point of injection exists.
@@ -61,3 +61,5 @@ public class Calculator {
 The dependency between the two components are explicitly declared the code design allows a mock instance of Multiplier to be injected at runtime.
 
 Also, Construction injection helps in creating immutable objects. This is because the constructor is the only way to create new objects. Once we create a bean, we cannot alter it's dependencies anymore.
+
+On the other hand, setter injection allows dependency injection after creation. This creates mutable objects, which are not thread-safe in a multi-threaded environment.
