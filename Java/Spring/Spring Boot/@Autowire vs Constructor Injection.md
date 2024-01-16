@@ -68,3 +68,4 @@ This is better because it makes the class:
 - Maintainable because you rely on OOP concepts to inject class dependencies.
 - Testable because you have a point of injection that will allow unit tests to pass. For example a mock object instead of concrete implementation. 
 -  Flexible as more dependencies can be added to the class by adding to the constructor.
+
