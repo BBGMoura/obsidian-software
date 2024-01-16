@@ -63,3 +63,8 @@ The dependency between the two components are explicitly declared the code desig
 Also, Construction injection helps in creating immutable objects. This is because the constructor is the only way to create new objects. Once we create a bean, we cannot alter it's dependencies anymore.
 
 On the other hand, setter injection allows dependency injection after creation. This creates mutable objects, which are not thread-safe in a multi-threaded environment.
+
+This is better because it makes the class:
+- Maintainable because you rely on OOP concepts to inject class dependencies.
+- Testable because you have a point of injection that will allow unit tests to pass. For example a mock object instead of concrete implementation. 
+-  Flexible as more dependencies can be added to the class by adding to the constructor.
