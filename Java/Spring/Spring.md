@@ -15,3 +15,5 @@ https://start.spring.io/ initialises spring Boot applications.
 
 - [[Spring Controller]]
 - [[Spring Bean]]
+- [[Spring Data JPA]]
+- [[@Autowire vs Constructor Injection]]
