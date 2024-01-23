@@ -37,13 +37,17 @@ The **Java Virtual Machine (JVM)**, is the application that executes bytecode. 
 -  [[CURL]]
 - [[Scanner]]
 ## Testing
-- [[Stateful Testing]]
+- [[Stateful Testing]]  
 - [[Mockito]]
-## Annotation
+## Frameworks
 - [[Project Lombok]]
 - [[Spring]]
 
 ## Database Management
+<<<<<<< HEAD
 - [[Data with JPA]]
 ## Cloud
 - [[Java Azure Integration]]
+=======
+- [[Spring Data JPA]]
+>>>>>>> origin/main

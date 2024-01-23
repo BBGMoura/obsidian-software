@@ -83,6 +83,8 @@ Therefore, when making a post request, you do not need to pass an ID also:
 curl -X POST localhost:4001/plants -H "Content-Type: application/json" -d "{\"name\":\"Ficus\",\"quantity\":2, \"wateringFrequency\": 3, \"hasFruit\": false}"
 ```
 
+## update
+
 The `.save()` method can also be used for updating existing entries. A common flow includes:
 - fetching the entry from the database by id
 - update some attribute of the entry
