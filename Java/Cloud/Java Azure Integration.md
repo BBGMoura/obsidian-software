@@ -1,1 +1,3 @@
 - [[Secrets]]
+- [[Types of Java applications]]
+- [[Java technologies]]
