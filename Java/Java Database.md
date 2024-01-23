@@ -15,8 +15,6 @@ The JVM is a very important part of the JRE, but it's not the only part.
 
 The **Java Virtual Machine (JVM)**, is the application that executes bytecode. Java is know for the JVM. This ensures the same Java code can be run on different operating systems and platforms. Each platform has a custom JVM since the JVM translates bytecode to platform-specific machine code.
 
-
-
 ## Foundation
 - [[Print Statement]]
 - [[Data Types and Variables]]
@@ -47,3 +45,5 @@ The **Java Virtual Machine (JVM)**, is the application that executes bytecode. 
 
 ## Database Management
 - [[Data with JPA]]
+## Cloud
+- [[Java Azure Integration]]
