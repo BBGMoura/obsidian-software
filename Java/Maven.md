@@ -33,3 +33,24 @@ learn-nlp
 
 ## Dependencies
 Maven's greatest superpower is its ability to fetch and install Java libraries that someone else created. Maven third-party libraries are called dependencies.
+
+This is how to define a dependency in your pom.xml file:
+
+``` xml
+<dependencies>
+	<dependency>  
+	    <groupId>com.h2database</groupId>  
+	    <artifactId>h2</artifactId>  
+	    <scope>runtime</scope>  
+	</dependency>
+</dependencies>
+```
+
+## Maven Clean Install
+When running `mvn clean install`, you are generating the items inside the target folder. You have the compile .class files inside the classes folder. 
+
+In addition, you have the .jar file of the program. This is the file which is used to deploy. You can run the following command to run the program in the terminal :
+
+``` shell
+java -jar path/file-name-version.jar
+```
