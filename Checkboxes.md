@@ -15,3 +15,6 @@
 - [I] idea
 - [p] pros
 - [c] cons
+
+Checklist
+Alternative

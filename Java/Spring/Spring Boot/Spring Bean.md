@@ -1,7 +1,18 @@
 A Spring Bean is an object managed by the Inversion of Control (IoC) container. The Spring IoC container's management of beans includes several responsibilities.  The most significant includes bean instantiation/assembly and management of dependency injection.
 
-## Bean Instantiation
+Bean is just a Java class whose object creation and destruction is managed by Spring framework.
 
+## @Bean
+
+If we create a method which creates a new object. This will return a singleton bean.
+
+``` java
+@Bean
+public BeanDemo beanDemo(){
+	return new BeanDemo();
+}
+```
+## Bean Instantiation
 ``` java
 @Component  
 public class RaceTrack {  

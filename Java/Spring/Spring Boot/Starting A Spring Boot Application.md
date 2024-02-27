@@ -26,6 +26,7 @@ This also automatically runs a Tomcat server for us. We can see in the terminal 
 ```
 
 We can change where the port is ran by adding the following to the application.properties file:
+
 ``` properties
 server.port = 8089
 ```

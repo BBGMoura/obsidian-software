@@ -1,3 +1,5 @@
+Bean is a java class whose object creation and destruction is managed by Spring framwork.
+
 Spring Bean has many scopes. every scope decide how many instances of that class (Bean instance) will be created and used.
 
 Bean will be valid for...
