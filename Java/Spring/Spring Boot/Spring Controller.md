@@ -3,6 +3,7 @@ Spring is a web framework that uses HTTP to build RESTful web services. It enabl
 This example involves a restaurant application. The class is named `RestaurantController`. HTTP  requests are handled by a controller.
 
 ``` Java
+@CrossOrigin(origins="http://localhost:4200)
 @RequestMapping("/restaurants")
 @RestController
 public class RestaurantController {
@@ -10,10 +11,13 @@ public class RestaurantController {
 ```
 
 **@RestController**
-This annotation tells Spring that this class is a controller component.
+This annotation tells Spring that this class is a rest controller component.
 
 **@RequestMapping("/restaurants")**
 This annotation maps the controller so the requests to `/restaurants` is mapped to this controller.
+
+**@CrossOrigin**
+Allows access from any IP address?
 ## GET
 When typing an URL in a browser, this is typically a GET request. The browser displays he response on the browser page. Alternately,  you can use a CURL (client for URLs which is a command line tool).
 
@@ -47,6 +51,20 @@ This ensures that GET requests to `/restaurant/{id}` are mapped to the `getResta
 
 **@PathVariable**
 Used to extract data from the URL path. Defines placeholders in request mapping URL and binds placeholders to method parameters. 
+
+Another annotation is :
+``` java
+@GetMapping("/get")
+public Restaurant getRestaurant(@RequestParam(required = true) Long id) {
+Optional<Restaurant> restaurant = restaurantRepository.findById(id);
+if (restaurant.isPresent()) {
+	return restaurant.get();
+
+}
+```
+
+**@RequestParam**
+Define the data in the URI in the format: `/restaurants/get?id=[id]`. You can define if is required or not.
 ## POST
 POST requests adds new data to a receiving web application. 
 
@@ -74,7 +92,7 @@ public Restaurant addRestaurant(@RequestBody Restaurant restaurant) {
 }
 ```
 
-**@ResquestBody**
+**@RequestBody**
 maps the HttpRequest body to a transfer or domain object. It automatically serialises the HttpRequest body on to a Java object.
 
 Spring automatically deserializes JSON into a Java type assuming an appropriate type is specified. Example  object : `'{"username": "johnny", "password": "password"}'`
