@@ -1,0 +1,1 @@
+Design patterns is a way of organising things which developer should follow to make a big and complex application in a simple, repeatable form. MVC allows for scalable applications with loose coupling .
