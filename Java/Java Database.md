@@ -23,6 +23,7 @@ The **Java Virtual Machine (JVM)**, is the application that executes bytecode. 
 - [[Decision Statements]]
 - [[Loops]]
 - [[Arrays]]
+- - [[Scanner]]
 ## Object-Oriented Programming
 - [[Access Modifiers]]
 - [[Inheritance]]
@@ -35,8 +36,10 @@ The **Java Virtual Machine (JVM)**, is the application that executes bytecode. 
 - [[Java Keystores]]
 - [[Java Architecture for XML Binding]]
 -  [[CURL]]
-- [[Scanner]]
+## Web services
 - [[RESTful Services]]
+- [[MVC - Model, View, Controller]]
+- [[Controller]]
 ## Testing
 - [[Stateful Testing]]  
 - [[Mockito]]

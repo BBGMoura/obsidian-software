@@ -8,3 +8,9 @@ This includes:
 - equals
 - hashCode
 - constructor 
+
+## @Getter
+Generates getters for all fields.
+
+## @Setter
+Generates setters for all fields.
