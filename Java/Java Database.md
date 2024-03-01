@@ -36,6 +36,7 @@ The **Java Virtual Machine (JVM)**, is the application that executes bytecode. 
 - [[Java Keystores]]
 - [[Java Architecture for XML Binding]]
 -  [[CURL]]
+- [[WebSockets]]
 ## Web services
 - [[RESTful Services]]
 - [[MVC - Model, View, Controller]]
