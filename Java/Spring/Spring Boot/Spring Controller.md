@@ -128,3 +128,13 @@ try {
   }
 ```
 
+## Response Entity
+We can send a response using a ResponseEntity in a controller method. We can send a data itself and a type of response code:
+
+``` java
+ResponseType<[return-type]> responseEntity = new ResponseEntity<[return-type]> (result, HttpStatus.CREATED);
+
+return responseEntity;
+```
+
+Where return type is the type of the result you are returning. In addition, there are various HttpStatus types which can be returned.
