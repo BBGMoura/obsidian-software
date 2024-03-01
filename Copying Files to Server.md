@@ -18,3 +18,5 @@ Example for skywarp server:
 ```
  scp CorvusPay.p12 brunam@skywarp:/etc/fsbtech/corvuspay   
 ```
+
+This copies the file from pwd to skywarp. (this doesnt work as we need to use the landing zone).
