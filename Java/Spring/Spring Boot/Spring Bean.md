@@ -3,7 +3,6 @@ A Spring Bean is an object managed by the Inversion of Control (IoC) container. 
 Bean is just a Java class whose object creation and destruction is managed by Spring framework.
 
 ## @Bean
-
 If we create a method which creates a new object. This will return a singleton bean.
 
 ``` java
@@ -38,7 +37,9 @@ public class RaceRound {
 
 ```
 
-We must annotate the involved classes with **@Component**. In addition, we use the **@Autowire** instead of instantiating `RaceTrack` and `Driver`.
+We must annotate the involved classes with **@Component**. In addition, we use the **@Autowire** instead of instantiating `RaceTrack` and `Driver`. 
+
+The **@Autowired** annotation is a way to pass one instance of one object to another class instance. This functionality is also known as object autowiring.
 
 We marked the classes `RaceTrack` and `Driver` as Spring beans. This allows the IoC to manage them.
 

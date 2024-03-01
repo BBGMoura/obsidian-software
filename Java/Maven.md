@@ -54,3 +54,6 @@ In addition, you have the .jar file of the program. This is the file which is us
 ``` shell
 java -jar path/file-name-version.jar
 ```
+
+In conclusion, `mvn clean install`  deletes the target folder if existing, compiles the .java files to .class files, packages a jar file, and stores it in the target folder.
+
