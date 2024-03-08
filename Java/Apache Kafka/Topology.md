@@ -1,0 +1,1 @@
+The Topology defines the flow of data processing within the Kafka Streams application.

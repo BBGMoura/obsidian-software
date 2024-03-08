@@ -37,6 +37,7 @@ The **Java Virtual Machine (JVM)**, is the application that executes bytecode. 
 - [[Java Architecture for XML Binding]]
 -  [[CURL]]
 - [[WebSockets]]
+- [[Apache Kafka]]
 ## Web services
 - [[RESTful Services]]
 - [[MVC - Model, View, Controller]]
@@ -52,4 +53,4 @@ The **Java Virtual Machine (JVM)**, is the application that executes bytecode. 
 - [[Spring Data JPA]]
 ## Cloud
 - [[Java Azure Integration]]
-
+- [[Quarkus]]

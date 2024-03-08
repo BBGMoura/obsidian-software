@@ -1,0 +1,1 @@
+Quarkus is a full-stack, Kubernetes-native Java framework made for JVMs (Java Virtual Machines) and native compilation, optimizing Java specifically for containers and enabling it to become effective platform for serverless, cloud, and Kubernetes environment. 
