@@ -29,7 +29,6 @@ SELECT name FROM plants WHERE name='ficus';
 ``` java
 Plant ficusName = plantRepository.findByName('ficus').name;
 ```
-
 ### Hibernate
 The ORM most commonly used with Spring Data JPA is called Hibernate. It comes with the Spring Data dependency `spring-boot-starter-data-jpa`.
 
@@ -63,6 +62,6 @@ spring.datasource.driverClassName=org.h2.Driver
 - Spring Data JPA is an implementation of the Java Persistence API (JPA).
 - The object-relational mapping tool, or ORM, provided by Spring Data JPA is called Hibernate. It provides Java methods that can be translated into SQL queries.
 - The standard that defines the relationship between Java code and SQL queries is called Java Database Connectivity (JDBC).
-- Spring Data JPA  can work with various databases.
+- Spring Data JPA can work with various databases.
 - H2 is a database type that can run in memory so developer do not have to set up and connect to a different database.
 - The database type is specified in **application.properties**.

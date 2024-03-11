@@ -1,7 +1,7 @@
 ## Introduction
 Java is a compiled programming language. This means that the code is transformed into byte code by a compiler before it is executed by the  **Java Virtual Machine (JVM)**. The compiling process catches mistakes **before** the computer runs our code.
 
-The **Java Runtime Environment ( JRE)**,  is an application that runs Java applications.  Java is not compiled directly to machine code, it is compiled to Java bytecode. This is platform independent. The JRE executes the compiled Java bytecode.
+The **Java Runtime Environment ( JRE)**,  is an application that runs Java applications.  Java is not compiled directly to machine code, it is compiled to Java bytecAdding a database is easy to do with the help of a library called Spring Data JPA. Java Persistence API (JPA) is the underlying standard used to translate objects from Java into queries that can be sent directly to the underlying database.ode. This is platform independent. The JRE executes the compiled Java bytecode.
 
 The **Java Development Kit (JDK)**  is a set of tools for Java software development. It includes the JRE, the java compiler, a debugger, and tools for documenting, bench marking, and analysing Java code.
 
@@ -51,7 +51,7 @@ The **Java Virtual Machine (JVM)**, is the application that executes bytecode. 
 
 ## Database Management
 - [[Spring Data JPA]]
-- [[JPA]]
+- [[Hibernate]]
 ## Cloud
 - [[Java Azure Integration]]
 - [[Quarkus]]
