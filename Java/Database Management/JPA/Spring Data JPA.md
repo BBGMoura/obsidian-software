@@ -6,6 +6,7 @@ Spring Data JPA is an abstraction layer built on top of [[Hibernate]]. It makes 
 ## JPA Entities
 - [[JPA Entities]]
 -  [[Generating Primary Keys]]
+- [[Generic Entity]]
 
 ## Queries
 - [[Queries]]

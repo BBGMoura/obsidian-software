@@ -1,0 +1,33 @@
+model and DTOs are interchangeable names. QAs they are both data transfer objects. Only the Entity talks to the database.
+
+DTO is used to hold data in the controller and service layer.
+
+A DTO class example using lombok annotation:
+
+``` java
+@Getter  
+@Setter  
+public class PropertyDTO {  
+    private String title;  
+    private String description;  
+    private String ownerName;  
+    private String ownerEmail;  
+    private Double price;  
+    private String address;  
+}
+```
+
+The DTO does not need the object's ID.
+
+_NOTE_
+You can use **@JsonProperty** to map the name of the fields of an object to a diff name for example:
+
+``` java
+public class CalculatorDTO {
+	@JsonProperty("num")
+	private Double num1;
+}
+```
+
+This makes it so when a http request is sent with a JSON body, if it contains "num", this will be mapped to num1 field in the CalculatorDTO object.
+

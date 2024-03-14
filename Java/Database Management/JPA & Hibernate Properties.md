@@ -16,5 +16,5 @@ spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true 
 //prints sql in formatted way
 spring.jpa.database-platform=prg.hibernate.dialectH2Dialect
-//this prpertye makes Hibernate generate the appropriate SQL for chosen table
+//this prpertye makes Hibernate generate the appropriate SQL qwueries for chosen table. this works with the criver class name
 ```

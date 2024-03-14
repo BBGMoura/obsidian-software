@@ -65,6 +65,17 @@ if (restaurant.isPresent()) {
 
 **@RequestParam**
 Define the data in the URI in the format: `/restaurants/get?id=[id]`. You can define if is required or not.
+
+You can use **@JsonProperty** to map the name of the fields of an object to a diff name for example:
+
+``` java
+public class CalculatorDTO {
+	@JsonProperty("num")
+	private Double num1;
+}
+```
+
+This makes it so when a http request is sent with a JSON body, if it contains "num", this will be mapped to num1 field in the CalculatorDTO object.
 ## POST
 POST requests adds new data to a receiving web application. 
 
