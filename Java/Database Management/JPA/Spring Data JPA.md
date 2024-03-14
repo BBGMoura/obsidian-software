@@ -1,7 +1,0 @@
-- [[Data with JPA]]
-- [[JPA Entities]]
-- [[CRUD Repository]]
-- [[Custom Queries]]
-- [[Connecting Repository to Controller]]
-- [[Testing JPA Queries]]
-- [[JPA & Hibernate Properties]]
