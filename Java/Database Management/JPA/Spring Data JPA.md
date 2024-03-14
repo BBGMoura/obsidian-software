@@ -4,4 +4,4 @@
 - [[Custom Queries]]
 - [[Connecting Repository to Controller]]
 - [[Testing JPA Queries]]
-
+- [[JPA & Hibernate Properties]]
