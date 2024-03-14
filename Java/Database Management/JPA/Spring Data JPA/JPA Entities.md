@@ -6,6 +6,7 @@ We define an entity with the use of the **@Entity** notation.  The name defaults
 
 __The entity classes must not be declared as final.__
 
+You can find annotations in the javax.persistence.
 ## Different annotations:
 **@Id**
 Each JPA entity must have a primary key that uniquely identifies it. We can generate identifiers in different ways , which are specified by the **@GeneratedValue** annotation.
@@ -89,4 +90,5 @@ We **don’t have to specify the _@Enumerated_ annotation at all if we’re g
 
 However, to persist the Gender by enum name (MALE, or FEMALE), we’ve configured the annotation with _EnumType.STRING._
 
+**@
 

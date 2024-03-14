@@ -1,4 +1,4 @@
-Custom filter queries can be added to extend the CRUD repository. All that is required is to add a properly formatted method name to the interface.
+Custom filter queries can be added to extend the JPA repositories. All that is required is to add a properly formatted method name to the interface.
 
 For example:
 ``` java
