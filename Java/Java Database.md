@@ -23,7 +23,7 @@ The **Java Virtual Machine (JVM)**, is the application that executes bytecode. 
 - [[Decision Statements]]
 - [[Loops]]
 - [[Arrays]]
-- - [[Scanner]]
+- [[Scanner]]
 ## Object-Oriented Programming
 - [[Access Modifiers]]
 - [[Inheritance]]
@@ -49,7 +49,7 @@ The **Java Virtual Machine (JVM)**, is the application that executes bytecode. 
 - [[Project Lombok]]
 - [[Spring]]
 
-## Database Management
+## Database
 - [[Spring Data JPA]]
 - [[Hibernate]]
 ## Cloud
