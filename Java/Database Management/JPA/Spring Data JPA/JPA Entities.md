@@ -41,6 +41,8 @@ We can mention the name of the table and the name of the schema.
 
 NOTE: If we don't use the table annotation, the name of the table will be the name of the entity.
 
+_NOTE:_ if the table isn't already generated, jpa will generate the table based on these @Table and @Collumn annotations.
+
 **@Column**
 This annotation defines the details of the column in the table. It has elements such as name, length, nullable, and unique.
 
@@ -90,5 +92,5 @@ We **don’t have to specify the _@Enumerated_ annotation at all if we’re g
 
 However, to persist the Gender by enum name (MALE, or FEMALE), we’ve configured the annotation with _EnumType.STRING._
 
-**@
+
 
