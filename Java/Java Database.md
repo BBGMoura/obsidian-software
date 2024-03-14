@@ -29,7 +29,7 @@ The **Java Virtual Machine (JVM)**, is the application that executes bytecode. 
 - [[Inheritance]]
 - [[Interfaces]]
 - [[Design Principles]]
-- [[CRUD]]
+
 ## General
 - [[Maven]]
 - [[HTTP]]
@@ -42,6 +42,7 @@ The **Java Virtual Machine (JVM)**, is the application that executes bytecode. 
 - [[RESTful Services]]
 - [[MVC - Model, View, Controller]]
 - [[Controller]]
+- - [[CRUD]]
 ## Testing
 - [[Stateful Testing]]  
 - [[Mockito]]
@@ -53,6 +54,6 @@ The **Java Virtual Machine (JVM)**, is the application that executes bytecode. 
 - [[Spring Data JPA]]
 - [[Hibernate]]
 - [[H2]]
-## Cloud
+## Cloud/Servers
 - [[Java Azure Integration]]
 - [[Quarkus]]

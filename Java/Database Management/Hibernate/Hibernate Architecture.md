@@ -1,7 +1,7 @@
 
 Hibernate has layered architecture which helps the user to operate without knowing the underlying APIs. It uses the database and configuration data to provide persistence services to the application.
 
-Hibernate is an Object Relational Mapping tool.
+Hibernate is an Object Relational Mapping tool. ORM maps object fields to columns in the database of the entity.
 
 ![[hibernate.png]]
 

@@ -1,6 +1,8 @@
+These properties go inside resources/application.properties.
+
 ``` java
 spring.h2.console.enabled=true //allows to see h2 database in browser
-spring.h2.console.path=/h2-console //url of h2 database in browser
+spring.h2.console.path=/h2-console //url of h2 database in browser. /h2-consoel is default
 spring.datasource.username=sa //database username
 spring.datasource.password= //database password
 
