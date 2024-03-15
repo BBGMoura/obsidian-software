@@ -1,3 +1,4 @@
+
 To connect to a MySQL database, we must import the MySQL connector. We can do this with the following dependency in the pom.xml file:
 
 ``` xml
@@ -15,7 +16,8 @@ spring.datasource.username=root
 spring.datasource.password=  
 spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver  
   
-spring.jpa.hibernate.ddl-auto=update  
+spring.jpa.hibernate.d
+dl-auto=update  
 spring.jpa.show-sql=true  
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
 spring.jackson.serialization.fail-on-empty-beans=false
