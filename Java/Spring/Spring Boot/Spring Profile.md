@@ -8,3 +8,8 @@ application-[profile-name].properties
 application-local.properties
 ```
 
+Inside application.properties, use the following property to switch between profiles:
+
+``` properties
+spring.profiles.active=dev
+```
