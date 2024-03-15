@@ -42,7 +42,7 @@ The **Java Virtual Machine (JVM)**, is the application that executes bytecode. 
 - [[RESTful Services]]
 - [[MVC - Model, View, Controller]]
 - [[Controller]]
-- - [[CRUD]]
+- [[CRUD]]
 ## Testing
 - [[Stateful Testing]]  
 - [[Mockito]]

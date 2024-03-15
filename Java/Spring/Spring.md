@@ -25,3 +25,4 @@ https://start.spring.io/ initialises spring Boot applications.
 - [[Spring Bean Scope]]
 -  [[Spring Controller]]
 - [[Spring Data JPA]]
+- [[Spring Profile]]

@@ -57,4 +57,10 @@ public class CoffeeController {
 ```
 
 
+## Spring Io
+For spring to take control of the dependency injection of different classes, the following annotations must be used:
+- **@RestControlller**
+- **@Controller**
+- **@Service**
+- **@Component**
 
