@@ -149,3 +149,12 @@ return responseEntity;
 ```
 
 Where return type is the type of the result you are returning. In addition, there are various HttpStatus types which can be returned.
+
+For no content returns we can use the example below:
+``` java
+@DeleteMapping("/delete/{propertyId}")  
+public ResponseEntity<Void> deleteProperty(@PathVariable Long propertyId){  
+    propertyService.deleteProperty(propertyId);  
+    return new ResponseEntity<>(HttpStatus.NO_CONTENT);  
+}
+```
