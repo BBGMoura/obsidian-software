@@ -54,6 +54,7 @@ The **Java Virtual Machine (JVM)**, is the application that executes bytecode. 
 - [[Spring Data JPA]]
 - [[Hibernate]]
 - [[H2]]
+- [[MySQL]]
 ## Cloud/Servers
 - [[Java Azure Integration]]
 - [[Quarkus]]
