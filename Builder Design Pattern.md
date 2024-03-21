@@ -1,0 +1,1 @@
+The Builder pattern was introduced to solve some of the problems with Factory and Abstract Factory design patterns when an Object contains lots of attributes.
