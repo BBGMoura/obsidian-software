@@ -23,3 +23,9 @@ public interface VoteRepository extends JpaRepository<Vote, Long> {
 
 }
 ```
+
+## JPA Query Parameters
+- Positional parameters
+- Named parameters
+
+
