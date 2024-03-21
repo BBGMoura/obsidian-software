@@ -38,11 +38,9 @@ The **Java Virtual Machine (JVM)**, is the application that executes bytecode. 
 -  [[CURL]]
 - [[WebSockets]]
 - [[Apache Kafka]]
-<<<<<<< HEAD
 - [[Property injection from Property File]]
-=======
 - [[Design Patterns]]
->>>>>>> origin/main
+
 ## Web services
 - [[RESTful Services]]
 - [[MVC - Model, View, Controller]]
