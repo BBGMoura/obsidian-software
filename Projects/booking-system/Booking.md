@@ -42,3 +42,31 @@ Main Models/Entities:
 - User
 - Payment
 - BookingHistory
+- Account
+- Room
+
+User must have the following information:
+- name
+- phone number
+- email
+- permission type
+
+Booking must have the following information:
+- payment
+- room
+- user
+- time?
+- booking status?
+- class type?
+
+Payment has:
+- account
+- price
+- status
+- booking
+
+Payment history?
+
+Status can be voided, paid and outstanding?
+
+Can cancel booking any point. But if booking is cancelled less than 24 hours before, charge to account does not get cancelled.
