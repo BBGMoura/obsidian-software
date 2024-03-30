@@ -12,14 +12,24 @@ Permission enum {
 	USER
 }
 
+---
+
 Booking {
 	id
 	User
-	BookingStatus
-	createdOn
+	Room
+	ClassPricing
 	bookedFrom
 	bookedTo
-	duration? 
+	Total
+}
+
+BookingHistory {
+	id
+	booking
+	BookingStatus
+	createdOn
+	updatingUser -> as this could be the admin who is making the changes
 }
 
 BookingStatus enum{
@@ -27,15 +37,34 @@ BookingStatus enum{
 	CANCELLED
 }
 
+LessonPricing {
+	LessonType
+	pricePer60
+	pricePer30
+	pricePer45
+}
+
+---
+
 Payment {
 	id
-	Price
+	Total
 	PaymentStatus
 	Booking
 	Account?
 }
 
-PaymentStatus{}
+PaymentStatus{
+	outstanding
+	paid
+	void
+}
+
+Account {
+	id
+	user
+	outstandingBalance
+}
 
 
 
@@ -46,3 +75,11 @@ got to think about this as i want payment logic and booking time seperated?
 payment is Directly linked to a booking but not all bookings actually have payments!
 
 booking logic could be done in blocks? not sure 
+booking history createdon
+booking history has booking status
+
+lesson pricing has lesson type and pricing.
+pricePer30
+pricePer45
+pricePer60
+? do in minutes like htis, not sure?
