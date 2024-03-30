@@ -18,7 +18,7 @@ Booking {
 	id
 	User
 	Room
-	ClassPricing
+	Lesson
 	bookedFrom
 	bookedTo
 	Total
@@ -37,14 +37,14 @@ BookingStatus enum{
 	CANCELLED
 }
 
-ClassPricing {
+LessonPricing {
 	LessonType
 	pricePer60
 	pricePer30
 	pricePer45
 }
 
-ClassType enum {
+LessonType enum {
 	PRIVATE,
 	PRACTICE,
 	GROUP,
