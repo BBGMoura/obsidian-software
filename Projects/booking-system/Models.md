@@ -44,6 +44,13 @@ LessonPricing {
 	pricePer45
 }
 
+Room {
+	id
+	name
+	availableFrom
+	availableTo
+}
+
 ---
 
 Payment {
@@ -57,7 +64,7 @@ Payment {
 PaymentStatus{
 	outstanding
 	paid
-	void
+	voided
 }
 
 Account {
