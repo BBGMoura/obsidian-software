@@ -22,13 +22,13 @@ kanban-plugin: basic
 
 ## Ready For Development
 
-- [ ] F2 - Booking Repository #phase-1
 - [ ] F3- Booking Service #phase-1
 - [ ] F4 - Booking Controller #phase-1
 
 
 ## In Development
 
+- [ ] F2 - Booking Repository #phase-1
 
 
 ## Testing
