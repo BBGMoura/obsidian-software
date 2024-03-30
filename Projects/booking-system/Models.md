@@ -37,14 +37,14 @@ BookingStatus enum{
 	CANCELLED
 }
 
-LessonPricing {
-	LessonType
+DanceClass {
+	ClassType
 	pricePer60
 	pricePer30
 	pricePer45
 }
 
-LessonType enum {
+ClassType enum {
 	PRIVATE,
 	PRACTICE,
 	GROUP,
