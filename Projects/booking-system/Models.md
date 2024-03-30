@@ -66,6 +66,7 @@ Payment {
 	Total
 	PaymentStatus
 	Booking
+	createdOn
 	Account?
 }
 
