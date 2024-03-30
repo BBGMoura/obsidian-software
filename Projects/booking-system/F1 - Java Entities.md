@@ -1,8 +1,0 @@
-- [ ] #todo Users
-- [ ] #todo Booking
-- [ ] #todo Room
-- [ ] #todo Permission
-- [ ] #todo Payment
-- [ ] #todo Account
-- [ ] #todo BookingHistory
-- [ ] #todo PaymentHistory

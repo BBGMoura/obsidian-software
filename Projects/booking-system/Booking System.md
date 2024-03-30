@@ -1,7 +1,3 @@
-- [[Booking]]
-- [[Users]]
-
-
 A booking system which allows a user to book rooms for different type of classes.
 There are different types of classes which include:
 - Practice session
