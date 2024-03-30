@@ -73,3 +73,5 @@ Payment history?
 Status can be voided, paid and outstanding?
 
 Can cancel booking any point. But if booking is cancelled less than 24 hours before, charge to account does not get cancelled.
+
+Be able to make reoccurring lessons for classes till a date.
