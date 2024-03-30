@@ -28,7 +28,7 @@ kanban-plugin: basic
 
 ## In Development
 
-- [ ] F2 - Booking Repository #phase-1
+- [ ] F2 - Booking Repository #phase-1<br>- [ ] find by room and dates
 
 
 ## Testing
