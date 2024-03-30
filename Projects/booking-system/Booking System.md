@@ -74,6 +74,9 @@ Be able to make reoccurring lessons for classes till a date.
 
 admin can bypass room availability times to book lessons.
 
+only admin can book unavailable.
+
+there should be a room configuration thing. its global so all rooms follow the same time scheme? so will make this a room configuration file. where there is weekend and non weekend
 
 Future addition:
 - one booking can have many users
