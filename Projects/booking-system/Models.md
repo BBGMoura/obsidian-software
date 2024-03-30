@@ -37,11 +37,18 @@ BookingStatus enum{
 	CANCELLED
 }
 
-LessonPricing {
+ClassPricing {
 	LessonType
 	pricePer60
 	pricePer30
 	pricePer45
+}
+
+ClassType enum {
+	PRIVATE,
+	PRACTICE,
+	GROUP,
+	OTHER
 }
 
 Room {
@@ -50,6 +57,7 @@ Room {
 	availableFrom
 	availableTo
 }
+
 
 ---
 
