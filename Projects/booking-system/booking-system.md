@@ -10,7 +10,6 @@ kanban-plugin: basic
 - [ ] Room Repository #phase-1
 - [ ] Payment Repository #phase-1
 - [ ] Account Repository #phase-1
-- [ ] User Repository #phase-1
 - [ ] TBC - BookingHistory Repository #phase-2
 - [ ] TBC - PaymentHistory model #phase-2
 - [ ] TBC - PaymentHistory repository #phase-2
