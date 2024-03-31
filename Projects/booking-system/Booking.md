@@ -7,3 +7,8 @@ CRUD Operations:
 - get all bookings by between bookedFrom and bookedTo (? is this something i need?)#
 
 add to the enum permission based? so can only use the other and unavailable based on the permission being admin.
+
+
+think about more what i need...
+- view from customer calender view all bookings based on room and within a week
+- get all bookings if the booking: startDate is after or equal to bookeddFrom and before   bookedTo. the endDate has to be after bookedFrom or before bookedTo. and room is equal to.
