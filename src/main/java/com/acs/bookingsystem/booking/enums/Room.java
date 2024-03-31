@@ -5,12 +5,11 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public enum ClassType {
-    PRIVATE("PRIV"),
-    PRACTICE("PRA"),
-    GROUP("GRP"),
-    UNAVAILABLE("UN"),
-    OTHER("OTH");
+public enum Room {
+    ROOM1("1"),
+    ROOM2("2"),
+    ROOM3("3"),
+    ROOM4("4");
 
     private final String code;
 }
