@@ -23,6 +23,7 @@ kanban-plugin: basic
 ## Ready For Development
 
 - [ ] F4 - DanceClass service #phase-1 #feature <br>- [ ] create class<br>- [ ] delete class<br>- [ ] get all class options dependant on user permission
+- [ ] F4 - UserRepository Tests
 
 
 ## In Development
