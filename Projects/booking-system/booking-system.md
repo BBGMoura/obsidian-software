@@ -23,12 +23,11 @@ kanban-plugin: basic
 ## Ready For Development
 
 - [ ] F4 - DanceClass service #phase-1 #feature <br>- [ ] create class<br>- [ ] delete class<br>- [ ] get all class options dependant on user permission
-- [ ] F4 - UserRepository Tests
 
 
 ## In Development
 
-- [ ] F3- User Service #phase-1 #feature <br>- [ ] create a user<br>- [ ] delete a user<br>- [ ] update user properties<br>- [ ] get user by the id<br>- [ ] validation<br>- [ ] user request<br><br>Tests<br>- [ ] create user<br>- [ ] delete user<br>- [ ] update user properties<br>- [ ] get u ser by id
+- [ ] F3- User Service #phase-1 #feature <br>- [ ] create a user<br>- [ ] delete a user<br>- [ ] update user properties<br>- [ ] getAllUsers? do it if needed<br>- [ ] get user by the id<br>- [ ] validation<br>- [ ] user request<br>Tests<br>Repository tests<br>Tests<br>- [ ] create user<br>- [ ] delete user<br>- [ ] update user properties<br>- [ ] get u ser by id
 
 
 ## Testing

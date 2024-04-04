@@ -80,3 +80,8 @@ there should be a room configuration thing. its global so all rooms follow the s
 
 Future addition:
 - one booking can have many users
+
+## Improvements 
+- generic mapper in another package liek global helper package
+- look at all imports see if i can get rid of * 
+- see if i cna get rid of any lombok annotations
