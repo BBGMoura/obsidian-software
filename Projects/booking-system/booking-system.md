@@ -27,7 +27,7 @@ kanban-plugin: basic
 
 ## In Development
 
-- [ ] F3- User Service #phase-1 #feature <br>- [x] create a user<br>- [ ] delete a user<br>- [ ] update user properties<br>- [ ] getAllUsers? do it if needed<br>- [x] get user by the id<br>- [ ] validation<br>- [ ] user request<br>Tests<br>Repository tests<br>Tests<br>- [ ] create user<br>- [ ] delete user<br>- [ ] update user properties<br>- [ ] get u ser by id
+- [ ] F3- User Service #phase-1 #feature <br>- [x] create a user<br>- [ ] delete a user<br>- [ ] update user properties<br>- [ ] getAllUsers? do it if needed<br>- [x] get user by the id<br>- [ ] validation<br>- [ ] user request<br>Tests<br>update permision if user updating it is a admin?<br>change email but only if it exists in the permission lsit<br><br>Repository tests<br>Tests<br>- [ ] create user<br>- [ ] delete user<br>- [ ] update user properties<br>- [ ] get u ser by id
 
 
 ## Testing
