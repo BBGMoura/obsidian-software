@@ -13,7 +13,7 @@ kanban-plugin: basic
 - [ ] TBC - BookingHistory Repository #phase-2
 - [ ] TBC - PaymentHistory #phase-2
 - [ ] TBC - PaymentHistory repository #phase-2
-- [ ] TBC - UserService #phase-2 <br>- create user with admin permission only if user is an admin<br>- can only be registered if it is in the permission list<br>- admin can add user to user to permission list<br>- password and token system
+- [ ] TBC - UserService #phase-2 <br>- create user with admin permission only if user is an admin<br>- can only be registered if it is in the permission list<br>- admin can add user to user to permission list<br>- password and token system<br>- initialise user account?
 
 
 ## Blocked
@@ -24,13 +24,13 @@ kanban-plugin: basic
 ## Ready For Development
 
 - [ ] F4 - DanceClass service #phase-1 #feature <br>- [ ] create class<br>- [ ] delete class<br>- [ ] get all class options dependant on user permission
-- [ ] UserRepository Test #phase-1 #feature <br>- [ ] create user<br>- [ ] delete user<br>- [ ] update user properties<br>- [ ] get u ser by id
 - [ ] DanceClass Repo Test #phase-1 #feature
 
 
 ## In Development
 
 - [ ] F3- User Service #phase-1 #feature <br>- [x] create a user<br>- [x] delete a user<br>- [x] update user properties<br>- [x] get user by the id<br>- [x] validation<br>- [x] user request<br><br>Tests<br><br>update permision if user updating it is a admin?<br>change email but only if it exists in the permission list<br><br>- [ ] create a user<br>- [ ] delete a user<br>- [ ] update user properties<br>- [ ] get user by the id<br>- [ ] validation<br>- [ ] user request
+- [ ] UserRepository Test #phase-1 #feature <br>- [ ] create user<br>- [ ] delete user<br>- [ ] update user properties<br>- [ ] get u ser by id
 
 
 ## Testing
