@@ -6,8 +6,6 @@ kanban-plugin: basic
 
 ## To-Do
 
-- [ ] DanceClass Reposiotry #phase-1
-- [ ] Room Repository #phase-1
 - [ ] Payment Repository #phase-1
 - [ ] Account Repository #phase-1
 - [ ] TBC - BookingHistory Repository #phase-2
@@ -20,18 +18,20 @@ kanban-plugin: basic
 
 ## Blocked
 
-- [ ] F6 - Booking Service V1 #phase-1 #feature <br>Has the following dependencies:<br>- [ ] user service<br>- [ ] dance class service
+- [ ] F - Booking Service V1 #phase-1 #feature <br>Has the following dependencies:<br>- [ ] user <br>- [ ] dance class
 
 
 ## Ready For Development
 
-- [ ] F4 - DanceClass service #phase-1 #feature <br>- [ ] create class<br>- [ ] delete class<br>- [ ] get all class options dependant on user permission
+- [ ] Room Repository #phase-1
+- [ ] DanceClass Reposiotry #phase-1
+- [ ] F- DanceClass service #phase-1 #feature <br>- [ ] create class<br>- [ ] delete class<br>- [ ] get all class options dependant on user permission
 - [ ] DanceClass Repo Test #phase-1 #feature
 
 
 ## In Development
 
-- [ ] F3- User Service #phase-1 #feature <br>- [x] create a user<br>- [x] delete a user<br>- [x] update user properties<br>- [x] get user by the id<br>- [x] validation<br>- [x] user request<br><br>Tests<br><br>update permision if user updating it is a admin?<br>change email but only if it exists in the permission list<br><br>- [ ] create a user<br>- [ ] delete a user<br>- [ ] update user properties<br>- [ ] get user by the id<br>- [ ] validation<br>- [ ] user request
+- [ ] F5 - UserController<br>- [ ] register user<br>- [ ] find user by id<br>- [ ] update user<br>- [ ] delete user<br>- [ ] request validations<br>- [ ] exception handlers <br><br>Test<br>- [ ] create<br>- [ ] read<br>- [ ] update<br>- [ ] delete<br>- [ ] validations
 
 
 ## Testing
@@ -42,7 +42,8 @@ kanban-plugin: basic
 
 - [ ] F1 - java entities #phase-1 #feature <br>- [x] User<br>- [x] Booking<br>- [x] Room<br>- [x] Payment<br>- [x] Account<br>- [x] BookingHistory<br>- [x] DanceClass
 - [ ] F2 - Booking Repository #phase-1 #feature <br>- [x] find by room and dates<br><br>Test<br>- [x] create booking<br>- [x] cancel booking<br>- [x] get by room and between dates
-- [ ] UserRepository Test #phase-1 #feature <br>- [x] create user<br>- [x] delete user<br>- [x] update user properties<br>- [x] get u ser by id
+- [ ] F4 - UserRepository Test #phase-1 #feature <br>- [x] create user<br>- [x] delete user<br>- [x] update user properties<br>- [x] get u ser by id
+- [ ] F3- User Service #phase-1 #feature <br>- [x] create a user<br>- [x] delete a user<br>- [x] update user properties<br>- [x] get user by the id<br>- [x] validation<br>- [x] user request<br><br>Tests<br><br>update permision if user updating it is a admin?<br>change email but only if it exists in the permission list<br><br>- [x] create a user<br>- [x] delete a user<br>- [x] update user properties<br>- [x] get user by the id<br>- [x] validation<br>- [x] user request
 
 
 
