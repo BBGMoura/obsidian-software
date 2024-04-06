@@ -13,6 +13,7 @@ kanban-plugin: basic
 - [ ] TBC - BookingHistory Repository #phase-2
 - [ ] TBC - PaymentHistory #phase-2
 - [ ] TBC - PaymentHistory repository #phase-2
+- [ ] TBC - UserService #phase-2 <br>- create user with admin permission only if user is an admin<br>- can only be registered if it is in the permission list<br>- admin can add user to user to permission list<br>- password and token system
 
 
 ## Blocked
@@ -24,6 +25,7 @@ kanban-plugin: basic
 
 - [ ] F4 - DanceClass service #phase-1 #feature <br>- [ ] create class<br>- [ ] delete class<br>- [ ] get all class options dependant on user permission
 - [ ] UserRepository Test #phase-1 #feature <br>- [ ] create user<br>- [ ] delete user<br>- [ ] update user properties<br>- [ ] get u ser by id
+- [ ] DanceClass Repo Test #phase-1 #feature
 
 
 ## In Development
