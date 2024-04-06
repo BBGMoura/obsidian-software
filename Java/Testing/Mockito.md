@@ -3,6 +3,23 @@ Mockito is an open-source testing framework used for unit testing. It is used to
 Unit Testing is a type of software testing in which individual software components are tested.
 
 Mockito can be used with other testing frameworks like JUnit and TestNG.
+## Enabling Mockito
+This can be done two ways:
+
+1. Annotation @RunWith(MockitoJUnit)
+``` Java
+@RunWith(MockitoJUnitRunner.class)
+class Test {
+```
+
+2. In the @BeforeEach method
+``` Java
+@BeforeEach
+public void init() {
+    MockitoAnnotations.openMocks(this);
+}
+```
+
 ## @Mock
 -  Creates a mock.
 - Is used to create mocks that are needed to support the testing of the class to be tested.

@@ -14,6 +14,7 @@ kanban-plugin: basic
 - [ ] TBC - PaymentHistory #phase-2
 - [ ] TBC - PaymentHistory repository #phase-2
 - [ ] TBC - UserService #phase-2 <br>- create user with admin permission only if user is an admin<br>- can only be registered if it is in the permission list<br>- admin can add user to user to permission list<br>- password and token system<br>- initialise user account?
+- [ ] Add a @Before each to the repositories tests
 
 
 ## Blocked
@@ -30,7 +31,6 @@ kanban-plugin: basic
 ## In Development
 
 - [ ] F3- User Service #phase-1 #feature <br>- [x] create a user<br>- [x] delete a user<br>- [x] update user properties<br>- [x] get user by the id<br>- [x] validation<br>- [x] user request<br><br>Tests<br><br>update permision if user updating it is a admin?<br>change email but only if it exists in the permission list<br><br>- [ ] create a user<br>- [ ] delete a user<br>- [ ] update user properties<br>- [ ] get user by the id<br>- [ ] validation<br>- [ ] user request
-- [ ] UserRepository Test #phase-1 #feature <br>- [ ] create user<br>- [ ] delete user<br>- [ ] update user properties<br>- [ ] get u ser by id
 
 
 ## Testing
@@ -41,6 +41,7 @@ kanban-plugin: basic
 
 - [ ] F1 - java entities #phase-1 #feature <br>- [x] User<br>- [x] Booking<br>- [x] Room<br>- [x] Payment<br>- [x] Account<br>- [x] BookingHistory<br>- [x] DanceClass
 - [ ] F2 - Booking Repository #phase-1 #feature <br>- [x] find by room and dates<br><br>Test<br>- [x] create booking<br>- [x] cancel booking<br>- [x] get by room and between dates
+- [ ] UserRepository Test #phase-1 #feature <br>- [x] create user<br>- [x] delete user<br>- [x] update user properties<br>- [x] get u ser by id
 
 
 
