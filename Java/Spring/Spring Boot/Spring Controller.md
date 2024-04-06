@@ -17,7 +17,10 @@ This annotation tells Spring that this class is a rest controller component.
 This annotation maps the controller so the requests to `/restaurants` is mapped to this controller.
 
 **@CrossOrigin**
-Allows access from any IP address?
+Allows access from only the information added in the annotation . For example, the above code snippet allows only requests from "http://localhost:4200". 
+
+To allow any origins, we use the annotation of  **@CrossOrigin(origins="\*")**
+
 ## GET
 When typing an URL in a browser, this is typically a GET request. The browser displays he response on the browser page. Alternately,  you can use a CURL (client for URLs which is a command line tool).
 
