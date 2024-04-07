@@ -34,6 +34,9 @@ kanban-plugin: basic
 - [ ] Add a @Before each to the repositories tests
 - [ ] improve exception so it does not take error list as this seems unecessary n uses abundance pf boilerplate code
 - [ ] validation not working?
+- [ ] error code model when start with 0 it is user
+- [ ] when start with 1 it is..
+- [ ] excetra for each model i made in chronological order?
 
 
 ## Testing
