@@ -29,7 +29,7 @@ kanban-plugin: basic
 
 ## In Development
 
-- [ ] F5 - UserController<br>- [ ] register user<br>- [ ] find user by id<br>- [ ] update user<br>- [ ] delete user<br>- [ ] request validations<br>- [ ] exception handlers <br><br>Test<br>- [ ] create<br>- [ ] read<br>- [ ] update<br>- [ ] delete<br>- [ ] validations
+- [ ] F5 - UserController<br>- [x] register user<br>- [x] find user by id<br>- [x] update user<br>- [x] delete user<br>- [ ] request validations<br>- [ ] exception handlers <br><br>Test<br>- [ ] create<br>- [ ] read<br>- [ ] update<br>- [ ] delete<br>- [ ] validations
 - [ ] detailed message of UserRequestException is null. How do i set this with a exception id like to know so stack traces can be easier to read..
 - [ ] Add a @Before each to the repositories tests
 - [ ] improve exception so it does not take error list as this seems unecessary n uses abundance pf boilerplate code
