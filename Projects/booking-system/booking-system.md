@@ -12,6 +12,7 @@ kanban-plugin: basic
 - [ ] TBC - PaymentHistory #phase-2
 - [ ] TBC - PaymentHistory repository #phase-2
 - [ ] TBC - UserService #phase-2 <br>- create user with admin permission only if user is an admin<br>- can only be registered if it is in the permission list<br>- admin can add user to user to permission list<br>- password and token system<br>- initialise user account?
+- [ ] Add a @Before each to the repositories tests
 
 
 ## Blocked
@@ -29,19 +30,11 @@ kanban-plugin: basic
 
 ## In Development
 
-- [ ] F5 - UserController<br>- [x] register user<br>- [x] find user by id<br>- [x] update user<br>- [x] delete user<br>- [ ] request validations<br>- [ ] exception handlers <br><br>Test<br>- [ ] create<br>- [ ] read<br>- [ ] update<br>- [ ] delete<br>- [ ] validations
-- [ ] detailed message of UserRequestException is null. How do i set this with a exception id like to know so stack traces can be easier to read..
-- [ ] Add a @Before each to the repositories tests
-- [ ] improve exception so it does not take error list as this seems unecessary n uses abundance pf boilerplate code
-- [ ] validation not working?
-- [ ] error code model when start with 0 it is user
-- [ ] when start with 1 it is..
-- [ ] excetra for each model i made in chronological order?
-- [ ] error presents below the field of registration and not general error above regsietr button? is the idea for now
 
 
 ## Testing
 
+- [ ] F5 - UserController<br>- [x] register user<br>- [x] find user by id<br>- [x] update user<br>- [x] delete user<br>- [x] request validations<br>- [x] exception handlers <br><br>Test<br>- [ ] create<br>- [x] read<br>- [ ] update<br>- [ ] delete<br>- [ ] validations
 
 
 ## Done
