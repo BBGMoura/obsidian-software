@@ -24,9 +24,9 @@ kanban-plugin: basic
 
 - [ ] Room Repository #phase-1
 - [ ] DanceClass Reposiotry #phase-1
-- [ ] F- DanceClass service #phase-1 #feature <br>- [ ] create class<br>- [ ] delete class<br>- [ ] get all class options dependant on user permission
+- [ ] F6- DanceClass service #phase-1 #feature <br>- [ ] create class<br>- [ ] delete class<br>- [ ] get all class options <br>- [x] get by id<br>- [x] get by active class type<br>- [ ] dependant on user permission
 - [ ] DanceClass Repo Test #phase-1 #feature
-- [ ] F6 - Booking Service V1 #phase-1 #feature <br>Has the following dependencies:<br>- [ ] user <br>- [ ] dance class<br><br>Methods:<br>- [ ] createBooking<br>- [ ] getByRoomAndBetweenTwoDates<br>- [ ] delete booking<br>- [ ] getAllBookingsByUser<br>- [ ] getBookingById
+- [ ] F6 - Booking Service V1 #phase-1 #feature <br>Has the following dependencies:<br>- [ ] user <br>- [ ] dance class<br><br>Methods:<br>- [x] createBooking<br>- [x] getByRoomAndBetweenTwoDates<br>- [x] delete booking<br>- [x] getAllBookingsByUser<br>- [x] getBookingById<br><br>Test
 - [ ] sshould i be throwing exceptions when validating?
 
 
