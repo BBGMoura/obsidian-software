@@ -13,6 +13,7 @@ kanban-plugin: basic
 - [ ] TBC - PaymentHistory repository #phase-2
 - [ ] TBC - UserService #phase-2 <br>- create user with admin permission only if user is an admin<br>- can only be registered if it is in the permission list<br>- admin can add user to user to permission list<br>- password and token system<br>- initialise user account?
 - [ ] Add a @Before each to the repositories tests
+- [ ] AdminController?
 
 
 ## Blocked
