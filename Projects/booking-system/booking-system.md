@@ -6,14 +6,15 @@ kanban-plugin: basic
 
 ## To-Do
 
-- [ ] Payment Repository #phase-1
-- [ ] Account Repository #phase-1
-- [ ] TBC - BookingHistory Repository #phase-2
-- [ ] TBC - PaymentHistory #phase-2
-- [ ] TBC - PaymentHistory repository #phase-2
-- [ ] TBC - UserService #phase-2 <br>- create user with admin permission only if user is an admin<br>- can only be registered if it is in the permission list<br>- admin can add user to user to permission list<br>- password and token system<br>- initialise user account?
-- [ ] Add a @Before each to the repositories tests
+- [ ] Account Repository #phase-2 #feature
+- [ ] Payment Repository #phase-2 #feature
+- [ ] TBC - BookingHistory Repository #phase-2 #feature
+- [ ] TBC - PaymentHistory #phase-2 #feature
+- [ ] TBC - PaymentHistory repository #phase-2 #feature
+- [ ] TBC - UserService #phase-2 #feature <br>- create user with admin permission only if user is an admin<br>- can only be registered if it is in the permission list<br>- admin can add user to user to permission list<br>- password and token system<br>- initialise user account?
 - [ ] AdminController?
+- [ ] TBC - Login and Security #phase-3 #feature
+- [ ] TBC - Payment integration #phase-3 #feature
 
 
 ## Blocked
@@ -22,21 +23,19 @@ kanban-plugin: basic
 
 ## Ready For Development
 
-- [ ] Room Repository #phase-1
-- [ ] DanceClass Reposiotry #phase-1
-- [ ] F6- DanceClass service #phase-1 #feature <br>- [ ] create class<br>- [ ] delete class<br>- [ ] get all class options <br>- [x] get by id<br>- [x] get by active class type<br>- [ ] dependant on user permission
-- [ ] DanceClass Repo Test #phase-1 #feature
-- [ ] F6 - Booking Service V1 #phase-1 #feature <br>Has the following dependencies:<br>- [ ] user <br>- [ ] dance class<br><br>Methods:<br>- [x] createBooking<br>- [x] getByRoomAndBetweenTwoDates<br>- [x] delete booking<br>- [x] getAllBookingsByUser<br>- [x] getBookingById<br><br>Test
-- [ ] sshould i be throwing exceptions when validating?
+- [ ] F7 - Room Repository #phase-1 #feature <br>Update Room names then change to update
 
 
 ## In Development
 
+- [ ] F6 - Booking Service V1 #phase-1 #feature <br>Has the following dependencies:<br>- [ ] user <br>- [ ] dance class<br><br>Methods:<br>- [x] createBooking<br>- [x] getByRoomAndBetweenDates<br>- [x] delete booking<br>- [x] getAllBookingsByUser<br>- [x] getBookingById<br><br>- [ ] error handling<br><br>Test<br>-user service tests<br>-user controller tests
+- [ ] F6- DanceClass service + Controller #phase-1 #feature <br>- [x] create class<br>- [x] delete class<br>- [x] get all class options <br>- [x] get by id<br>- [x] get by active class type<br>- [ ] dependant on user <br>- [ ] permission<br>- [ ] error handling<br><br>do i need a dance classrquest?<br><br>Tests<br>- [ ] service test<br>- [ ] controller tests
 
 
 ## Testing
 
-- [ ] F5 - UserController<br>- [x] register user<br>- [x] find user by id<br>- [x] update user<br>- [x] delete user<br>- [x] request validations<br>- [x] exception handlers <br><br>Test<br>- [ ] create<br>- [x] read<br>- [ ] update<br>- [ ] delete<br>- [ ] validations
+- [ ] F5 - UserController #feature #phase-1 <br>- [x] register user<br>- [x] find user by id<br>- [x] update user<br>- [x] delete user<br>- [x] request validations<br>- [x] exception handlers <br><br>Test<br>- [ ] create<br>- [x] read<br>- [ ] update<br>- [ ] delete<br>- [ ] validations
+- [ ] Add a @Before each to the repositories tests
 
 
 ## Done
