@@ -6,12 +6,14 @@ kanban-plugin: basic
 
 ## To-Do
 
+- [ ] Logging
 - [ ] Payment Repository #phase-2 #feature
 - [ ] Account Repository #phase-2 #feature
 - [ ] TBC - PaymentHistory repository #phase-2 #feature
 - [ ] TBC - BookingHistory Repository #phase-2 #feature
 - [ ] TBC - PaymentHistory #phase-2 #feature
 - [ ] TBC - Login and Security #phase-3 #feature
+- [ ] User permitted to register only if in user permision database
 - [ ] AdminController #phase-3 #feature
 - [ ] TBC - UserService Permission Implementation #phase-3  #feature <br>- create user with admin permission only if user is an admin<br>- can only be registered if it is in the permission list<br>- admin can add user to user to permission list<br>- password and token system<br>- initialise user account?
 - [ ] TBC - Payment integration #phase-4  #feature
@@ -32,9 +34,6 @@ kanban-plugin: basic
 
 ## Testing
 
-- [ ] T1 - User Implementation<br>Testing scenarios:<br>- [ ] Test before creating booking<br>- [ ] Test after creating booking<br><br><br>**Register**<br>- [ ] fail user with blank fields<br>- [ ] fail user with invalid email<br>- [ ] fail user with email present already in the database<br>- [ ] fail invalid phone no.<br>- [ ] success user with all correct fields<br><br>**Get User by ID**<br>- [ ] success get user by existing ID<br>- [ ] fail get user by non-existing ID<br><br>**Update User**<br>- [ ] fail cannot take empty ("firstName" : "") entries<br>- [ ] fail invalid email <br>- [ ] fail invalid phone no.<br>- [ ] fail non existing id<br>- [ ] success changes first name<br>- [ ] success changes last name<br>- [ ] success changes email<br>- [ ] success changes phone number<br><br>**Delete User**<br>- [ ] fail user with id non-existing<br>- [ ] success id existing -> will fail if user has bookings. This will be a bug.<br><br> #qa-test #phase-1
-- [ ] T2 - Booking Implementation #qa-test #phase-1
-- [ ] T3 - DanceClass Implementation #qa-test #phase-1<br>Testing Scenarions:<br>- [ ] Test before booking creation<br>- [ ] Test after booking creation
 
 
 ## Done
