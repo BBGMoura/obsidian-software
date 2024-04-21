@@ -32,9 +32,9 @@ kanban-plugin: basic
 
 ## Testing
 
-- [ ] T1 - User Implementation #qa-test #phase-1
+- [ ] T1 - User Implementation<br>Testing scenarios:<br>- [ ] Test before creating booking<br>- [ ] Test after creating booking<br><br><br>**Register**<br>- [ ] fail user with blank fields<br>- [ ] fail user with invalid email<br>- [ ] fail user with email present already in the database<br>- [ ] fail invalid phone no.<br>- [ ] success user with all correct fields<br><br>**Get User by ID**<br>- [ ] success get user by existing ID<br>- [ ] fail get user by non-existing ID<br><br>**Update User**<br>- [ ] fail cannot take empty ("firstName" : "") entries<br>- [ ] fail invalid email <br>- [ ] fail invalid phone no.<br>- [ ] fail non existing id<br>- [ ] success changes first name<br>- [ ] success changes last name<br>- [ ] success changes email<br>- [ ] success changes phone number<br><br>**Delete User**<br>- [ ] fail user with id non-existing<br>- [ ] success id existing -> will fail if user has bookings. This will be a bug.<br><br> #qa-test #phase-1
 - [ ] T2 - Booking Implementation #qa-test #phase-1
-- [ ] T3 - DanceClass Implementation #qa-test #phase-1
+- [ ] T3 - DanceClass Implementation #qa-test #phase-1<br>Testing Scenarions:<br>- [ ] Test before booking creation<br>- [ ] Test after booking creation
 
 
 ## Done
