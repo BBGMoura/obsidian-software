@@ -6,6 +6,7 @@ kanban-plugin: basic
 
 ## To-Do
 
+- [ ] Implement github actions
 - [ ] Logging
 - [ ] Payment Repository #phase-2 #feature
 - [ ] Account Repository #phase-2 #feature
@@ -25,9 +26,20 @@ kanban-plugin: basic
 
 ## Ready For Development
 
+- [ ] F7 - Room Enums #phase-1 #feature <br>Update Room names then change to update
 - [ ] B1 - UserImpl - Cannot update just one field on user #bug #phase-1 <br><br>When updating an already existing user, it is not possible to update just one field. <br><br>When field is:<br>`"firstName": ""` <br>This is not being allowed. This is correct behaviour.<br><br>However, when field is missing we get the error `must not be empty`.
-- [ ] F3 - Room Enums #phase-1 #bug  <br>Update Room names then change to update
-- [ ] B2 - UserImpl - User can register/update number which does not begin with 07. #bug #phase-1
+- [ ] B2 - UserImpl - User can register/update number which does not begin with 0. #bug #phase-1
+- [ ] B3 - DanceClassImpl - Can create DanceClass with NULL class type #bug #phase-1 <br><br>When creating a dance class, when submitting a requets with `"classType":` missing, dance class gets created with NULL class type. This is incorrect and should raise validation error. <br><br>Did not add @Valid in controller.
+- [ ] B4 - DanceClassImpl - Price should all be 0 or should all be a value. #bug #phase-1<br><br>No null price values should be allowed. (change all tests)<br>all values should either be 0 or more than 0.
+- [ ] B5 - DanceClassImpl - incorrect class type enum error handling #bug #phase-1 <br><br>Currently, when making a request with an unknown class type, there is a general bad request instead of feedback.
+- [ ] B6 - BookingImpl - incorrect room/class type enum error handling #bug #phase-1 <br><br>Currently, when making a request with an unknown class type/Room, there is a general bad request instead of feedback.
+- [ ] B7 - BookingImpl - validations not working #bug #phase-1 <br><br>Can enter null values for booking request as null validation
+- [ ] B8 - BookingImpl - open and closing time booking error is too general #bug #phase-1 <br><br>When making a booking which is before opening time or after closing time, the error is too general. "Cannot make a booking with invalid time"". Error should be along the lines of "Booking time is before opening time or after closing time."<br><br>Maybe also add information regarding when the opening and closing time is for what ever day?
+- [ ] B9 - BookingImpl - booking overlaps other booking error too general #bug #phase-1 <br><br>Cannot complete booking as the room is already booked within this time. Something like this.
+- [ ] B10 - BookingImpl - Error for booking on same day not raised. #bug #phase-1 <br><br>Logic for same day and same year is not correct. CAN MAKE BOOKINGS WHICH SPAN MULTIPLE DAYS!
+- [ ] B11 - BookingImpl - Invalid date error handling #bug #phase-1 <br><br>Such as April 31 does not exist
+- [ ] B12 - BookingImpl - Request Param and REquest body is handling LocalDateTime with different formats. Booking schedule. #bug #phase-1
+- [ ] B13 - UserImpl - cannot delete user when user has booking #bug #phase-1
 
 
 ## In Development
