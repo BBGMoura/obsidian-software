@@ -25,7 +25,9 @@ kanban-plugin: basic
 
 ## Ready For Development
 
-- [ ] F7 - Room Enums#phase-1 #bug  <br>Update Room names then change to update
+- [ ] B1 - UserImpl - Cannot update just one field on user #bug #phase-1 <br><br>When updating an already existing user, it is not possible to update just one field. <br><br>When field is:<br>`"firstName": ""` <br>This is not being allowed. This is correct behaviour.<br><br>However, when field is missing we get the error `must not be empty`.
+- [ ] F3 - Room Enums #phase-1 #bug  <br>Update Room names then change to update
+- [ ] B2 - UserImpl - User can register/update number which does not begin with 07. #bug #phase-1
 
 
 ## In Development
