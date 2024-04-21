@@ -10,7 +10,6 @@ import lombok.Setter;
 import java.math.BigDecimal;
 
 @Entity
-@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @Getter
 @Setter
 @AllArgsConstructor
@@ -26,4 +25,12 @@ public class DanceClass {
     private BigDecimal pricePer60;
     private BigDecimal pricePer45;
     private BigDecimal pricePer30;
+
+    public DanceClass(ClassType classType, boolean active, BigDecimal pricePer60, BigDecimal pricePer45, BigDecimal pricePer30) {
+        this.classType = classType;
+        this.active = active;
+        this.pricePer60 = pricePer60;
+        this.pricePer45 = pricePer45;
+        this.pricePer30 = pricePer30;
+    }
 }
