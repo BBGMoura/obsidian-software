@@ -42,11 +42,11 @@ kanban-plugin: basic
 
 ## In Development
 
-- [ ] B2 - UserImpl - User can register/update number which does not begin with 0. #bug #phase-1
 
 
 ## Testing
 
+- [ ] B2 - UserImpl - User can register/update number which does not begin with 0. #bug #phase-1
 
 
 ## Done
