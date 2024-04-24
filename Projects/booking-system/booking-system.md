@@ -39,6 +39,7 @@ kanban-plugin: basic
 - [ ] B11 - BookingImpl - Invalid date error handling #bug #phase-1 <br><br>Such as April 31 does not exist
 - [ ] B12 - BookingImpl - Request Param and REquest body is handling LocalDateTime with different formats. Booking schedule. #bug #phase-1
 - [ ] B13 - UserImpl - cannot delete user when user has booking #bug #phase-1
+- [ ] Bookign bug ![[Pasted image 20240424113900.png]] if (danceClass.getPricePer30() == null || danceClass.getPricePer45() == null || danceClass.getPricePer60() == null) {  <br>    return BigDecimal.ZERO;  <br>}<br><br>check if booking is the same start and end time? this shouild be covered in the invalid interval area.
 
 
 ## In Development
