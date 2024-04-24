@@ -27,7 +27,6 @@ kanban-plugin: basic
 ## Ready For Development
 
 - [ ] F7 - Room Enums #phase-1 #feature <br>Update Room names then change to update
-- [ ] B3 - DanceClassImpl - Can create DanceClass with NULL class type #bug #phase-1 <br><br>When creating a dance class, when submitting a requets with `"classType":` missing, dance class gets created with NULL class type. This is incorrect and should raise validation error. <br><br>Did not add @Valid in controller.
 - [ ] B4 - DanceClassImpl - Price should all be 0 or should all be a value. #bug #phase-1<br><br>No null price values should be allowed. (change all tests)<br>all values should either be 0 or more than 0.
 - [ ] B5 - DanceClassImpl - incorrect class type enum error handling #bug #phase-1 <br><br>Currently, when making a request with an unknown class type, there is a general bad request instead of feedback.
 - [ ] B6 - BookingImpl - incorrect room/class type enum error handling #bug #phase-1 <br><br>Currently, when making a request with an unknown class type/Room, there is a general bad request instead of feedback.
@@ -42,6 +41,7 @@ kanban-plugin: basic
 
 ## In Development
 
+- [ ] B3 - DanceClassImpl - Can create DanceClass with NULL class type #bug #phase-1 <br><br>When creating a dance class, when submitting a requets with `"classType":` missing, dance class gets created with NULL class type. This is incorrect and should raise validation error. <br><br>Did not add @Valid in controller.
 
 
 ## Testing
