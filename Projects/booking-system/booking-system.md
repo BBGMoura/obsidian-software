@@ -6,8 +6,11 @@ kanban-plugin: basic
 
 ## To-Do
 
-- [ ] Implement github actions
+- [ ] RequestException - this exception is returning ids. also this exception is returning the message not as error but as message. Is this correct? as other exceptions return error to show as the error and not message.<br><br>This is a standard exception error returned to cusatomer: ```json<br>{<br>  "timestamp": "2024-04-24T11:18:29.922+00:00",<br>  "status": 400,<br>  "error": "Bad Request",<br>  "path": "/booking"<br>}<br>```
+- [ ] Implement github actions + fix tests to run ntogtehr especially JPA tests
+- [ ] 2024-04-24T11:09:54.353+01:00  WARN 6608 --- [booking-system] [nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character (',' (code 44)) in numeric value: Decimal point not followed by a digit]
 - [ ] Logging
+- [ ] do not return id to client side in exception
 - [ ] Payment Repository #phase-2 #feature
 - [ ] Account Repository #phase-2 #feature
 - [ ] TBC - PaymentHistory repository #phase-2 #feature
@@ -19,9 +22,6 @@ kanban-plugin: basic
 - [ ] TBC - UserService Permission Implementation #phase-3  #feature <br>- create user with admin permission only if user is an admin<br>- can only be registered if it is in the permission list<br>- admin can add user to user to permission list<br>- password and token system<br>- initialise user account?
 - [ ] TBC - Payment integration #phase-4  #feature
 - [ ] CORS
-- [ ] RequestException - this exception is returning ids. also this exception is returning the message not as error but as message. Is this correct? as other exceptions return error to show as the error and not message.<br><br>This is a standard exception error returned to cusatomer: ```json<br>{<br>  "timestamp": "2024-04-24T11:18:29.922+00:00",<br>  "status": 400,<br>  "error": "Bad Request",<br>  "path": "/booking"<br>}<br>```
-- [ ] do not return id to client side in exception
-- [ ] 2024-04-24T11:09:54.353+01:00  WARN 6608 --- [booking-system] [nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character (',' (code 44)) in numeric value: Decimal point not followed by a digit]
 - [ ] final
 
 
@@ -32,7 +32,6 @@ kanban-plugin: basic
 ## Ready For Development
 
 - [ ] F7 - Room Enums #phase-1 #feature <br>Update Room names then change to update
-- [ ] B5 - DanceClassImpl - incorrect class type enum error handling #bug #phase-1 <br><br>Currently, when making a request with an unknown class type, there is a general bad request instead of feedback.
 - [ ] B6 - BookingImpl - incorrect room/class type enum error handling #bug #phase-1 <br><br>Currently, when making a request with an unknown class type/Room, there is a general bad request instead of feedback.
 - [ ] B7 - BookingImpl - validations not working #bug #phase-1 <br><br>Can enter null values for booking request as null validation<br><br>room can be null also wqhen making request.
 - [ ] B8 - BookingImpl - open and closing time booking error is too general #bug #phase-1 <br><br>When making a booking which is before opening time or after closing time, the error is too general. "Cannot make a booking with invalid time"". Error should be along the lines of "Booking time is before opening time or after closing time."<br><br>Maybe also add information regarding when the opening and closing time is for what ever day?
@@ -45,7 +44,7 @@ kanban-plugin: basic
 
 ## In Development
 
-- [ ] B4 - DanceClassImpl - Price should all be 0 or should all be a value. #bug #phase-1<br><br>No null price values should be allowed. (change all tests)<br>all values should either be 0 or more than 0.<br><br>- [x] validation to not allow null values<br>- [x] validation which does not allow negative values<br>- [x] validation which does not allow more than 3 digits and 2 decimals -> can be changed in the future.<br>- [x] validate all values are more than 0 or all valuea re 0.
+- [ ] B5 - DanceClassImpl - incorrect class type enum error handling #bug #phase-1 <br><br>Currently, when making a request with an unknown class type, there is a general bad request instead of feedback.
 
 
 ## Testing
@@ -54,6 +53,7 @@ kanban-plugin: basic
 
 ## Done
 
+- [ ] B4 - DanceClassImpl - Price should all be 0 or should all be a value. #bug #phase-1<br><br>No null price values should be allowed. (change all tests)<br>all values should either be 0 or more than 0.<br><br>- [x] validation to not allow null values<br>- [x] validation which does not allow negative values<br>- [x] validation which does not allow more than 3 digits and 2 decimals -> can be changed in the future.<br>- [x] validate all values are more than 0 or all valuea re 0.
 - [ ] B3 - DanceClassImpl - Can create DanceClass with NULL class type #bug #phase-1 <br><br>When creating a dance class, when submitting a requets with `"classType":` missing, dance class gets created with NULL class type. This is incorrect and should raise validation error. <br><br>Did not add @Valid in controller.<br><br>-> added @Validation to class<br>-> added @Value to class.<br>This still did not work. This is because @NotBlank value only applies for Strings and not Enums. <br><br>In this case @NotNull annotation works.
 - [ ] B2 - UserImpl - User can register/update number which does not begin with 0. #bug #phase-1
 - [ ] B1 - UserImpl - Cannot update just one field on user #bug #phase-1 <br><br>When updating an already existing user, it is not possible to update just one field. <br><br>When field is:<br>`"firstName": ""` <br>This is not being allowed. This is correct behaviour.<br><br>However, when field is missing we get the error `must not be empty`.
