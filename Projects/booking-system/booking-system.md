@@ -18,6 +18,9 @@ kanban-plugin: basic
 - [ ] AdminController #phase-3 #feature
 - [ ] TBC - UserService Permission Implementation #phase-3  #feature <br>- create user with admin permission only if user is an admin<br>- can only be registered if it is in the permission list<br>- admin can add user to user to permission list<br>- password and token system<br>- initialise user account?
 - [ ] TBC - Payment integration #phase-4  #feature
+- [ ] CORS
+- [ ] 2024-04-24T11:09:54.353+01:00  WARN 6608 --- [booking-system] [nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character (',' (code 44)) in numeric value: Decimal point not followed by a digit]
+- [ ] final
 
 
 ## Blocked
@@ -27,7 +30,6 @@ kanban-plugin: basic
 ## Ready For Development
 
 - [ ] F7 - Room Enums #phase-1 #feature <br>Update Room names then change to update
-- [ ] B4 - DanceClassImpl - Price should all be 0 or should all be a value. #bug #phase-1<br><br>No null price values should be allowed. (change all tests)<br>all values should either be 0 or more than 0.
 - [ ] B5 - DanceClassImpl - incorrect class type enum error handling #bug #phase-1 <br><br>Currently, when making a request with an unknown class type, there is a general bad request instead of feedback.
 - [ ] B6 - BookingImpl - incorrect room/class type enum error handling #bug #phase-1 <br><br>Currently, when making a request with an unknown class type/Room, there is a general bad request instead of feedback.
 - [ ] B7 - BookingImpl - validations not working #bug #phase-1 <br><br>Can enter null values for booking request as null validation
@@ -41,6 +43,7 @@ kanban-plugin: basic
 
 ## In Development
 
+- [ ] B4 - DanceClassImpl - Price should all be 0 or should all be a value. #bug #phase-1<br><br>No null price values should be allowed. (change all tests)<br>all values should either be 0 or more than 0.<br><br>- [x] validation to not allow null values<br>- [x] validation which does not allow negative values<br>- [x] validation which does not allow more than 3 digits and 2 decimals -> can be changed in the future.<br>- [ ] validate all values are more than 0 or all valuea re 0.
 
 
 ## Testing
