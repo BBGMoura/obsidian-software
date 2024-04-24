@@ -53,7 +53,7 @@ The **Java Virtual Machine (JVM)**, is the application that executes bytecode. 
 - [[Stateful Testing]]  
 - [[Mockito]]
 - [[Testing Spring Boot Service]]
-- [[Testing Validation]]
+- [[Testing  Jakarta.Validation]]
 ## Frameworks
 - [[Project Lombok]]
 - [[Spring]]
