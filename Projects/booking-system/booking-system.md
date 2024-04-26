@@ -32,7 +32,6 @@ kanban-plugin: basic
 ## Ready For Development
 
 - [ ] F7 - Room Enums #phase-1 #feature <br>Update Room names then change to update
-- [ ] B6 - BookingImpl - incorrect room/class type enum error handling #bug #phase-1 <br><br>Currently, when making a request with an unknown class type/Room, there is a general bad request instead of feedback.
 - [ ] B7 - BookingImpl - validations not working #bug #phase-1 <br><br>Can enter null values for booking request as null validation<br><br>room can be null also wqhen making request.
 - [ ] B8 - BookingImpl - open and closing time booking error is too general #bug #phase-1 <br><br>When making a booking which is before opening time or after closing time, the error is too general. "Cannot make a booking with invalid time"". Error should be along the lines of "Booking time is before opening time or after closing time."<br><br>Maybe also add information regarding when the opening and closing time is for what ever day?
 - [ ] B9 - BookingImpl - booking overlaps other booking error too general #bug #phase-1 <br><br>Cannot complete booking as the room is already booked within this time. Something like this.
@@ -44,7 +43,6 @@ kanban-plugin: basic
 
 ## In Development
 
-- [ ] B5 - DanceClassImpl - incorrect class type enum error handling #bug #phase-1 <br><br>Currently, when making a request with an unknown class type, there is a general bad request instead of feedback.
 
 
 ## Testing
@@ -53,6 +51,8 @@ kanban-plugin: basic
 
 ## Done
 
+- [ ] B6 - BookingImpl - incorrect room/class type enum error handling #bug #phase-1 <br><br>Currently, when making a request with an unknown class type/Room, there is a general bad request instead of feedback.
+- [ ] B5 - DanceClassImpl - incorrect class type enum error handling #bug #phase-1 <br><br>Currently, when making a request with an unknown class type, there is a general bad request instead of feedback.
 - [ ] B4 - DanceClassImpl - Price should all be 0 or should all be a value. #bug #phase-1<br><br>No null price values should be allowed. (change all tests)<br>all values should either be 0 or more than 0.<br><br>- [x] validation to not allow null values<br>- [x] validation which does not allow negative values<br>- [x] validation which does not allow more than 3 digits and 2 decimals -> can be changed in the future.<br>- [x] validate all values are more than 0 or all valuea re 0.
 - [ ] B3 - DanceClassImpl - Can create DanceClass with NULL class type #bug #phase-1 <br><br>When creating a dance class, when submitting a requets with `"classType":` missing, dance class gets created with NULL class type. This is incorrect and should raise validation error. <br><br>Did not add @Valid in controller.<br><br>-> added @Validation to class<br>-> added @Value to class.<br>This still did not work. This is because @NotBlank value only applies for Strings and not Enums. <br><br>In this case @NotNull annotation works.
 - [ ] B2 - UserImpl - User can register/update number which does not begin with 0. #bug #phase-1
