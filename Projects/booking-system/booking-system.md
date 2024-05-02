@@ -6,11 +6,10 @@ kanban-plugin: basic
 
 ## To-Do
 
-- [ ] B14  - RequestException - this exception is returning ids. also this exception is returning the message not as error but as message. Is this correct? as other exceptions return error to show as the error and not message.<br><br>This is a standard exception error returned to cusatomer: ```json<br>{<br>  "timestamp": "2024-04-24T11:18:29.922+00:00",<br>  "status": 400,<br>  "error": "Bad Request",<br>  "path": "/booking"<br>}<br>```
-- [ ] Implement github actions + fix tests to run ntogtehr especially JPA tests
-- [ ] 2024-04-24T11:09:54.353+01:00  WARN 6608 --- [booking-system] [nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character (',' (code 44)) in numeric value: Decimal point not followed by a digit]
+- [ ] TBC - BookingService - getBookingsByUser should use paging<br>currently, the method which retrieves users by id returns all bookings in the database based on user.<br><br>instead, we want an implementation which uses the paging repository. The request to the controller will be:<br>- user id<br>- current date?<br>- isUpcoming -> boolean which defines w4ether previous or upcoming bookings are needed<br>- offset<br>- amount of bookings<br><br>should return a list of booking DTOs  which matches the amount and offset. Also consider order. order of previous bookings hould start from most recent to oldest. order of upcmoing bookings should start from more recent to fuiter boookings.
 - [ ] Logging
-- [ ] do not return id to client side in exception
+- [ ] Implement github actions + fix tests to run ntogtehr especially JPA tests
+- [ ] final
 - [ ] TBC - Login and Security #phase-2  #feature
 - [ ] TBC - UserService Permission Implementation #phase-3  #feature <br>- create user with admin permission only if user is an admin<br>- can only be registered if it is in the permission list<br>- admin can add user to user to permission list<br>- password and token system<br>- initialise user account?
 - [ ] TBC - BookingHistory Repository #phase-2 #feature
@@ -22,7 +21,6 @@ kanban-plugin: basic
 - [ ] AdminController #phase-3 #feature
 - [ ] TBC - Payment integration #phase-4  #feature
 - [ ] CORS
-- [ ] final
 
 
 ## Blocked
@@ -33,7 +31,9 @@ kanban-plugin: basic
 
 - [ ] F7 - Room Enums #phase-1 #feature <br>Update Room names then change to update
 - [ ] B11 - BookingImpl - Invalid date error handling #bug #phase-1 <br><br>Such as April 31 does not exist
+- [ ] B12 - BookingImpl - Request Param and REquest body is handling LocalDateTime with different formats. Booking schedule. #bug #phase-1
 - [ ] B13 - UserImpl - cannot delete user when user has booking #bug #phase-1
+- [ ] B14  - RequestException - this exception is returning ids. also this exception is returning the message not as error but as message. Is this correct? as other exceptions return error to show as the error and not message. #bug #phase-1 <br><br>This is a standard exception error returned to cusatomer: ```json<br>{<br>  "timestamp": "2024-04-24T11:18:29.922+00:00",<br>  "status": 400,<br>  "error": "Bad Request",<br>  "path": "/booking"<br>}<br>```
 
 
 ## In Development
@@ -42,15 +42,14 @@ kanban-plugin: basic
 
 ## Testing
 
-- [ ] B8 - BookingImpl - open and closing time booking error is too general #bug #phase-1 <br><br>When making a booking which is before opening time or after closing time, the error is too general. "Cannot make a booking with invalid time"". Error should be along the lines of "Booking time is before opening time or after closing time."<br><br>Maybe also add information regarding when the opening and closing time is for what ever day?
-- [ ] B7 - BookingImpl - validations not working #bug #phase-1 <br><br>Can enter null values for booking request as null validation<br><br>room can be null also wqhen making request.
-- [ ] B12 - BookingImpl - Request Param and REquest body is handling LocalDateTime with different formats. Booking schedule. #bug #phase-1
-- [ ] B10 - BookingImpl - Error for booking on same day not raised. #bug #phase-1 <br><br>Logic for same day and same year is not correct. CAN MAKE BOOKINGS WHICH SPAN MULTIPLE DAYS!
-- [ ] B9 - BookingImpl - booking overlaps other booking error too general #bug #phase-1 <br><br>Cannot complete booking as the room is already booked within this time. Something like this.
 
 
 ## Done
 
+- [ ] B10 - BookingImpl - Error for booking on same day not raised. #bug #phase-1 <br><br>Logic for same day and same year is not correct. CAN MAKE BOOKINGS WHICH SPAN MULTIPLE DAYS!
+- [ ] B9 - BookingImpl - booking overlaps other booking error too general #bug #phase-1 <br><br>Cannot complete booking as the room is already booked within this time. Something like this.
+- [ ] B8 - BookingImpl - open and closing time booking error is too general #bug #phase-1 <br><br>When making a booking which is before opening time or after closing time, the error is too general. "Cannot make a booking with invalid time"". Error should be along the lines of "Booking time is before opening time or after closing time."<br><br>Maybe also add information regarding when the opening and closing time is for what ever day?
+- [ ] B7 - BookingImpl - validations not working #bug #phase-1 <br><br>Can enter null values for booking request as null validation<br><br>room can be null also wqhen making request.
 - [ ] B6 - BookingImpl - incorrect room/class type enum error handling #bug #phase-1 <br><br>Currently, when making a request with an unknown class type/Room, there is a general bad request instead of feedback.
 - [ ] B5 - DanceClassImpl - incorrect class type enum error handling #bug #phase-1 <br><br>Currently, when making a request with an unknown class type, there is a general bad request instead of feedback.
 - [ ] B4 - DanceClassImpl - Price should all be 0 or should all be a value. #bug #phase-1<br><br>No null price values should be allowed. (change all tests)<br>all values should either be 0 or more than 0.<br><br>- [x] validation to not allow null values<br>- [x] validation which does not allow negative values<br>- [x] validation which does not allow more than 3 digits and 2 decimals -> can be changed in the future.<br>- [x] validate all values are more than 0 or all valuea re 0.
