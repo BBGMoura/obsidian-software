@@ -31,12 +31,12 @@ kanban-plugin: basic
 
 - [ ] F7 - Room Enums #phase-1 #feature <br>Update Room names then change to update
 - [ ] B12 - BookingImpl - Request Param and REquest body is handling LocalDateTime with different formats. Booking schedule. #bug #phase-1
-- [ ] B14  - RequestException - this exception is returning ids. also this exception is returning the message not as error but as message. Is this correct? as other exceptions return error to show as the error and not message. #bug #phase-1 <br><br>This is a standard exception error returned to cusatomer: ```json<br>{<br>  "timestamp": "2024-04-24T11:18:29.922+00:00",<br>  "status": 400,<br>  "error": "Bad Request",<br>  "path": "/booking"<br>}<br>```
+- [ ] B14  - RequestException - this exception is returning ids. also this exception is returning the message not as error but as message. Is this correct? as other exceptions return error to show as the error and not message. #bug #phase-1 <br><br>This is a standard exception error returned to cusatomer: <br>```json<br>{<br>  "timestamp": "2024-04-24T11:18:29.922+00:00",<br>  "status": 400,<br>  "error": "Bad Request",<br>  "path": "/booking"<br>}<br>```
 
 
 ## In Development
 
-- [ ] B13 - UserImpl - cannot delete user when user has booking #bug #phase-1
+- [ ] B13 - UserImpl - cannot delete user when user has booking #bug #phase-1<br><br>-> change functionality so user can only be active or not. not deleted<br>-> change booking functionality so that new bookings can not be made by inactive users
 
 
 ## Testing
