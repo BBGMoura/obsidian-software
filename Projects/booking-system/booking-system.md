@@ -6,14 +6,10 @@ kanban-plugin: basic
 
 ## To-Do
 
-- [ ] TBC - BookingService - getBookingsByUser should use paging<br>currently, the method which retrieves users by id returns all bookings in the database based on user.<br><br>instead, we want an implementation which uses the paging repository. The request to the controller will be:<br>- user id<br>- current date?<br>- isUpcoming -> boolean which defines w4ether previous or upcoming bookings are needed<br>- offset<br>- amount of bookings<br><br>should return a list of booking DTOs  which matches the amount and offset. Also consider order. order of previous bookings hould start from most recent to oldest. order of upcmoing bookings should start from more recent to fuiter boookings.
-- [ ] Logging
-- [ ] Implement github actions + fix tests to run ntogtehr especially JPA tests
-- [ ] booking id and booking reference- instead of using booking id we use a bookign reference
-- [ ] final
 - [ ] TBC - Login and Security #phase-2  #feature
 - [ ] TBC - UserService Permission Implementation #phase-3  #feature <br>- create user with admin permission only if user is an admin<br>- can only be registered if it is in the permission list<br>- admin can add user to user to permission list<br>- password and token system<br>- initialise user account?
 - [ ] TBC - BookingHistory Repository #phase-2 #feature
+- [ ] TBC - BookingService - getBookingsByUser should use paging<br>currently, the method which retrieves users by id returns all bookings in the database based on user.<br><br>instead, we want an implementation which uses the paging repository. The request to the controller will be:<br>- user id<br>- current date?<br>- isUpcoming -> boolean which defines w4ether previous or upcoming bookings are needed<br>- offset<br>- amount of bookings<br><br>should return a list of booking DTOs  which matches the amount and offset. Also consider order. order of previous bookings hould start from most recent to oldest. order of upcmoing bookings should start from more recent to fuiter boookings.
 - [ ] Payment Repository #phase-2 #feature
 - [ ] Account Repository #phase-2 #feature
 - [ ] TBC - PaymentHistory repository #phase-2 #feature
@@ -24,6 +20,10 @@ kanban-plugin: basic
 - [ ] CORS
 - [ ] deactivate user should be in the admin controller -> furthermore it should delete all upcoming booking. take way the payment for upcoming bookings but leave outstadning payments
 - [ ] deactivate
+- [ ] can only use the get bookings by user n history if is user or admin so will need auth token or something
+- [ ] booking id and booking reference- instead of using booking id we use a bookign reference
+- [ ] get all rooms? if enum in frotnend, then if chang ein be then also need change in fe which could be bad but there is not plans to change the rooms so leave it
+- [ ] get class types -> for admin controller
 
 
 ## Blocked
@@ -33,11 +33,15 @@ kanban-plugin: basic
 ## Ready For Development
 
 - [ ] F7 - Room Enums #phase-1 #feature <br>Update Room names then change to update
+- [ ] Canary Testing #phase-1
+- [ ] Tests #phase-1 #testing <br>- fix tests to work together<br>- have a test util class instead of defining new objects every class. this will help if an implementation needs to be changed.<br>- add controller tests
+- [ ] Implement github actions #phase-1 #feature
+- [ ] Add Logging support #phase-1 #logging
+- [ ] delete booking should be changed to deactivate
 
 
 ## In Development
 
-- [ ] make new uswer/booking not foudn exception! -> refactor danclass not found edxeption!
 
 
 ## Testing
@@ -46,6 +50,7 @@ kanban-plugin: basic
 
 ## Done
 
+- [ ] B16 - NotFoundException - make new uswer/booking not foudn exception! -> refactor danclass not found edxeption! #bug #phase-1
 - [ ] b15 - BookingImpl - datefrom should not be bigger that date to -> new validation to add to booking. currently this works! noooo #bug #phase-1 <br>adad a check whioch says if dateTo is before /dateFRom then throew exception
 - [ ] B14  - RequestException - this exception is returning ids. also this exception is returning the message not as error but as message. Is this correct? as other exceptions return error to show as the error and not message. #bug #phase-1 <br><br>ok to return booking id to customer for now.<br><br>This is a standard exception error returned to cusatomer: <br>```json<br>{<br>  "timestamp": "2024-04-24T11:18:29.922+00:00",<br>  "status": 400,<br>  "error": "Bad Request",<br>  "path": "/booking"<br>}<br>```
 - [ ] B13 - UserImpl - cannot delete user when user has booking #bug #phase-1<br><br>-> change functionality so user can only be active or not. not deleted<br>-> change booking functionality so that new bookings can not be made by inactive users
