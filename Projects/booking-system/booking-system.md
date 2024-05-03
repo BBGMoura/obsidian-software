@@ -9,6 +9,7 @@ kanban-plugin: basic
 - [ ] TBC - BookingService - getBookingsByUser should use paging<br>currently, the method which retrieves users by id returns all bookings in the database based on user.<br><br>instead, we want an implementation which uses the paging repository. The request to the controller will be:<br>- user id<br>- current date?<br>- isUpcoming -> boolean which defines w4ether previous or upcoming bookings are needed<br>- offset<br>- amount of bookings<br><br>should return a list of booking DTOs  which matches the amount and offset. Also consider order. order of previous bookings hould start from most recent to oldest. order of upcmoing bookings should start from more recent to fuiter boookings.
 - [ ] Logging
 - [ ] Implement github actions + fix tests to run ntogtehr especially JPA tests
+- [ ] booking id and booking reference- instead of using booking id we use a bookign reference
 - [ ] final
 - [ ] TBC - Login and Security #phase-2  #feature
 - [ ] TBC - UserService Permission Implementation #phase-3  #feature <br>- create user with admin permission only if user is an admin<br>- can only be registered if it is in the permission list<br>- admin can add user to user to permission list<br>- password and token system<br>- initialise user account?
@@ -33,12 +34,12 @@ kanban-plugin: basic
 
 - [ ] F7 - Room Enums #phase-1 #feature <br>Update Room names then change to update
 - [ ] B12 - BookingImpl - Request Param and REquest body is handling LocalDateTime with different formats. Booking schedule. #bug #phase-1
-- [ ] B14  - RequestException - this exception is returning ids. also this exception is returning the message not as error but as message. Is this correct? as other exceptions return error to show as the error and not message. #bug #phase-1 <br><br>This is a standard exception error returned to cusatomer: <br>```json<br>{<br>  "timestamp": "2024-04-24T11:18:29.922+00:00",<br>  "status": 400,<br>  "error": "Bad Request",<br>  "path": "/booking"<br>}<br>```
 - [ ] b15 - BookingImpl - datefrom should not be bigger that date to -> new validation to add to booking. currently this works! noooo
 
 
 ## In Development
 
+- [ ] B14  - RequestException - this exception is returning ids. also this exception is returning the message not as error but as message. Is this correct? as other exceptions return error to show as the error and not message. #bug #phase-1 <br><br>ok to return booking id to customer for now.<br><br>This is a standard exception error returned to cusatomer: <br>```json<br>{<br>  "timestamp": "2024-04-24T11:18:29.922+00:00",<br>  "status": 400,<br>  "error": "Bad Request",<br>  "path": "/booking"<br>}<br>```
 
 
 ## Testing
