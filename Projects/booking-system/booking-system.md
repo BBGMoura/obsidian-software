@@ -38,7 +38,7 @@ kanban-plugin: basic
 
 ## In Development
 
-- [ ] b15 - BookingImpl - datefrom should not be bigger that date to -> new validation to add to booking. currently this works! noooo
+- [ ] b15 - BookingImpl - datefrom should not be bigger that date to -> new validation to add to booking. currently this works! noooo<br>adad a check whioch says if dateTo is before /dateFRom then throew exception
 
 
 ## Testing
