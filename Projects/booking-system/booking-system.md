@@ -22,6 +22,7 @@ kanban-plugin: basic
 - [ ] TBC - Payment integration #phase-4  #feature
 - [ ] CORS
 - [ ] deactivate user should be in the admin controller -> furthermore it should delete all upcoming booking. take way the payment for upcoming bookings but leave outstadning payments
+- [ ] deactivate
 
 
 ## Blocked
