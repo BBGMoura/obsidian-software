@@ -34,8 +34,6 @@ kanban-plugin: basic
 
 - [ ] F7 - Room Enums #phase-1 #feature <br>Update Room names then change to update
 - [ ] Canary Testing #phase-1
-- [ ] Tests #phase-1 #testing <br>- fix tests to work together  done<br>- have a test util class instead of defining new objects every class. this will help if an implementation needs to be changed. done  user , need to finis book and start dance class
-- [ ] Implement github actions #phase-1 #feature
 - [ ] Add Logging support #phase-1 #logging<br> add logs where necessary
 - [ ] delete booking should be changed to deactivate
 
@@ -50,6 +48,8 @@ kanban-plugin: basic
 
 ## Done
 
+- [ ] Implement github actions #phase-1 #feature
+- [ ] Tests #phase-1 #testing <br>- fix tests to work together  done<br>- have a test util class instead of defining new objects every class. this will help if an implementation needs to be changed. done  user , need to finis book and start dance class
 - [ ] B16 - NotFoundException - make new uswer/booking not foudn exception! -> refactor danclass not found edxeption! #bug #phase-1
 - [ ] b15 - BookingImpl - datefrom should not be bigger that date to -> new validation to add to booking. currently this works! noooo #bug #phase-1 <br>adad a check whioch says if dateTo is before /dateFRom then throew exception
 - [ ] B14  - RequestException - this exception is returning ids. also this exception is returning the message not as error but as message. Is this correct? as other exceptions return error to show as the error and not message. #bug #phase-1 <br><br>ok to return booking id to customer for now.<br><br>This is a standard exception error returned to cusatomer: <br>```json<br>{<br>  "timestamp": "2024-04-24T11:18:29.922+00:00",<br>  "status": 400,<br>  "error": "Bad Request",<br>  "path": "/booking"<br>}<br>```
