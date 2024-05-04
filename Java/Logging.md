@@ -16,3 +16,8 @@ Generally these are the levels logs are active on:
 The Spring Boot  start web dependency includes the dependencies for:
 - logback
 - slf4
+
+To turn debugging log on for specific packages, we ca do as so in the application.properties file:
+``` properties
+logging.level.{package}=DEBUG
+```
