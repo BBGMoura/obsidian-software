@@ -1,7 +1,11 @@
 package com.acs.bookingsystem.user.service.impl;
 
+<<<<<<< Updated upstream
 import com.acs.bookingsystem.booking.entities.Booking;
 import com.acs.bookingsystem.booking.entities.DanceClass;
+=======
+import com.acs.bookingsystem.common.exception.NotFoundException;
+>>>>>>> Stashed changes
 import com.acs.bookingsystem.user.dto.UserDTO;
 import com.acs.bookingsystem.user.request.UserRegistrationRequest;
 import com.acs.bookingsystem.user.request.UserUpdateRequest;
