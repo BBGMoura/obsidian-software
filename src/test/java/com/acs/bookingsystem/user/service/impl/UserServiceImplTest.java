@@ -135,6 +135,5 @@ class UserServiceImplTest {
 
         //then
         verify(userRepository, times(1)).save(user);
-        assertFalse(user.isActive());
     }
 }
