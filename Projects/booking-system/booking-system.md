@@ -34,9 +34,9 @@ kanban-plugin: basic
 
 - [ ] F7 - Room Enums #phase-1 #feature <br>Update Room names then change to update
 - [ ] Canary Testing #phase-1
-- [ ] Tests #phase-1 #testing <br>- fix tests to work together<br>- have a test util class instead of defining new objects every class. this will help if an implementation needs to be changed.<br>- add controller tests
+- [ ] Tests #phase-1 #testing <br>- fix tests to work together  done<br>- have a test util class instead of defining new objects every class. this will help if an implementation needs to be changed. done  user , need to finis book and start dance class
 - [ ] Implement github actions #phase-1 #feature
-- [ ] Add Logging support #phase-1 #logging
+- [ ] Add Logging support #phase-1 #logging<br> add logs where necessary
 - [ ] delete booking should be changed to deactivate
 
 
