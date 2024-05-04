@@ -1,16 +1,18 @@
 package com.acs.bookingsystem.user.repository;
 
 import com.acs.bookingsystem.user.entities.User;
-import com.acs.bookingsystem.user.enums.Permission;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
+import org.springframework.test.context.TestPropertySource;
 
 import java.util.Optional;
 
+import static com.acs.bookingsystem.TestDataUtil.createUser;
 import static org.junit.jupiter.api.Assertions.*;
 
-@DataJpaTest
+
+@DataJpaTest(showSql = false)
 class UserRepositoryTest {
 
     @Autowired
@@ -19,21 +21,21 @@ class UserRepositoryTest {
     @Test
     void testSaveUser() {
         // Given
-        User user = createTestUser();
+        User user = createUser();
 
         // When
         userRepository.save(user);
 
         // Then
-        Optional<User> savedUser = userRepository.findByEmail("test@example.com");
+        Optional<User> savedUser = userRepository.findByEmail(user.getEmail());
         assertTrue(savedUser.isPresent());
-        assertEquals(1,savedUser.get().getId());
+        assertEquals(user.getFirstName(),savedUser.get().getFirstName());
     }
 
     @Test
     void testFindById() {
         // Given
-        User user = createTestUser();
+        User user = createUser();
         userRepository.save(user);
 
         // When
@@ -47,7 +49,7 @@ class UserRepositoryTest {
     @Test
     void testFindByEmail() {
         // Given
-        User user = createTestUser();
+        User user = createUser();
         userRepository.save(user);
 
         // When
@@ -73,7 +75,7 @@ class UserRepositoryTest {
     @Test
     void testUpdateUser() {
         // Given
-        User user = createTestUser();
+        User user = createUser();
         userRepository.save(user);
 
         // When
@@ -86,12 +88,4 @@ class UserRepositoryTest {
         assertEquals("updated@example.com", updatedUser.get().getEmail());
     }
 
-    private User createTestUser(){
-        return new User("Monica",
-                        "Lewinsky",
-                        "test@example.com",
-                        "07318293621",
-                        true,
-                        Permission.USER);
-    }
 }
