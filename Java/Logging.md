@@ -13,3 +13,6 @@ Generally these are the levels logs are active on:
 - Info -> Test
 - Warning -> Acceptance + Prod
 
+The Spring Boot  start web dependency includes the dependencies for:
+- logback
+- slf4
