@@ -47,6 +47,7 @@ kanban-plugin: basic
 
 ## Done
 
+- [ ] B10 - test for bookings which ends before they start #bug #phase-1
 - [ ] B18 - delete booking should be changed to deactivate #phase-1 #bug
 - [ ] F7 - Implement github actions #phase-1 #feature
 - [ ] Tests #phase-1 #testing <br>- fix tests to work together  done<br>- have a test util class instead of defining new objects every class. this will help if an implementation needs to be changed. done  user , need to finis book and start dance class
@@ -74,9 +75,10 @@ kanban-plugin: basic
 - [ ] F4 - UserRepository Test #phase-1 #feature <br>- [x] create user<br>- [x] delete user<br>- [x] update user properties<br>- [x] get u ser by id
 
 
-***
-
 ## Archive
+
+
+
 
 
 %% kanban:settings
