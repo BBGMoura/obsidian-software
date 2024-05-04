@@ -35,7 +35,6 @@ kanban-plugin: basic
 - [ ] F7 - Room Enums #phase-1 #feature <br>Update Room names then change to update
 - [ ] Canary Testing #phase-1
 - [ ] Add Logging support #phase-1 #logging<br> add logs where necessary
-- [ ] delete booking should be changed to deactivate
 
 
 ## In Development
@@ -48,7 +47,8 @@ kanban-plugin: basic
 
 ## Done
 
-- [ ] Implement github actions #phase-1 #feature
+- [ ] B18 - delete booking should be changed to deactivate #phase-1 #bug
+- [ ] F7 - Implement github actions #phase-1 #feature
 - [ ] Tests #phase-1 #testing <br>- fix tests to work together  done<br>- have a test util class instead of defining new objects every class. this will help if an implementation needs to be changed. done  user , need to finis book and start dance class
 - [ ] B16 - NotFoundException - make new uswer/booking not foudn exception! -> refactor danclass not found edxeption! #bug #phase-1
 - [ ] b15 - BookingImpl - datefrom should not be bigger that date to -> new validation to add to booking. currently this works! noooo #bug #phase-1 <br>adad a check whioch says if dateTo is before /dateFRom then throew exception
@@ -78,7 +78,6 @@ kanban-plugin: basic
 
 ## Archive
 
-- [ ] B12 - BookingImpl - Request Param and REquest body is handling LocalDateTime with different formats. Booking schedule. #bug #phase-1
 
 %% kanban:settings
 ```
