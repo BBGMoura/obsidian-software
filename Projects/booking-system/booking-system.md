@@ -35,6 +35,8 @@ kanban-plugin: basic
 - [ ] F7 - Room Enums #phase-1 #feature <br>Update Room names then change to update
 - [ ] Canary Testing #phase-1
 - [ ] Add Logging support #phase-1 #logging<br> add logs where necessary
+- [ ] system print JSOn parse error in handler
+- [ ] can make booking in same room but different dance lesson ?? actually no just made serveral bookings with the same times -> booked for same day at 16:00 to 16:45. tehn made that same booking several times criii booking also within it at 16:10 and 16:40 qas booked so within validation not working?
 
 
 ## In Development
