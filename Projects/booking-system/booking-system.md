@@ -6,6 +6,7 @@ kanban-plugin: basic
 
 ## To-Do
 
+- [ ] UPDATED REQUIREMENTS<br>-> booking can be shareable betweem users. Up to 3 but this can change or be dependant on room?<br>- each teacher will pay the same amount for the booking for example. if teacher books a room for 60 and a teacher wants to share the room its the same for 60.<br>- price is actually one fixed price not different price per 30/45/60 mins.
 - [ ] TBC - Login and Security #phase-2  #feature
 - [ ] TBC - UserService Permission Implementation #phase-3  #feature <br>- create user with admin permission only if user is an admin<br>- can only be registered if it is in the permission list<br>- admin can add user to user to permission list<br>- password and token system<br>- initialise user account?
 - [ ] TBC - BookingHistory Repository #phase-2 #feature
