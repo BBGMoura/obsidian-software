@@ -34,6 +34,7 @@ kanban-plugin: basic
 
 - [ ] UPDATED REQUIREMENTS<br>-> booking can be shareable betweem users. Up to 3 but this can change or be dependant on room?<br>- each teacher will pay the same amount for the booking for example. if teacher books a room for 60 and a teacher wants to share the room its the same for 60.<br>- price is actually one fixed price not different price per 30/45/60 mins.
 - [ ] TBC - Login and Security #phase-2  #feature
+- [ ] BookingImpl - many users should be able to book class<br>Implementation:<br>- when creating booking, user should have the option to allow booking to be shareable or not. isShareable boolean added to booking object<br>- new endpoint which is used for user to book already created bookings such as 'book shared booking'<br>- booking will have <List> Users instead of User<br>- booking will use @ManyToMany -> no cascading<br>- will have a join table<br>- where user is referenceed from the booking, the implementation will have to be changed<br>- update tests
 
 
 ## In Development
