@@ -24,6 +24,7 @@ kanban-plugin: basic
 - [ ] booking id and booking reference- instead of using booking id we use a bookign reference
 - [ ] get all rooms? if enum in frotnend, then if chang ein be then also need change in fe which could be bad but there is not plans to change the rooms so leave it
 - [ ] get class types -> for admin controller
+- [ ] I want to break up stuff into different classes sucha s - user and user detail, -booking and booking price? booking dance class and price is not necessary isndie the booking class
 
 
 ## Blocked
@@ -32,9 +33,10 @@ kanban-plugin: basic
 
 ## Ready For Development
 
+- [ ] F10 - BookingImpl - many users should be able to book class<br>Implementation:<br>- when creating booking, user should have the option to allow booking to be shareable or not. isShareable boolean added to booking object<br>- create b ooking ednpoint will take just an id? and then service will turn into a list or fe will send lsit of users - with only one user?<br>- new endpoint which is used for user to book already created bookings such as 'book shared booking'<br>- booking will have <List> Users instead of User<br>- booking will use @ManyToMany -> no cascading<br>- will have a join table<br>- where user is referenceed from the booking, the implementation will have to be changed<br>- update repository query for find all by user id<br>- update tests
+- [ ] CR solution:<br>- [ ] in Booking class, add @ManyToMany rs to List<user><br>- [ ] update constructor booking<br>- [ ] add boolean for isShareable.<br>- [ ] add boolean is shareable in booking request class<br>- [ ] in service layer, add user to list and then save the booking <br>- [ ] update tests<br><br>- [ ] new endpoint to book onto already created bookings. will need user id and booking id.<br>- [ ] service must check again if booking isShareabl<br><br>- [ ] update repository for find all by user id
 - [ ] UPDATED REQUIREMENTS<br>-> booking can be shareable betweem users. Up to 3 but this can change or be dependant on room?<br>- each teacher will pay the same amount for the booking for example. if teacher books a room for 60 and a teacher wants to share the room its the same for 60.<br>- price is actually one fixed price not different price per 30/45/60 mins.
 - [ ] TBC - Login and Security #phase-2  #feature
-- [ ] BookingImpl - many users should be able to book class<br>Implementation:<br>- when creating booking, user should have the option to allow booking to be shareable or not. isShareable boolean added to booking object<br>- new endpoint which is used for user to book already created bookings such as 'book shared booking'<br>- booking will have <List> Users instead of User<br>- booking will use @ManyToMany -> no cascading<br>- will have a join table<br>- where user is referenceed from the booking, the implementation will have to be changed<br>- update tests
 
 
 ## In Development
