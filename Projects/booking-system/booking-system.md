@@ -6,9 +6,7 @@ kanban-plugin: basic
 
 ## To-Do
 
-- [ ] UPDATED REQUIREMENTS<br>-> booking can be shareable betweem users. Up to 3 but this can change or be dependant on room?<br>- each teacher will pay the same amount for the booking for example. if teacher books a room for 60 and a teacher wants to share the room its the same for 60.<br>- price is actually one fixed price not different price per 30/45/60 mins.
 - [ ] booking schedule takes diff time to booking
-- [ ] TBC - Login and Security #phase-2  #feature
 - [ ] TBC - UserService Permission Implementation #phase-3  #feature <br>- create user with admin permission only if user is an admin<br>- can only be registered if it is in the permission list<br>- admin can add user to user to permission list<br>- password and token system<br>- initialise user account?
 - [ ] TBC - BookingHistory Repository #phase-2 #feature
 - [ ] TBC - BookingService - getBookingsByUser should use paging<br>currently, the method which retrieves users by id returns all bookings in the database based on user.<br><br>instead, we want an implementation which uses the paging repository. The request to the controller will be:<br>- user id<br>- current date?<br>- isUpcoming -> boolean which defines w4ether previous or upcoming bookings are needed<br>- offset<br>- amount of bookings<br><br>should return a list of booking DTOs  which matches the amount and offset. Also consider order. order of previous bookings hould start from most recent to oldest. order of upcmoing bookings should start from more recent to fuiter boookings.
@@ -34,10 +32,8 @@ kanban-plugin: basic
 
 ## Ready For Development
 
-- [ ] F7 - Room Enums #phase-1 #feature <br>Update Room names then change to update
-- [ ] Canary Testing #phase-1
-- [ ] Add Logging support #phase-1 #logging<br> add logs where necessary
-- [ ] system print JSOn parse error in handler
+- [ ] UPDATED REQUIREMENTS<br>-> booking can be shareable betweem users. Up to 3 but this can change or be dependant on room?<br>- each teacher will pay the same amount for the booking for example. if teacher books a room for 60 and a teacher wants to share the room its the same for 60.<br>- price is actually one fixed price not different price per 30/45/60 mins.
+- [ ] TBC - Login and Security #phase-2  #feature
 
 
 ## In Development
@@ -50,6 +46,10 @@ kanban-plugin: basic
 
 ## Done
 
+- [ ] F7 - Room Enums #phase-1 #feature <br>Update Room names then change to update
+- [ ] Canary Testing #phase-1
+- [ ] Add Logging support #phase-1 #logging<br> add logs where necessary
+- [ ] B22 - system print JSOn parse error in handler
 - [ ] B21 - BookingImpl - can make overlapping bookings #bug #phase-1
 - [ ] B10 - test for bookings which ends before they start #bug #phase-1
 - [ ] B18 - delete booking should be changed to deactivate #phase-1 #bug
