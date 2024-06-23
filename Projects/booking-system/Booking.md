@@ -12,3 +12,11 @@ add to the enum permission based? so can only use the other and unavailable base
 think about more what i need...
 - view from customer calender view all bookings based on room and within a week
 - get all bookings if the booking: startDate is after or equal to bookeddFrom and before   bookedTo. the endDate has to be after bookedFrom or before bookedTo. and room is equal to.
+
+
+When share is true, we actually want a list of bookings?
+
+lets say we have one booking from 9 to 10 which can be shared.
+Other users can then 
+ book inside the 9-10 any time between those.
+ 
