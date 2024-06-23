@@ -26,6 +26,7 @@ kanban-plugin: basic
 - [ ] get class types -> for admin controller
 - [ ] I want to break up stuff into different classes sucha s - user and user detail, -booking and booking price? booking dance class and price is not necessary isndie the booking class
 - [ ] booking doesnt have the price stuck to it. the price however has the dance class and has the price and suer and abooking?
+- [ ] book reoccuring classes
 
 
 ## Blocked
