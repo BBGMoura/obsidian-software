@@ -20,7 +20,7 @@ Kafka combines three key capabilities so you can implement your use cases for ev
  1. When an event occurs, for example a site visit, the producer API produces a Record. 
  2. The records are stored to disk in an ordered, immutable log. This is called a Topic.
  3. Topics can persist forever, or disappear when needed.
- 4. Topics are  distributed and replicated in a cluster, which contains mutiple servers called Brokers. This is makes it fault-tolerant and able to scale to any work load as there are several servers which can take over if one fails.
+ 4. Topics are  distributed and replicated in a cluster, which contains multiple servers called Brokers. This is makes it fault-tolerant and able to scale to any work load as there are several servers which can take over if one fails.
  5. Kafka is run as a cluster of one or more servers which include these Broker servers and servers which run Kafka Connect.
  6. Kafka Connect servers continuously import and export data as event streams to integrate Kafka with your existing database.
  7. Multiple consumers can subscribe to the data.
