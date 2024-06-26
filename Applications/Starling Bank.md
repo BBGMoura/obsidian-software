@@ -94,3 +94,16 @@ When you provide us with this information, you are doing so at your own consent,
 
 
 ## Points to mention in CV:
+- use datadog which is like grafana
+- mention kakfa and activeMQ? yes bc more 
+- various teams which takes ownership of their own projects including the betting sportsbook, the ccasino and a new website in south africa and coratia
+- - Share your knowledge with those around you, contributing to our learning culture -peer programming to spread and gain knowledge - small agile scrum teams 
+- curious and inquisitive - learning outside the job such as oreilley clean code and passion projects, gitlab ci/cd workshop
+- Be part of a scaling team - make a point about scaling
+
+
+Homework before interview:
+- grafana
+- terraform
+- AWS
+- teamcity ci/cd
