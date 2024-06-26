@@ -119,3 +119,9 @@ I am committed to fostering a culture of knowledge sharing and learning, activel
 I also admire Starling's proactive efforts in empowering girls in the software development field, as exemplified in your Women in Tech article. This dedication to diversity and inclusion resonates profoundly with my personal values.
 
 Thank you for considering my application. I look forward to the opportunity to discuss how my skills and experiences align with the needs of your team.
+
+
+why would engine miss out on not hiring me?
+- i am not only determined but have a genuine like and passion for software development and building my skills. the technologies used here are all something that i would love and aspire to learn in a professional level. I want to keep progressing in my career and and i am set on being proactive about growing and doing the best work i can. therefore i think that is a quality that will allow me to excel and surpass expectations
+- i hjave same values
+- communication skills and how i get on with my peers and sharing knowledge
