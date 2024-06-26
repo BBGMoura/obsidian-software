@@ -107,3 +107,15 @@ Homework before interview:
 - terraform
 - AWS
 - teamcity ci/cd
+
+
+Cover letter:
+I am a skilled Software Engineer with expertise in Java, JavaScript, React, and SQL. I graduated with First Class Honours in Mechanical Engineering and completed a Full Stack Development Bootcamp at Harvey Nash Nextgen. I am a creative problem-solver passionate about continuous learning, demonstrated through O'Reilly courses like "Design Microservices Architecture with Patterns and Principles" and reading "Clean Code" by Robert C. Martin. I aspire to secure a Software Engineer position at Engine by Starling to apply my skills, take on complex, challenging projects, and expand my knowledge in technologies such as CI/CD pipelines, AWS, Kubernetes, and Microservice architecture. I am excited by the potential to transform banking in different markets around the world and admire Starling's technological approach to banking, recognizing that innovative online features make banks stand out in a technology-led world.
+
+My experience at FSB Technology Ltd, an international SaaS sports betting and casino company, has honed my skills in delivering high-quality scalable software solutions, integrating external APIs, and resolving complex technical issues using Java, Spring, JavaScript, and SQL with a focus on creating code that is adaptable across multiple partners and diverse countries, employing a TDD approach. I've proficiently utilized monitoring tools like Datadog and managed message brokers such as Kafka and ActiveMQ, contributing significantly to the successful launch of betting websites in Croatia and South Africa. I excel in agile environments, collaborating with cross-functional teams that take ownership of their projects, contributing to both frontend and backend development, including key roles in enhancing Betting Sportsbook features, developing Casino games, and personal account management.
+
+I am committed to fostering a culture of knowledge sharing and learning, actively engaging in peer programming, crafting comprehensive documentation, and actively participating in small agile scrum teams. I am driven by curiosity, constantly seeking opportunities to augment my expertise through continuous learning initiatives like volunteer projects for dance school charity organizations and attending workshops such as GitLab CI/CD.
+
+I also admire Starling's proactive efforts in empowering girls in the software development field, as exemplified in your Women in Tech article. This dedication to diversity and inclusion resonates profoundly with my personal values.
+
+Thank you for considering my application. I look forward to the opportunity to discuss how my skills and experiences align with the needs of your team.
