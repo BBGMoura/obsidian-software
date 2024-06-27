@@ -131,3 +131,24 @@ cahnge Sringling back to engine by starling
 You should hire me because...
 I am have the technical skills to meet the role, my experience and knowledge of Java is fit for this role as I have worked on various projects such as building an api from scratch  to implement  an external PAM. Configured various third party systems for production environments such as different game providers or payment services utilising ngix logs for debugging. Carried out patches and redeployments to put code and logs on preprod wnvironments. Resolved various bugs which included the knowledge of different technologies such as Kafka and ACtiveMQ.  Contributed to the sucessful delevery of two websites in Croatia and SOUTH aFRICA. I believe i have the the determination and genuine like for softawre development and building my skills, and the technologies used at Engine by Starling are all things I would  love to learn so I think it would be passing up a commited  individual who is commited to learning,progressing in career and trying to excel in everything i do.
 
+
+
+
+I believe Engine should hire me as my goals and aspirations are perfectly alined with Engines values and technical and communication skills also.
+
+### Creativity & collaboration
+My communication skills make me perfectly adept to Engine's mission of fostering Creativity & Collaboration. At my previous role, I was contrinuosly  promoting collaboration through peer programming wiht people of all experience levels like senior or junior. In addition i am commited to fostering a culkter or sharing. learning and listening by actively engaging and liasing with people within my own team aswell as in other teams or roles that would help to extract crucial information that would allow the task at hand to get done. Moreover, I aspire to become a mentior and believe it is essential to build a connection with my peers. This mentorship not only helps in personal growth but also fosters a collaborative and innovative team environment. Building connections and comfortabality is what allows creativity to flourish no matter how big or bold they might be.
+
+I am dedicated to excellence and consistently strive to excel in everything I do. Taking ownership of my code and my team's code is central to my approach, which has been pivotal in producing scalable and maintainable solutions. My hands-on contributions have directly led to the successful delivery of sports betting and casino websites for international clients in Croatia and South Africa. I prioritize optimal functionality and user experience to achieve outstanding outcomes. For instance, while working on frontend projects, I played a critical role in optimizing code for our login application, significantly improving loading times by addressing a memory leak issue, thereby enhancing the overall customer experience.
+
+My experience in working with financial systems has taught me the importance of precision and reliability in serving customer needs. I have firsthand experience in resolving critical issues, such as fixing a bug in our code that impacted our gambling controls. This fix ensured that our systems operated correctly, preventing potential customer over-gambling incidents and safeguarding our reputation. These experiences reinforce my commitment to delivering robust solutions that uphold the highest standards of reliability and customer satisfaction.
+
+
+
+
+
+
+
+I listen to I am for greatness and to excel in everythign i do. I take ownership of my code and my teams code - Aim for greatness in everything you do, staying curious and inquisitive. I strive for excellence in every task I undertake. My contributions have led to the successful delivery of websites in Croatia and South Africa, showcasing my commitment to delivering the best possible outcomes. I am dedicated to continually improving and aiming for greatness in all my projects. Listening and learning from others is a key part of my work ethic. especially listen to my team and client needs to deliever customer experience. I care deeply about the impact my work has on customers and the banking industry as a whole. My experience in fintech has taught me the importance of precision and reliability in serving customer needs. I am committed to producing high-quality code that contributes to Engine’s goal of transforming banking for good.
+
+We value people being engaged and caring about customers, caring about the code they write and the contribution they can make to banking around the world. People with a broad ability to apply themselves to a multitude of problems and challenges, who can work across teams do great things here at Engine, to continue changing banking for good.
