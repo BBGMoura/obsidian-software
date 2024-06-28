@@ -6,11 +6,9 @@ kanban-plugin: basic
 
 ## To-Do
 
-- [ ] Price model which holds booking id, total price and then the dance class also which is sued inside booking?<br>price is actually one fixed price not different price per 30/45/60
-- [ ] booking schedule takes diff time to booking
-- [ ] TBC - UserService Permission Implementation #phase-3  #feature <br>- create user with admin permission only if user is an admin<br>- can only be registered if it is in the permission list<br>- admin can add user to user to permission list<br>- password and token system<br>- initialise user account?
-- [ ] TBC - BookingHistory Repository #phase-2 #feature
 - [ ] TBC - BookingService - getBookingsByUser should use paging<br>currently, the method which retrieves users by id returns all bookings in the database based on user.<br><br>instead, we want an implementation which uses the paging repository. The request to the controller will be:<br>- user id<br>- current date?<br>- isUpcoming -> boolean which defines w4ether previous or upcoming bookings are needed<br>- offset<br>- amount of bookings<br><br>should return a list of booking DTOs  which matches the amount and offset. Also consider order. order of previous bookings hould start from most recent to oldest. order of upcmoing bookings should start from more recent to fuiter boookings.
+- [ ] booking schedule takes diff time to booking?? what does this mean -> maybe the format
+- [ ] TBC - BookingHistory Repository #phase-2 #feature
 - [ ] Payment Repository #phase-2 #feature
 - [ ] Account Repository #phase-2 #feature
 - [ ] TBC - PaymentHistory repository #phase-2 #feature
@@ -19,25 +17,26 @@ kanban-plugin: basic
 - [ ] TBC - Payment integration #phase-4  #feature
 - [ ] CORS
 - [ ] deactivate
-- [ ] can only use the get bookings by user n history if is user or admin so will need auth token or something
 - [ ] booking id and booking reference- instead of using booking id we use a bookign reference
 - [ ] get all rooms? if enum in frotnend, then if chang ein be then also need change in fe which could be bad but there is not plans to change the rooms so leave it
 - [ ] get class types -> for admin controller
 - [ ] I want to break up stuff into different classes sucha s - user and user detail, -booking and booking price? booking dance class and price is not necessary isndie the booking class
-- [ ] booking doesnt have the price stuck to it. the price however has the dance class and has the price and suer and abooking?
 - [ ] book reoccuring classes
 
 
 ## Blocked
 
+- [ ] Price model which holds booking id, total price and then the dance class also which is sued inside booking?<br>price is actually one fixed price not different price per 30/45/60
+- [ ] booking doesnt have the price stuck to it. the price however has the dance class and has the price and suer and abooking?
+- [ ] can only use the get bookings by user n history if is user or admin so will need auth token or something
 
 
 ## Ready For Development
 
-- [ ] UPDATED REQUIREMENTS<br>-> booking can be shareable betweem users. Up to 3<br>- each teacher will pay the same amount for the booking for example. if teacher books a room for 60 and a teacher wants to share the room its the same for 60.<br>- mins. ![[Pasted image 20240509204851.png]]
 - [ ] TBC - Login and Security #phase-2  #feature
 - [ ] User permitted to register only if in user permision database
 - [ ] deactivate user should be in the admin controller -> furthermore it should delete all upcoming booking. take way the payment for upcoming bookings but leave outstadning payments
+- [ ] TBC - UserService Permission Implementation #phase-3  #feature <br>- create user with admin permission only if user is an admin<br>- can only be registered if it is in the permission list<br>- admin can add user to user to permission list<br>- password and token system<br>- initialise user account?
 
 
 ## In Development
@@ -46,7 +45,7 @@ kanban-plugin: basic
 
 ## Testing
 
-- [ ] F10 - BookingImpl - many users should be able to book class #phase-1 #feature <br><br>Reconsider this implementation of booking booking. Including shared booking. There can only be 3 shared <br>chefck the normal query for bookings which shareable is false.<br>check query again for bookings which shareable is true. if there is shareable bookings here, then shareable has to be true. if there is bookings here also make sure there is no more than 2 bookings present.
+- [ ] F10 - BookingImpl - many users should be able to book class #phase-1 #feature <br><br>Reconsider this implementation of booking booking. Including shared booking. There can only be 3 shared <br>chefck the normal query for bookings which shareable is false.<br>check query again for bookings which shareable is true. if there is shareable bookings here, then shareable has to be true. if there is bookings here also make sure there is no more than 2 bookings present.<br>UPDATED REQUIREMENTS<br>-> booking can be shareable betweem users. Up to 3<br>- each teacher will pay the same amount for the booking for example. if teacher books a room for 60 and a teacher wants to share the room its the same for 60.<br>- mins. ![[Pasted image 20240509204851.png]]
 
 
 ## Done
@@ -76,11 +75,11 @@ kanban-plugin: basic
 - [ ] B2 - UserImpl - User can register/update number which does not begin with 0. #bug #phase-1
 - [ ] B1 - UserImpl - Cannot update just one field on user #bug #phase-1 <br><br>When updating an already existing user, it is not possible to update just one field. <br><br>When field is:<br>`"firstName": ""` <br>This is not being allowed. This is correct behaviour.<br><br>However, when field is missing we get the error `must not be empty`.
 - [ ] F6 - Booking Service V1 #phase-1 #feature <br>Has the following dependencies:<br>- [x] user <br>- [x] dance class<br><br>Methods:<br>- [x] createBooking<br>- [x] getByRoomAndBetweenDates<br>- [x] delete booking<br>- [x] getAllBookingsByUser<br>- [x] getBookingById<br><br>- [x] error handling<br><br>Test<br>- [x] booking service test<br>- [x] controller tests
-- [ ] F5 - UserController #feature #phase-1 <br>- [x] register user<br>- [x] find user by id<br>- [x] update user<br>- [x] delete user<br>- [x] request validations<br>- [x] exception handlers <br><br>Test<br>- [x] create<br>- [x] read<br>- [x] update<br>- [x] delete<br>- [x] validations
 - [ ] F6- DanceClass service + Controller #phase-1 #feature <br>- [x] create class<br>- [x] delete class<br>- [x] get all class options <br>- [x] get by id<br>- [x] get by active class type<br>- [x] error handling<br><br>Tests<br>- [x] service test<br>- [x] controller tests
-- [ ] F1 - java entities #phase-1 #feature <br>- [x] User<br>- [x] Booking<br>- [x] Room<br>- [x] Payment<br>- [x] Account<br>- [x] BookingHistory<br>- [x] DanceClass
-- [ ] F2 - Booking Repository #phase-1 #feature <br>- [x] find by room and dates<br><br>Test<br>- [x] create booking<br>- [x] cancel booking<br>- [x] get by room and between dates
+- [ ] F5 - UserController #feature #phase-1 <br>- [x] register user<br>- [x] find user by id<br>- [x] update user<br>- [x] delete user<br>- [x] request validations<br>- [x] exception handlers <br><br>Test<br>- [x] create<br>- [x] read<br>- [x] update<br>- [x] delete<br>- [x] validations
 - [ ] F3- User Service #phase-1 #feature <br>- [x] create a user<br>- [x] delete a user<br>- [x] update user properties<br>- [x] get user by the id<br>- [x] validation<br>- [x] user request<br><br>Tests<br><br>update permision if user updating it is a admin?<br>change email but only if it exists in the permission list<br><br>- [x] create a user<br>- [x] delete a user<br>- [x] update user properties<br>- [x] get user by the id<br>- [x] validation<br>- [x] user request
+- [ ] F2 - Booking Repository #phase-1 #feature <br>- [x] find by room and dates<br><br>Test<br>- [x] create booking<br>- [x] cancel booking<br>- [x] get by room and between dates
+- [ ] F1 - java entities #phase-1 #feature <br>- [x] User<br>- [x] Booking<br>- [x] Room<br>- [x] Payment<br>- [x] Account<br>- [x] BookingHistory<br>- [x] DanceClass
 - [ ] F4 - UserRepository Test #phase-1 #feature <br>- [x] create user<br>- [x] delete user<br>- [x] update user properties<br>- [x] get u ser by id
 
 
