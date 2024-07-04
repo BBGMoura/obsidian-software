@@ -33,7 +33,6 @@ kanban-plugin: basic
 
 ## Ready For Development
 
-- [ ] TBC - Login and Security #phase-2  #feature
 - [ ] User permitted to register only if in user permision database
 - [ ] deactivate user should be in the admin controller -> furthermore it should delete all upcoming booking. take way the payment for upcoming bookings but leave outstadning payments
 - [ ] TBC - UserService Permission Implementation #phase-3  #feature <br>- create user with admin permission only if user is an admin<br>- can only be registered if it is in the permission list<br>- admin can add user to user to permission list<br>- password and token system<br>- initialise user account?
@@ -41,6 +40,7 @@ kanban-plugin: basic
 
 ## In Development
 
+- [ ] F11 - Login and Security #phase-2  #feature
 
 
 ## Testing
