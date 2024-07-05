@@ -4,7 +4,7 @@ kanban-plugin: basic
 
 ---
 
-## To-Do
+## Backlog
 
 - [ ] TBC - BookingService - getBookingsByUser should use paging<br>currently, the method which retrieves users by id returns all bookings in the database based on user.<br><br>instead, we want an implementation which uses the paging repository. The request to the controller will be:<br>- user id<br>- current date?<br>- isUpcoming -> boolean which defines w4ether previous or upcoming bookings are needed<br>- offset<br>- amount of bookings<br><br>should return a list of booking DTOs  which matches the amount and offset. Also consider order. order of previous bookings hould start from most recent to oldest. order of upcmoing bookings should start from more recent to fuiter boookings.
 - [ ] booking schedule takes diff time to booking?? what does this mean -> maybe the format
@@ -19,13 +19,18 @@ kanban-plugin: basic
 - [ ] deactivate
 - [ ] booking id and booking reference- instead of using booking id we use a bookign reference
 - [ ] get all rooms? if enum in frotnend, then if chang ein be then also need change in fe which could be bad but there is not plans to change the rooms so leave it
-- [ ] get class types -> for admin controller
 - [ ] I want to break up stuff into different classes sucha s - user and user detail, -booking and booking price? booking dance class and price is not necessary isndie the booking class
 - [ ] book reoccuring classes
 
 
-## Blocked
+## To-Do
 
+- [ ] User permitted to register only if in user permision database
+- [ ] deactivate user should be in the admin controller -> furthermore it should delete all upcoming booking. take way the payment for upcoming bookings but leave outstadning payments
+- [ ] TBC - UserService Permission Implementation #phase-3  #feature <br>- create user with admin permission only if user is an admin<br>- can only be registered if it is in the permission list<br>- admin can add user to user to permission list<br>- password and token system<br>- initialise user account?
+- [ ] Implement Roles -> include already made methods
+- [ ] get class types -> for admin controller
+- [ ] Sort out pricing model andd ance class mdoel. joe wants to have names if oposible like for example Exams if it is exams
 - [ ] Price model which holds booking id, total price and then the dance class also which is sued inside booking?<br>price is actually one fixed price not different price per 30/45/60
 - [ ] booking doesnt have the price stuck to it. the price however has the dance class and has the price and suer and abooking?
 - [ ] can only use the get bookings by user n history if is user or admin so will need auth token or something
@@ -33,9 +38,6 @@ kanban-plugin: basic
 
 ## Ready For Development
 
-- [ ] User permitted to register only if in user permision database
-- [ ] deactivate user should be in the admin controller -> furthermore it should delete all upcoming booking. take way the payment for upcoming bookings but leave outstadning payments
-- [ ] TBC - UserService Permission Implementation #phase-3  #feature <br>- create user with admin permission only if user is an admin<br>- can only be registered if it is in the permission list<br>- admin can add user to user to permission list<br>- password and token system<br>- initialise user account?
 
 
 ## In Development
@@ -49,6 +51,16 @@ kanban-plugin: basic
 
 
 ## Done
+
+
+
+## Archive
+
+
+
+***
+
+## Archive
 
 - [ ] F7 - Room Enums #phase-1 #feature <br>Update Room names then change to update
 - [ ] Canary Testing #phase-1
@@ -81,13 +93,6 @@ kanban-plugin: basic
 - [ ] F2 - Booking Repository #phase-1 #feature <br>- [x] find by room and dates<br><br>Test<br>- [x] create booking<br>- [x] cancel booking<br>- [x] get by room and between dates
 - [ ] F1 - java entities #phase-1 #feature <br>- [x] User<br>- [x] Booking<br>- [x] Room<br>- [x] Payment<br>- [x] Account<br>- [x] BookingHistory<br>- [x] DanceClass
 - [ ] F4 - UserRepository Test #phase-1 #feature <br>- [x] create user<br>- [x] delete user<br>- [x] update user properties<br>- [x] get u ser by id
-
-
-## Archive
-
-
-
-
 
 %% kanban:settings
 ```
