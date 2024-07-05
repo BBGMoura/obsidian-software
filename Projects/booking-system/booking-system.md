@@ -34,6 +34,7 @@ kanban-plugin: basic
 - [ ] Price model which holds booking id, total price and then the dance class also which is sued inside booking?<br>price is actually one fixed price not different price per 30/45/60
 - [ ] booking doesnt have the price stuck to it. the price however has the dance class and has the price and suer and abooking?
 - [ ] can only use the get bookings by user n history if is user or admin so will need auth token or something
+- [ ] BUG -  booking schedule
 
 
 ## Ready For Development
