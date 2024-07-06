@@ -43,7 +43,7 @@ kanban-plugin: basic
 
 ## In Development
 
-- [ ] F11 - Login and Security #phase-2  #feature
+- [ ] F11 - Login and Security #phase-2  #feature<br><br>email: testingemailjavamail@gmail.com<br>password:<br>123456Aa!
 
 
 ## Testing
