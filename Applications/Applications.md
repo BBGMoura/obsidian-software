@@ -1,2 +1,3 @@
 - [-] [[Starling Bank]]
 - [ ] [[JPMorgan Chase]]
+- [ ] [[Llloyd's Bank]]
