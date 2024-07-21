@@ -42,6 +42,7 @@ The **Java Virtual Machine (JVM)**, is the application that executes bytecode. 
 - [[Design Patterns]]
 - [[Logging]]
 - [[Swagger]]
+- [[Regex]]
 
 ## Web services
 - [[RESTful Services]]
