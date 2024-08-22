@@ -43,6 +43,7 @@ The **Java Virtual Machine (JVM)**, is the application that executes bytecode. 
 - [[Logging]]
 - [[Swagger]]
 - [[Regex]]
+- [[Hash Functions]]
 
 ## Web services
 - [[RESTful Services]]

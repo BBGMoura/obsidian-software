@@ -7,6 +7,5 @@
 
 singleton annotation is @service @controller @configuration and etc
 
-can make the dto prototypes by using autowire
 
 - [[Builder Design Pattern]]

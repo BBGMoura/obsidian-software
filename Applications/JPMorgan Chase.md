@@ -6,8 +6,8 @@ agile team enhance design and deliver software
 job responsibilities:
 - Obtain formal training or certification
 - Executes standard software solutions, design, development, and technical troubleshooting
-- Software Development Life Cycle toolchain to improve the value realized by automation
-- echnical troubleshooting to break down solutions and solve technical problems of basic complexity
+- Software Development Life Cycle toolchain to improve the value realised by automation
+- technical troubleshooting to break down solutions and solve technical problems of basic complexity
 
 requirements:
 - Formal training or certification on computer science or engineering concepts and expanding applied experience
