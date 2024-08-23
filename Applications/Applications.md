@@ -8,8 +8,13 @@
 - [x] [[Atos - AM AS Java Developer]]
 - [ ] [[Robert Walters - Java Fullstack Engineer (React and UI)]]
 - [ ] Starling Bank - Java Microservices
+- [ ] Wize
+- [ ] Aristocrats
+- [ ] Worldpay
+- [ ] Paysafe
 - [ ] [[Global - Java Developer]]
 - [ ] [[UnderwriteMe - Mid-level Java Developer]]
+- [ ] [[Talentverse - Full stack Engineer]]
 
 
 - [[Data Structures]]
