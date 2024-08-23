@@ -2,11 +2,12 @@
 - [x] [[JPMorgan Chase]]
 - [x] [[Llloyd's Bank]]
 - [x] Deutsche
-- [ ] [[UBS]]
+- [x] [[UBS]] 
 - [ ] [[American Express - Engineer I]]
-- [ ] [[NatWest -  Java Microservices]]
+- [x] [[NatWest -  Java Microservices]] 
 - [x] [[Atos - AM AS Java Developer]]
 - [ ] [[Robert Walters - Java Fullstack Engineer (React and UI)]]
+- [ ] 
 
 
 - [[Data Structures]]
