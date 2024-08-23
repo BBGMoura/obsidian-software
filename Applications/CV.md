@@ -1,0 +1,39 @@
+
+### Summary
+A proficient Software Engineer with 2 years of full-stack experience, specializing in building RESTful APIs using Java, Spring Boot, and SQL. I have successfully designed, coded, tested, and debugged software for an international SaaS sports betting and casino company. I hold an honours master's degree in mechanical engineering and completed a comprehensive bootcamp in full-stack development. Skilled in agile practices, I create scalable, high-quality code with a focus on TDD and BDD principles. My career goals align with the Back End Software Engineer position within the Mass Affluent Digital Experience lab at Lloyds Banking Group, where I aspire to leverage modern technologies like microservices and cloud-native architectures. I thrive in collaborative environments, engaging in code reviews and peer programming, as vouched for by my references.
+
+## Why are you fit for the job
+what do they want to know:
+By asking this question, the interviewer can often learn what the candidate believes is their most valuable asset and what aspect of the job they're most passionate about. Although they have each candidate's full qualifications in a resume, this question can reveal additional information, such as their passion, perspective and [long-term goals](https://www.indeed.com/career-advice/interviewing/long-term-career-goals-examples) for the role.
+
+- most valuable assets -> technical skill and the passion for learning. Collaboration skill and knowledge share
+- most passionate about for the job -> learning new technologies suhc as microserviers and cloud 
+- long term goals for this role -> i want to learn advanced concepts and want to mentore an knowledge spread
+
+values:
+- People-first
+- Bold
+- Inclusive
+- Sustainable
+- Trust
+
+**Please use this space to let us know about the skills and experiences you have gathered that could make you a great match for this position.***
+
+I believe I am the perfect match for this role.  Following my two years of experience as a Software Developer working for a sportbetting and gambling company makes me stand out i have this unique expereicne. I have expereince wokring in high stress enviornments for international companies that deal with financial services on a daily basis so i understand what it means to have a high pressure role dealing with finalncial services. For example, at my time at FSB Technology, i worked closely with the product and design department to solve a critical bug which was affectin gcustomer deposit, causing deposits to be taken twice randomly. Naturally, this is a critical bug as it affects the customer expereicne and allso breaks trust from our customers. In result of fixing this bug, I was able to improve customer satisfaction as could be seen as 70% percent of the customers who had originally deactivated their account due to this bug had reopened it after communication.  My belief of customer satiscation first aligns perfectly with lloyd's belief of putting people- first. I believe this shows that I am used to working in high pressure enviornments surrounding financial 
+
+In addition, my long term career goals perfectly align with the job description.  My goal is to be able to work for a company in which I can grow within my role learning tehcnical aspects. The technologies used here related to miucroservices and cloud are soemthing i desire to work with and learn long term. I have worked in an enviroment of monolithic architectuire where the code incredibly coupled, leading to tedious daily process and one error would cause another. Therefroe, i will enjoy much more this way of working and will bring more passion to my job. I also want to be able to contribute collaboratively to my team, I highly enjoy working as a team as can be seen in my last role as I was eager to pair program, peform code reviews or just ovarall collaboration with my team. Currently I am collaborating with a colleague to peform an integration of an external personal account management system inot our RESTful API. The collaboration makes means we are able to knowledge share and team up complex tasks which meant as a team we were able to complete the first part of this integration in a month instead of the 6 weeks that was epxcted. In addition, I have also worked with brand new junior developers on tickets where they did not yet have a good enough technical understanding of our platform and of java. I thoroughly enjoyed the experience as I believe knowledge share is crucial in building a good team who is efficient at doing our role. Lloyd's job offer has made it very clear that they want someone with the skill of mentorship and team work. I believe this role will let me thrive enabling me  not to only mentor but also work with others. It build's on lloyds value of Trust which i think is necessary to progress as a team and a company.
+
+
+
+
+
+I believe I am the perfect match for this role due to my unique experience and skills developed over two years as a Software Developer working on softwre which utilised Java and Spring framework to build complex Resftul APIs in the sports betting and gambling industry.  I have developed a strong foundation in full-stack development, but specifically in building RESTful APIs using Java, Spring Boot, and SQL. This experience stands out because it has equipped me with the ability to work in high-stress environments for international companies that handle financial services daily. I understand the demands and pressures associated with high-stakes financial roles which makes me the strongest candidate for this role.
+
+For instance, during my time at FSB Technology, I collaborated closely with the product and design departments to resolve a critical bug that caused customer deposits to be taken twice randomly, it was an issue that was present in our platform for a long time. This issue was crucial as it negatively impacted the customer experience and eroded trust. By successfully fixing this bug, I was able to significantly improve customer satisfaction, evidenced by the fact that 70% of the customers who had deactivated their accounts due to the bug reopened them after we communicated the resolution. This experience highlights I am able to work in high pressured financial environmanets and put people firts which aligns wiht lloyd's values.
+
+My long-term career goals align perfectly with the job description. I aspire to grow within my role, learning and leveraging newer technologies such as microservices and cloud solutions. Having worked in an environment with a monolithic architecture, where tightly coupled code led to tedious processes and cascading errors, I am eager to transition to a microservices-based approach in an environment where big complex code is used. 
+
+I highly enjoy collaborative teamwork, as demonstrated in my previous role where I actively engaged in pair programming, code reviews, and overall team collaboration. Currently, I am working with a colleague to integrate an external personal account management system into our RESTful API. Our collaboration enabled us to complete the first phase of this integration in one month, ahead of the expected six weeks. Additionally, I have mentored new junior developers, helping them understand our platform and Java better. This experience underscores the importance of knowledge sharing in building an efficient and cohesive team. Lloyd's job offer emphasizes the need for mentorship and teamwork skills, which I possess and am confident would be a great asset to this team. 
+
+
+I believe this role will enable me to thrive, not only by mentoring but also by working collaboratively with others.  I am  This aligns with Lloyd's value of Trust, which I consider essential for team and company progress.
