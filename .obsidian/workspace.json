@@ -4,46 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "abe354bd76f3d073",
+        "id": "f05a837b752c4178",
         "type": "tabs",
         "children": [
           {
-            "id": "24ef1d385281912d",
+            "id": "54d44f9350fd13e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-08-16.md",
+                "file": "Projects/booking-system/Documentation/User Implementation/User Implementation.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bcf4db2b80c082db",
+            "id": "267043cbd63f03d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Robert Walters - Java Fullstack Engineer (React and UI).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8303058308216bd3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/Design Patterns.md",
+                "file": "Projects/booking-system/Documentation/User Implementation/Registration.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 212.5
+    "width": 351.5,
+    "collapsed": true
   },
   "right": {
     "id": "7437b039bafcef57",
@@ -109,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-08-16.md",
+                "file": "Projects/booking-system/Documentation/User Implementation/Registration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-08-16.md",
+                "file": "Projects/booking-system/Documentation/User Implementation/Registration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-08-16.md"
+                "file": "Projects/booking-system/Documentation/User Implementation/Registration.md"
               }
             }
           }
@@ -170,34 +160,42 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "24ef1d385281912d",
+  "active": "267043cbd63f03d3",
   "lastOpenFiles": [
+    "Projects/booking-system/Documentation/User Implementation/User Implementation.md",
+    "Projects/booking-system/Documentation/User Implementation",
+    "Projects/booking-system/Documentation/User Implementation/Testing",
+    "Projects/booking-system/Documentation/User Implementation/Registration.md",
+    "Projects/booking-system/booking-testing.md",
+    "Projects/booking-system/booking-system.md",
+    "Projects/booking-system/Booking System.md",
+    "Java/Spring/Spring Security/FilterChain & Security Configuration DSL.md",
+    "Java/Spring/Spring Security/Authentication with Spring Security.md",
+    "Java/Spring/Spring Security/Authentication vs Authorisation.md",
+    "Java/Spring/Spring Security/Spring Security.md",
+    "Java/Spring/Spring.md",
+    "Projects/booking-system/Documentation",
+    "Java/Spring/Spring Security/Spring DefaultSecurityFilter.png",
+    "Java/Spring/Spring Security",
+    "Filter.png",
+    "Java/Spring/Spring Framework Runtime.png",
+    "Java/Spring/Spring Framework.png",
+    "Java/Spring/Spring Boot/Spring Boot.md",
+    "Java/Java Database.md",
+    "Shortcuts.md",
+    "README.md",
+    "Copying Files to Server.md",
+    "Commands for CMD Line.md",
+    "Checkboxes.md",
+    "BDD & Gherkin.md",
     "2024-08-13.md",
     "2024-08-16.md",
-    "Applications/Applications.md",
-    "Applications/Atos - AM AS Java Developer.md",
-    "Robert Walters - Java Fullstack Engineer (React and UI).md",
     "Java/Design Patterns.md",
-    "Daily Notes/2024-08-09.md",
-    "Daily Notes/2024-08-08.md",
-    "Applications/NatWest -  Java Microservices.md",
-    "Applications/JPMorgan Chase.md",
-    "Applications/Starling Bank.md",
-    "Applications/American Express - Engineer I.md",
-    "Projects/booking-system/Models.md",
-    "Projects/booking-system/Booking System.md",
-    "Projects/booking-system/Booking.md",
-    "Shortcuts.md",
-    "Java/Builder Design Pattern.md",
-    "Java/Spring/Spring.md",
-    "Java/Webservices/RESTful Services.md",
-    "Java/Java Database.md",
-    "Java/Hash Functions/Hash Functions.md",
-    "Java/Property injection from Property File.md",
-    "BDD & Gherkin.md",
-    "Applications/Data Structures Questions/Array.md",
-    "Java/Webservices/CRUD.md",
-    "Applications/Data Structures Questions/Data Structures.md",
+    "Calendar/2024-08-23 Lunch Time.md",
+    "Calendar/2024-08-23 Gym.md",
+    "Calendar/2024-08-23 Apply For Jobs.md",
+    "Calendar",
+    "Applications/UnderwriteMe - Mid-level Java Developer.md",
     "Java/Hash Functions",
     "Applications/Spring Boot",
     "Applications/Data Structures Questions/heap.png",
