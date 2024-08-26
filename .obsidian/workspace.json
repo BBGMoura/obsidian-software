@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "267043cbd63f03d3",
+            "id": "5b7e3b40a013157e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.5,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "7437b039bafcef57",
@@ -99,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/booking-system/Documentation/User Implementation/Registration.md",
+                "file": "Projects/booking-system/Documentation/User Implementation/User Implementation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/booking-system/Documentation/User Implementation/Registration.md",
+                "file": "Projects/booking-system/Documentation/User Implementation/User Implementation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/booking-system/Documentation/User Implementation/Registration.md"
+                "file": "Projects/booking-system/Documentation/User Implementation/User Implementation.md"
               }
             }
           }
@@ -160,12 +158,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "267043cbd63f03d3",
+  "active": "54d44f9350fd13e9",
   "lastOpenFiles": [
+    "Projects/booking-system/Documentation/User Implementation/Registration.md",
     "Projects/booking-system/Documentation/User Implementation/User Implementation.md",
+    "Projects/booking-system/Documentation/User Implementation/Admin.md",
+    "Daily Notes/2024-08-26.md",
+    "Daily Notes/2024-07-12.md",
+    "Daily Notes/2024-08-13.md",
+    "Daily Notes/2024-08-16.md",
     "Projects/booking-system/Documentation/User Implementation",
     "Projects/booking-system/Documentation/User Implementation/Testing",
-    "Projects/booking-system/Documentation/User Implementation/Registration.md",
     "Projects/booking-system/booking-testing.md",
     "Projects/booking-system/booking-system.md",
     "Projects/booking-system/Booking System.md",
@@ -191,11 +194,7 @@
     "2024-08-13.md",
     "2024-08-16.md",
     "Java/Design Patterns.md",
-    "Calendar/2024-08-23 Lunch Time.md",
-    "Calendar/2024-08-23 Gym.md",
-    "Calendar/2024-08-23 Apply For Jobs.md",
     "Calendar",
-    "Applications/UnderwriteMe - Mid-level Java Developer.md",
     "Java/Hash Functions",
     "Applications/Spring Boot",
     "Applications/Data Structures Questions/heap.png",
