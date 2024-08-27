@@ -15,7 +15,9 @@
 - [ ] [[Global - Java Developer]]
 - [x] [[UnderwriteMe - Mid-level Java Developer]] 
 - [ ] [[Talentverse - Full stack Engineer]]
+- [ ] [[Informatica - Software Engineer]]
 
+# Studying
 
 - [[Data Structures]]
 - [[Spring Boot Questions]]
