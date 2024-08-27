@@ -101,18 +101,21 @@
 5. The user is saved with the provided information.
 6. A JWT token is generated and returned with the registration response.
 
+# 3. Login 
+
+
 
 # Testing
 
 ## Overview
 - **Invitation Phase:**
-
     - **Valid Invitation:** Test valid invitation creation.
     - **Invalid Email Format:** Test invalid email format during invitation.
     - **Existing Email:** Test inviting an already existing email.
     - **Invalid Permission:** Test invalid permission value during invitation.
     - **Missing Email:** Test missing email field during invitation.
     - **Missing Permission:** Test missing permission field during invitation.
+    - **Duplicate Email:** Test duplicate email
 
 - **Registration Phase:**    
     - **Valid Registration:** Test valid registration with all required fields.
@@ -125,4 +128,9 @@
     - **Missing Email:** Test missing email field during registration.
     - **Missing Phone Number:** Test missing phone number during registration.
     - **Missing Password:** Test missing password during registration.
+
+- **Login Phase:**
+	- **Valid login:** Test valid user login.
+	- **Missing Details:** Test login with missing details.
+	- **Blank Details:** Test login with blank details.
 
