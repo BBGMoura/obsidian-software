@@ -89,4 +89,7 @@ essential
 1-2 servier-sdie software dev experience
 proficiency at coding java
 
-
+Whats the opportunity for training & progresasion i
+Coudl you tell me more about the id potentially be working on & the team id be working wiht?
+wahts the hybrid working policy
+whast the interviewing process like
