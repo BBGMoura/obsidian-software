@@ -93,3 +93,6 @@ Whats the opportunity for training & progresasion i
 Coudl you tell me more about the id potentially be working on & the team id be working wiht?
 wahts the hybrid working policy
 whast the interviewing process like
+
+
+big data is a new gold and in this new AI bloom this is where informatica come in to use AI and data 
