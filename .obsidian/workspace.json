@@ -4,34 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "f05a837b752c4178",
+        "id": "0754c61423095bfa",
         "type": "tabs",
         "children": [
           {
-            "id": "54d44f9350fd13e9",
+            "id": "390085c94f6a2030",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/booking-system/Documentation/User Implementation/User Implementation.md",
+                "file": "Applications/Core Java Coding Interview PRoblems/Core Java Coding Interview Questions.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5b7e3b40a013157e",
+            "id": "14c6588611464d05",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/booking-system/Documentation/User Implementation/Registration.md",
+                "file": "Applications/Applications.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b6e063f6f8643390",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Applications/Core Java Coding Interview PRoblems/Implement a `ShoppingCart` System.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6d7b4794f7d3476d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/Testing/Stateful Testing.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 251.5
   },
   "right": {
     "id": "7437b039bafcef57",
@@ -97,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/booking-system/Documentation/User Implementation/User Implementation.md",
+                "file": "Applications/Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/booking-system/Documentation/User Implementation/User Implementation.md",
+                "file": "Applications/Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/booking-system/Documentation/User Implementation/User Implementation.md"
+                "file": "Applications/Applications.md"
               }
             }
           }
@@ -158,42 +183,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "54d44f9350fd13e9",
+  "active": "14c6588611464d05",
   "lastOpenFiles": [
+    "Testing/TDD.md",
+    "Projects/booking-system/Documentation/User Implementation/User.md",
+    "Applications/Jobs/UnderwriteMe - Mid-level Java Developer.md",
+    "Applications/Jobs/UBS.md",
+    "Applications/Jobs/Talentverse - Full stack Engineer.md",
+    "Applications/Jobs/Starling Bank.md",
+    "Applications/Jobs/Robert Walters - Java Fullstack Engineer (React and UI).md",
+    "Applications/Jobs/NatWest -  Java Microservices.md",
+    "Applications/Jobs/Llloyd's Bank.md",
+    "Applications/Jobs/Llloyd's Bank 1.md",
+    "Applications/Jobs/JPMorgan Chase.md",
+    "Applications/Jobs/Informatica - Software Engineer.md",
+    "Applications/Jobs/Global - Java Developer.md",
+    "Applications/Jobs/CV.md",
+    "Applications/Jobs/Atos - AM AS Java Developer.md",
+    "Applications/Jobs/American Express - Engineer I.md",
+    "Applications/Jobs",
+    "Applications/Core Java Coding Interview PRoblems/Implement a `SecureNoteStorage` System.md",
+    "Applications/Core Java Coding Interview PRoblems/Core Java Coding Interview Questions.md",
+    "Applications/Core Java Coding Interview PRoblems/Implement a `ShoppingCart` System.md",
+    "Java/Testing/Stateful Testing.md",
+    "Applications/Core Java Coding Interview PRoblems",
+    "Calendar/2024-08-23 Lunch Time.md",
+    "2024-08-30.md",
     "Projects/booking-system/Documentation/User Implementation/Registration.md",
-    "Projects/booking-system/Documentation/User Implementation/User Implementation.md",
-    "Projects/booking-system/Documentation/User Implementation/Admin.md",
-    "Daily Notes/2024-08-26.md",
-    "Daily Notes/2024-07-12.md",
-    "Daily Notes/2024-08-13.md",
-    "Daily Notes/2024-08-16.md",
+    "2024-08-27.md",
+    "Calendar/2024-08-23 Gym.md",
+    "Calendar/2024-08-23 Apply For Jobs.md",
     "Projects/booking-system/Documentation/User Implementation",
     "Projects/booking-system/Documentation/User Implementation/Testing",
-    "Projects/booking-system/booking-testing.md",
-    "Projects/booking-system/booking-system.md",
-    "Projects/booking-system/Booking System.md",
-    "Java/Spring/Spring Security/FilterChain & Security Configuration DSL.md",
-    "Java/Spring/Spring Security/Authentication with Spring Security.md",
-    "Java/Spring/Spring Security/Authentication vs Authorisation.md",
-    "Java/Spring/Spring Security/Spring Security.md",
-    "Java/Spring/Spring.md",
     "Projects/booking-system/Documentation",
     "Java/Spring/Spring Security/Spring DefaultSecurityFilter.png",
     "Java/Spring/Spring Security",
     "Filter.png",
     "Java/Spring/Spring Framework Runtime.png",
     "Java/Spring/Spring Framework.png",
-    "Java/Spring/Spring Boot/Spring Boot.md",
-    "Java/Java Database.md",
-    "Shortcuts.md",
-    "README.md",
-    "Copying Files to Server.md",
-    "Commands for CMD Line.md",
-    "Checkboxes.md",
-    "BDD & Gherkin.md",
-    "2024-08-13.md",
-    "2024-08-16.md",
-    "Java/Design Patterns.md",
     "Calendar",
     "Java/Hash Functions",
     "Applications/Spring Boot",
