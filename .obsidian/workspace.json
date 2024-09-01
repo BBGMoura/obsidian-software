@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Core Java Coding Interview PRoblems/Core Java Coding Interview Questions.md",
+                "file": "Java/Java Database.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f25f6860d89901ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Custom Runtime Exception.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applications/Applications.md",
+                "file": "Java/Foundation/Scanner.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "custome exception",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/Applications.md",
+                "file": "Custom Runtime Exception.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/Applications.md",
+                "file": "Custom Runtime Exception.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,11 +174,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/Applications.md"
+                "file": "Custom Runtime Exception.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -183,8 +196,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "14c6588611464d05",
+  "active": "f25f6860d89901ec",
   "lastOpenFiles": [
+    "Java/Java Database.md",
+    "Custom Runtime Exception.md",
+    "File Input & Output.md",
+    "File Input/Output.md",
+    "File Input",
+    "File IO.md",
+    "Applications/Core Java Coding Interview PRoblems/Core Java Coding Interview Questions.md",
+    "Java/Foundation/Scanner.md",
+    "Applications/Jobs/Informatica - Software Engineer.md",
+    "Applications/Applications.md",
     "Testing/TDD.md",
     "Projects/booking-system/Documentation/User Implementation/User.md",
     "Applications/Jobs/UnderwriteMe - Mid-level Java Developer.md",
@@ -196,23 +219,14 @@
     "Applications/Jobs/Llloyd's Bank.md",
     "Applications/Jobs/Llloyd's Bank 1.md",
     "Applications/Jobs/JPMorgan Chase.md",
-    "Applications/Jobs/Informatica - Software Engineer.md",
     "Applications/Jobs/Global - Java Developer.md",
     "Applications/Jobs/CV.md",
     "Applications/Jobs/Atos - AM AS Java Developer.md",
     "Applications/Jobs/American Express - Engineer I.md",
     "Applications/Jobs",
     "Applications/Core Java Coding Interview PRoblems/Implement a `SecureNoteStorage` System.md",
-    "Applications/Core Java Coding Interview PRoblems/Core Java Coding Interview Questions.md",
     "Applications/Core Java Coding Interview PRoblems/Implement a `ShoppingCart` System.md",
-    "Java/Testing/Stateful Testing.md",
     "Applications/Core Java Coding Interview PRoblems",
-    "Calendar/2024-08-23 Lunch Time.md",
-    "2024-08-30.md",
-    "Projects/booking-system/Documentation/User Implementation/Registration.md",
-    "2024-08-27.md",
-    "Calendar/2024-08-23 Gym.md",
-    "Calendar/2024-08-23 Apply For Jobs.md",
     "Projects/booking-system/Documentation/User Implementation",
     "Projects/booking-system/Documentation/User Implementation/Testing",
     "Projects/booking-system/Documentation",
@@ -224,7 +238,6 @@
     "Calendar",
     "Java/Hash Functions",
     "Applications/Spring Boot",
-    "Applications/Data Structures Questions/heap.png",
-    "Applications/Data Structures Questions"
+    "Applications/Data Structures Questions/heap.png"
   ]
 }

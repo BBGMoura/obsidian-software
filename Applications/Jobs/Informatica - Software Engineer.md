@@ -96,3 +96,11 @@ whast the interviewing process like
 
 
 big data is a new gold and in this new AI bloom this is where informatica come in to use AI and data 
+
+
+#### Coding Interview Application
+- error handling 
+- inheritance 
+- file handling
+- sdlc
+- stlc 

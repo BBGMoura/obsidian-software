@@ -24,6 +24,8 @@ The **Java Virtual Machine (JVM)**, is the application that executes bytecode. 
 - [[Loops]]
 - [[Arrays]]
 - [[Scanner]]
+- [[File IO]]
+- [[File Input & Output]]
 ## Object-Oriented Programming
 - [[Access Modifiers]]
 - [[Inheritance]]
@@ -44,6 +46,7 @@ The **Java Virtual Machine (JVM)**, is the application that executes bytecode. 
 - [[Swagger]]
 - [[Regex]]
 - [[Hash Functions]]
+- [[Custom Runtime Exception]]
 
 ## Web services
 - [[RESTful Services]]
@@ -68,3 +71,5 @@ The **Java Virtual Machine (JVM)**, is the application that executes bytecode. 
 ## Cloud/Servers
 - [[Java Azure Integration]]
 - [[Quarkus]]
+
+
