@@ -25,3 +25,6 @@
 - [[Data Structures]]
 - [[Spring Boot Questions]]
 - [[General Questions]]
+
+
+- [[Maze Algorithm using DFS or BFS]]
