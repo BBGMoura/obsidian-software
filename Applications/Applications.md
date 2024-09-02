@@ -27,4 +27,3 @@
 - [[General Questions]]
 
 
-- [[Maze Algorithm using DFS or BFS]]
