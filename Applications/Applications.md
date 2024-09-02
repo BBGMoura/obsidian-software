@@ -18,6 +18,7 @@
 - [ ] [[Informatica - Software Engineer]]
 - [ ] [[Anaplan - Associate Software Engineer]]
 - [ ] [[Millennium - Software Engineer - Fixed Income Execution]]
+- [ ] [[Flutter - Associate Software Engineer]]
 
 # Studying
 
