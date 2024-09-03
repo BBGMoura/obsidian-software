@@ -54,3 +54,15 @@ for (int index = 0; index < elements.length; index++) {
 
 ## Streaming
 To stream an array, `Arrays.stream()` must be used.
+
+``` Java
+Arrays.stream(array).forEach();
+```
+
+## To String
+To print the numbers inside the Array instead of printing the reference, we must also use Arrays.toString.
+
+``` java
+Arrays.toString(arrays);
+```
+
