@@ -52,3 +52,5 @@ for (int index = 0; index < elements.length; index++) {
 }
 ```
 
+## Streaming
+To stream an array, `Arrays.stream()` must be used.
