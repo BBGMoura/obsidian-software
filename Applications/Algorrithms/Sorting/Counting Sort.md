@@ -78,7 +78,7 @@ public static int[] countSort(int[] input) {
     // Step 1: find the max value
 	int max = input[0];
 
-	for ( int = 0 ; i < n ; i++ ) {
+	for ( int = 1 ; i < n ; i++ ) {
 		if (input[i] > max ) {
 			max = input[i]
 		}
@@ -108,6 +108,64 @@ public static int[] countSort(int[] input) {
 		int position = count[currentValue] - 1; // count[6] -1 = 6 -1 = 5
 		output[postion] = currentValue;
 		count[currentValue]--; //ensures duplicates are placed in consecutive postions;
+	}
+
+	return output;
+}
+```
+
+
+## Negative Numbers
+To edit the counting sort algorithm to handle negative numbers, we must shift.
+
+1. find min and max value to determine range -> max -min +1
+2. adjust indices by subtracting min value (num -min) to correctly index the count array for negative nums.
+
+``` java
+import java.util.Arrays;
+
+public static int[] countSort(int[] input) {
+	//input= Input array: [4, 2, -2, 8, 3, -3, 1]
+	int n = input.length;
+   
+    // Step 1: find the minimum and maximum values
+	int max = input[0];
+	int min = input[0];
+	for ( int = 1 ; i < n ; i++ ) {
+		if (input[i] > max ) {
+			max = input[i]
+		}
+		if (input[i] < min) {
+			min = input[1];
+		}
+	}
+
+	// Step 2: Initialize the count array with size based on range
+	//(max - min + 1)
+	int k = max - min - 1;
+	int[] count = new int[k];
+
+	// Step 3: count the occurances of each number in input array
+	//adjust index based on min values
+	for (int i = 0 ; i < n ; i++) {
+		count[input[i] - min]++; 
+	}
+
+	// Step 4: transforms count array to cumulative count array
+	//each index contains the no. of elements less or equal to the index
+	for ( int i = 1 ; i < k ; i++) {
+		count[1] += count[i - 1]; //add count of previous index
+	}
+
+	// Step 5: build outpout array using cumulative count array
+	//traverse input array right to left
+	int[] output = new int[n];
+	
+	for (int i = n - 1 ; i >= 0 ; i--) {
+		int currentValue = input[i]; // i = 6, input[6] = 3
+		int position = count[currentValue - min] - 1; // count[6] -1 = 6 -1 = 5
+		output[postion] = currentValue;
+		count[currentValue - min]--; //ensures duplicates are placed in consecutive postions;
 	}
 
 	return output;
