@@ -66,3 +66,10 @@ To print the numbers inside the Array instead of printing the reference, we must
 Arrays.toString(arrays);
 ```
 
+## Length
+We use the `length` array property.
+
+``` java
+int[] numbers = {1, 2, 3, 4, 5}; 
+System.out.println("Array length: " + numbers.length); // Output: 5
+```

@@ -54,8 +54,62 @@ Count: [0, 1, 2, 2, 1, 0, 0, 0, 1] // 0 based index
 4. Compute cumulative counts:
 
 Transform the count array to store cumulative counts:
-```
+``` json
 Cumulative : [0, 1, 3, 5, 6, 6, 6, 6, 7]
 ```
 
 5. Build the Output Array:
+
+Create output array with same size as the input array. Use the cumulative to count to place elements in the correct position an decrement the count.
+``` json
+Output: [1, 2, 2, 3, 3, 4, 8]
+```
+
+
+## Coding Java Example
+
+``` Java
+import java.util.Arrays;
+
+public static int[] countSort(int[] input) {
+	//input= Input array: [4, 2, 2, 8, 3, 3, 1]
+	int n = input.length;
+   
+    // Step 1: find the max value
+	int max = input[0];
+
+	for ( int = 0 ; i < n ; i++ ) {
+		if (input[i] > max ) {
+			max = input[i]
+		}
+	}
+
+	// Step 2: Initialize the count array with size max + 1
+	int[] count = new int[max + 1];
+
+	// Step 3: count the occurances of each number in input array
+	for (int i = 0 ; i < n ; i++) {
+		count[input[i]]++; //input[0] = 3, count[3] ++ so = 1 
+	}
+
+	// Step 4: transforms count array to cumulative count array
+	//each index contains the no. of elements less or equal to the index
+	// Cumulative count: [0, 1, 3, 5, 6, 6, 6, 6, 7]
+	for ( int i = 1 ; i <= max ; i++) {
+		count[1] += count[i-1]; //ad count of previous index
+	}
+
+	// Step 5: build outpout array using cumulative count array
+	//traverse input array right to left
+	int[] output = new int[n];
+	
+	for (int i = n - 1 ; i >= 0 ; i--) {
+		int currentValue = input[i]; // i = 6, input[6] = 3
+		int position = count[currentValue] - 1; // count[6] -1 = 6 -1 = 5
+		output[postion] = currentValue;
+		count[currentValue]--; //ensures duplicates are placed in consecutive postions;
+	}
+
+	return output;
+}
+```
