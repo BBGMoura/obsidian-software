@@ -25,7 +25,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Custom Runtime Exception.md",
+                "file": "Applications/Algorithms/Algorithms.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8b1e0041fe083712",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Applications/Algorithms/Algorithms.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1dd7bfe40d9567cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Applications/Algorithms/Two Pointer Technique.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "04a8e1b9e9eb6ddf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Applications/Algorithms/Two Pointer Technique.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -97,7 +133,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "custome exception",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Custom Runtime Exception.md",
+                "file": "Applications/Algorithms/Two Pointer Technique.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Custom Runtime Exception.md",
+                "file": "Applications/Algorithms/Two Pointer Technique.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Custom Runtime Exception.md"
+                "file": "Applications/Algorithms/Two Pointer Technique.md"
               }
             }
           }
@@ -193,39 +229,44 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f25f6860d89901ec",
+  "active": "04a8e1b9e9eb6ddf",
   "lastOpenFiles": [
-    "Java/Java Database.md",
-    "Custom Runtime Exception.md",
-    "File Input & Output.md",
-    "File Input/Output.md",
-    "File Input",
-    "File IO.md",
-    "Applications/Core Java Coding Interview PRoblems/Core Java Coding Interview Questions.md",
-    "Java/Foundation/Scanner.md",
-    "Applications/Jobs/Informatica - Software Engineer.md",
-    "Applications/Applications.md",
-    "Testing/TDD.md",
-    "Projects/booking-system/Documentation/User Implementation/User.md",
-    "Applications/Jobs/UnderwriteMe - Mid-level Java Developer.md",
-    "Applications/Jobs/UBS.md",
-    "Applications/Jobs/Talentverse - Full stack Engineer.md",
-    "Applications/Jobs/Starling Bank.md",
-    "Applications/Jobs/Robert Walters - Java Fullstack Engineer (React and UI).md",
-    "Applications/Jobs/NatWest -  Java Microservices.md",
-    "Applications/Jobs/Llloyd's Bank.md",
-    "Applications/Jobs/Llloyd's Bank 1.md",
-    "Applications/Jobs/JPMorgan Chase.md",
-    "Applications/Jobs/Global - Java Developer.md",
-    "Applications/Jobs/CV.md",
-    "Applications/Jobs/Atos - AM AS Java Developer.md",
-    "Applications/Jobs/American Express - Engineer I.md",
-    "Applications/Jobs",
-    "Applications/Core Java Coding Interview PRoblems/Implement a `SecureNoteStorage` System.md",
+    "Applications/Algorithms/Merge Sorted Array.md",
+    "Applications/Algorithms/Two Pointer Technique.md",
+    "Applications/Algorithms/Sorting/Counting Sort.md",
+    "Applications/Algorithms/Two Pointer Technique Walkthrough.png",
+    "Applications/Algorithms/Algorithms.md",
+    "Excalidraw/Drawing 2024-09-04 09.48.30.excalidraw.md",
+    "Excalidraw",
+    "Merging.md",
     "Applications/Core Java Coding Interview PRoblems/Implement a `ShoppingCart` System.md",
+    "Applications/Core Java Coding Interview PRoblems/Implement a `SecureNoteStorage` System.md",
+    "Applications/Core Java Coding Interview PRoblems/Core Java Coding Interview Questions.md",
+    "Applications/Applications.md",
+    "Applications/General Questions.md",
+    "Applications/Data Structures Questions/Stack.md",
+    "Java/Foundation/List vs Set vs Map.md",
+    "Applications/Jobs/Millennium - Software Engineer - Fixed Income Execution.md",
+    "Applications/Jobs/Flutter - Associate Software Engineer.md",
+    "Applications/Jobs/Anaplan - Associate Software Engineer.md",
+    "Applications/Algorithms/Sorting/Sorting.md",
+    "Applications/Algorithms/Sorting",
+    "Applications/Algorithms/Maze Algorithm using DFS or BFS.md",
+    "Applications/Algorithms/Big O notation.md",
+    "Applications/Algorithms",
+    "Applications/Data Structures Questions/Queue.md",
+    "Applications/Data Structures Questions/Linked List.md",
+    "Applications/Data Structures Questions/heap.png",
+    "Applications/Data Structures Questions/Heap.md",
+    "Applications/Data Structures Questions/Hash Functions.md",
+    "Applications/Data Structures Questions/Data Structures.md",
+    "Applications/Data Structures Questions/Array.md",
+    "File Input",
+    "Applications/Jobs",
     "Applications/Core Java Coding Interview PRoblems",
     "Projects/booking-system/Documentation/User Implementation",
     "Projects/booking-system/Documentation/User Implementation/Testing",
@@ -234,10 +275,6 @@
     "Java/Spring/Spring Security",
     "Filter.png",
     "Java/Spring/Spring Framework Runtime.png",
-    "Java/Spring/Spring Framework.png",
-    "Calendar",
-    "Java/Hash Functions",
-    "Applications/Spring Boot",
-    "Applications/Data Structures Questions/heap.png"
+    "Java/Spring/Spring Framework.png"
   ]
 }
