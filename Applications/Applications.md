@@ -19,6 +19,8 @@
 - [ ] [[Anaplan - Associate Software Engineer]]
 - [ ] [[Millennium - Software Engineer - Fixed Income Execution]]
 - [ ] [[Flutter - Associate Software Engineer]]
+- [ ] [[SITA - Associate Software Developer (with Salesforce focus)]]
+
 
 # Studying
 
