@@ -30,6 +30,7 @@
 | [[Flutter - Associate Software Engineer]]                       | Applied         | Awaiting |
 | [[SITA - Associate Software Developer (with Salesforce focus)]] | Applied         | Awaiting |
 | [[Dataiku - Software Engineer - Data Exploration ]]<br>         | Applied         | Awaiting |
+| [[Lloyd's Regsiter - Full Stack Software Developer]]            | Writing CV      |          |
 
 # Studying
 - [[Data Structures]]
