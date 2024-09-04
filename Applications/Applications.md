@@ -20,10 +20,18 @@
 - [ ] [[Millennium - Software Engineer - Fixed Income Execution]]
 - [ ] [[Flutter - Associate Software Engineer]]
 - [ ] [[SITA - Associate Software Developer (with Salesforce focus)]]
+- [ ] [[Dataiku - Software Engineer - Data Exploration ]]
 
+| Jobs                                                            | Progress        | Status   |
+| --------------------------------------------------------------- | --------------- | -------- |
+| [[Informatica - Software Engineer]]                             | First Interview | Awaiting |
+| [[Anaplan - Associate Software Engineer]]                       | Applied         | Awaiting |
+| [[Millennium - Software Engineer - Fixed Income Execution]]     | Applied         | Awaiting |
+| [[Flutter - Associate Software Engineer]]                       | Applied         | Awaiting |
+| [[SITA - Associate Software Developer (with Salesforce focus)]] | Applied         | Awaiting |
+| [[Dataiku - Software Engineer - Data Exploration ]]<br>         | Applied         | Awaiting |
 
 # Studying
-
 - [[Data Structures]]
 - [[Spring Boot Questions]]
 - [[General Questions]]
