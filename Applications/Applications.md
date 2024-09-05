@@ -21,6 +21,7 @@
 - [ ] [[Flutter - Associate Software Engineer]]
 - [ ] [[SITA - Associate Software Developer (with Salesforce focus)]]
 - [ ] [[Dataiku - Software Engineer - Data Exploration ]]
+- [ ] [[Lloyd's Regsiter - Full Stack Software Developer]]
 
 | Jobs                                                            | Progress        | Status   |
 | --------------------------------------------------------------- | --------------- | -------- |
