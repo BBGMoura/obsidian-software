@@ -22,6 +22,7 @@
 - [ ] [[SITA - Associate Software Developer (with Salesforce focus)]]
 - [ ] [[Dataiku - Software Engineer - Data Exploration ]]
 - [ ] [[Lloyd's Regsiter - Full Stack Software Developer]]
+- [ ] [[Goldman Sachs - Corporate Treaure - Analyst - Software Engineer]]
 
 | Jobs                                                            | Progress        | Status   |
 | --------------------------------------------------------------- | --------------- | -------- |
