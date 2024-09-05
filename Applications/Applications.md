@@ -6,7 +6,7 @@
 - [ ] [[American Express - Engineer I]]
 - [x] [[NatWest -  Java Microservices]] 
 - [x] [[Atos - AM AS Java Developer]]
-- [ ] [[Robert Walters - Java Fullstack Engineer (React and UI)]]
+- [x] [[Robert Walters - Java Fullstack Engineer (React and UI)]] ✅ 2024-09-05
 - [x] Starling Bank - Java Microservices 
 - [x] Wize 
 - [ ] Aristocrats
@@ -24,15 +24,17 @@
 - [ ] [[Lloyd's Regsiter - Full Stack Software Developer]]
 - [ ] [[Goldman Sachs - Corporate Treaure - Analyst - Software Engineer]]
 
-| Jobs                                                            | Progress        | Status   |
-| --------------------------------------------------------------- | --------------- | -------- |
-| [[Informatica - Software Engineer]]                             | First Interview | Awaiting |
-| [[Anaplan - Associate Software Engineer]]                       | Applied         | Awaiting |
-| [[Millennium - Software Engineer - Fixed Income Execution]]     | Applied         | Awaiting |
-| [[Flutter - Associate Software Engineer]]                       | Applied         | Awaiting |
-| [[SITA - Associate Software Developer (with Salesforce focus)]] | Applied         | Awaiting |
-| [[Dataiku - Software Engineer - Data Exploration ]]<br>         | Applied         | Awaiting |
-| [[Lloyd's Regsiter - Full Stack Software Developer]]            | Writing CV      |          |
+| Jobs                                                                | Progress        | Status    |
+| ------------------------------------------------------------------- | --------------- | --------- |
+| [[Informatica - Software Engineer]]                                 | First Interview | Awaiting  |
+| [[Anaplan - Associate Software Engineer]]                           | Applied         | Awaiting  |
+| [[Millennium - Software Engineer - Fixed Income Execution]]         | Applied         | Awaiting  |
+| [[Flutter - Associate Software Engineer]]                           | Applied         | Reviewing |
+| [[SITA - Associate Software Developer (with Salesforce focus)]]     | Applied         | Awaiting  |
+| [[Dataiku - Software Engineer - Data Exploration ]]<br>             | Applied         | Awaiting  |
+| [[Lloyd's Regsiter - Full Stack Software Developer]]                | Applied         | Awaiting  |
+| [[Goldman Sachs - Corporate Treaure - Analyst - Software Engineer]] | Applied         | Awaiting  |
+|                                                                     |                 |           |
 
 # Studying
 - [[Data Structures]]
