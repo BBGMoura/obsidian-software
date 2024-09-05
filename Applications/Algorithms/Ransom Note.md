@@ -51,14 +51,14 @@ class Solution {
 			for (char c : ransom) {
 				// character - 'a' give the alphabetical index
 				// ++ adds one to signify count to the index
-				letters[c - 'a']++;
+				letters[c - "a"]++;
 			}
 
 			for (char c : mag) {
 			// for the char in mag, it takes away count 1
 			// from the index (character - 'a')
-				letters[c - 'a']--;
-				if (letters[c - 'a'] == -1) {
+				letters[c - "a"]--;
+				if (letters[c - "a"] == -1) {
 				// if the count s =1, this mean it doesn't
 				//contain letter, so can return false
 					return false;
@@ -91,4 +91,14 @@ letter - 'a'
 ```
 
 **How?**
-In Java, characters are represented using their ASCII (or Unicode) values.
+In Java, characters are represented using their ASCII (or Unicode) values. The characters all have specific number values;
+- `a` has ASCII value of 97
+- `b` has ASCII value of 98
+- `c` has ASCII value of 99
+
+Therefore, to get the index value, you must perform the following arithmetic:
+- `a` : `letter - "a" = 97 - 97 = 0`
+- `b` : `letter - "a" = 98 - 97 = 1`
+- `c` : `letter - "a" = 99 - 97 = 2`
+
+These index values now corresponds to a letter in the English alphabet.
