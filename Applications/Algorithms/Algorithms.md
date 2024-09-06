@@ -11,3 +11,4 @@
 - [[Maze Algorithm using DFS or BFS]]
 - [[Merge Sorted Array]]
 - [[Ransom Note]]
+- [[Maxium Depth of Binary Tree]]
