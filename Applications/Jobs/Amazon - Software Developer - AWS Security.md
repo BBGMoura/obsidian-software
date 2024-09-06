@@ -94,4 +94,14 @@ Amazon is committed to a diverse and inclusive workplace. Amazon is an equal opp
 
 - we collect, enrich and vend massive volumes of security related data from millions of hosts across globally distributed systems
 - collects, enriches and vends Linux security telemetry data
+- scale
+- simple solutiosn to cxomplex problems
+- optimizations 
+- automation
+- end-toend ownership - scoping, dee4signing, devleopment, test, deployment
+- customer centric
+- diverse team 
+- documentation, design review, code reviews, pariing
+- dat processing 
+- streamline data
 - 
