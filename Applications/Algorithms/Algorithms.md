@@ -12,3 +12,4 @@
 - [[Merge Sorted Array]]
 - [[Ransom Note]]
 - [[Maxium Depth of Binary Tree]]
+- [[Valid Palindrome - Two Pointer]]
