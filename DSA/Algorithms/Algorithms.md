@@ -2,7 +2,6 @@
 - [[Two Pointer Technique]]
 - [[Sorting]]
 
-
 **Binary Tree**
 - [[Level Order Traversal (BFS)]]
 
@@ -14,3 +13,4 @@
 - [[Maximum Depth of Binary Tree]]
 - [[Valid Palindrome - Two Pointer]]
 - [[Remove Element - Two Pointer]]
+- [[Add Binary - Bit Manipulation]]

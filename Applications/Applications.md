@@ -17,7 +17,7 @@
 | [[Fimatix - Junior Java Developer]]                                 | Applied         | Awaiting  |
 
 # Studying
-- [[software/Applications/Data Structures Questions/Data Structures]]
+- [[software/DSA/Data Structures Questions/Data Structures]]
 - [[Spring Boot Questions]]
 - [[General Questions]]
 
