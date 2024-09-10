@@ -11,5 +11,6 @@
 - [[Maze Algorithm using DFS or BFS]]
 - [[Merge Sorted Array]]
 - [[Ransom Note]]
-- [[Maxium Depth of Binary Tree]]
+- [[Maximum Depth of Binary Tree]]
 - [[Valid Palindrome - Two Pointer]]
+- [[Remove Element - Two Pointer]]
