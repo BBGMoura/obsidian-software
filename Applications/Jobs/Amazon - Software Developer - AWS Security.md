@@ -105,3 +105,31 @@ Amazon is committed to a diverse and inclusive workplace. Amazon is an equal opp
 - dat processing 
 - streamline data
 - 
+
+
+## Call with Recruiter
+Why am i searching for a new role?
+I have come to the end of my graduate scheme and there are two main reasons I am looking for another role:
+- i want a role which has more responsibilities and opportunity to grow.  I want to work at a place where the company is focused on upgrading their developers so I ma able to advance my technical skills and do more impactful work
+- second reason is because I am looking for a place which leverages modern solutions , specifically I want to learn new technologies and coding languages, specifically i want to learn more about cloud technologies and microservices.  I think these technologies are the foundation of scalable code and to upgrade in my career its crucial to know them
+
+Pay range:
+I am currently on 45k so I am really look at the range from 45-50k. I am willing to compromise for a good opportunity.
+
+Technologies I have used:
+- So i have experience working both in the frontend and backend.
+- i have experience with the full software lifecycle including, design,  implementation and deployment, code reviews, releases, testing
+- For the backend, Utilised technologies such as java, spring and sql to create APIs. 
+- I have worked with messaging systems such as kafka and active mq
+- i have worked with sql and non sql databases such as postgreql and mongodb
+- i ahve also worked with monolith and event driven architecture
+- for the frontend, i utilised javascript, react
+- i used nginx and datadog also fo rlog monitorin
+- git fo version control
+- jenkins for ci/cd
+- i used linux for the operating system
+
+Why work for amazon/aws? why do you want this job role?
+Firstly, as  I mentioned before. I’m seeking a position where I can grow, learn, and make impactful contributions, and I believe this role offers that. Based on the job description, I would be working with technologies like Go, Python, and TypeScript. I'm also interested in contributing to securing cloud environments using real-time data (dealing with real time data is something ive worked wit before) and it aligns with my long-term goal of  learning about cloud technologies - cloud powers some opf the largest systems in the world so its really the back bone of creaating scalable and global applications - which also means that there will be some of the msot complex security threats so I would learn invaluable knowledge here.
+
+Secondly, I am drawn to Amazon because of its strong values and principles, particularly the customer obsession approach. I recently read an article by Frank Boosman that highlighting this preinciple. Ihave also spoken with workers which say Amazon lives its principles and its not just as slogans but something that drives its success.  Amazon is one of the biggest companies in the worls so you can really see the results that has achieved. Creating products with customers in mind is what leads to innovation and effective solutions - so again this really aligns with my long term career goals of making impactful work while working with various technolgies to put customer needs first.
