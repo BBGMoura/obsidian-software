@@ -15,6 +15,8 @@
 | [[Oxford Knight - Software Developer]]                              | Applied         | Awaiting  |
 | [[Amazon - Software Developer - AWS Security]]                      |                 |           |
 | [[Fimatix - Junior Java Developer]]                                 | Applied         | Awaiting  |
+| [The Workshop]                                                      |                 |           |
+|                                                                     |                 |           |
 
 # Studying
 - [[software/DSA/Data Structures Questions/Data Structures]]
