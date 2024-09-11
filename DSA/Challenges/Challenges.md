@@ -8,3 +8,4 @@
 - [[Add Binary - Bit Manipulation]]
 - [[The kth Factor of n - Math]]
 - [[Merge Intervals - Array]]
+- [[Number of Islands - Arrays (Searching)]]
