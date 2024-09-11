@@ -7,3 +7,4 @@
 - [[Remove Element - Two Pointer]]
 - [[Add Binary - Bit Manipulation]]
 - [[The kth Factor of n - Math]]
+- [[Merge Intervals - Array]]
