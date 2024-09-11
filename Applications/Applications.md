@@ -15,8 +15,8 @@
 | [[Oxford Knight - Software Developer]]                              | Applied         | Awaiting     |
 | [[Amazon - Software Developer - AWS Security]]                      | Applied         | Rejected     |
 | [[Fimatix - Junior Java Developer]]                                 | Applied         | Awaiting     |
-| [[The Workshop]]                                                    | Applied         |              |
-| [[Teza]]                                                            | Applied         |              |
+| [[The Workshop - Software Engineer Blockchain]]                                                    | Applied         |              |
+| [[Teza Technologies - Software Developer, Data Engineering Team]]                                                            | Applied         |              |
 | [[Systems Development Engineer - AWS ]]                             | Applied         | Coding Stage |
 
 # Studying
