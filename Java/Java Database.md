@@ -49,7 +49,9 @@ The **Java Virtual Machine (JVM)**, is the application that executes bytecode. 
 - [[Custom Runtime Exception]]
 
 ## Web services
+- [[Web Service Introduction]]
 - [[RESTful Services]]
+- [[SOAP]]
 - [[MVC - Model, View, Controller]]
 - [[Controller]]
 - [[CRUD]]
@@ -72,4 +74,5 @@ The **Java Virtual Machine (JVM)**, is the application that executes bytecode. 
 - [[Java Azure Integration]]
 - [[Quarkus]]
 
-
+# Microservices
+-
