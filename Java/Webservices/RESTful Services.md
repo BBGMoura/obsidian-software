@@ -20,5 +20,5 @@ REST webservices use HTTP protocol for data communication.
 
 A RESTful webservice should not keep client state on server. It is called stateless. One request will not know about the other. It is responsibility of the client to pass context using a session identifier.
 
-## Resource Definition
+## Resource Definitions
 Swagger
