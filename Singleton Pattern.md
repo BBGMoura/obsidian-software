@@ -1,0 +1,1 @@
+A singleton pattern is a class that can only have one instance of it instantiated at one time. For example a configuration class.

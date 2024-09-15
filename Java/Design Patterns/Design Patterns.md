@@ -7,5 +7,13 @@
 
 singleton annotation is @service @controller @configuration and etc
 
-
+## Important Design Patterns
+**Creational**
+- [[Factory Method Pattern]]
 - [[Builder Design Pattern]]
+- [[Singleton Pattern]]
+
+**Structural**
+
+**Behavioural**
+- [[Observer Pattern]]
