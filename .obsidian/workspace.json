@@ -13,7 +13,55 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Java Database.md",
+                "file": "Applications/Applications.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "df48efd70cb61869",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Robert Walters - Fullstack Java/React Investment Banking.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "61331f8ecb32c775",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Applications/Applications.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ce64b20a69c9465c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hargreaves - Software Dev FullStack.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "49cd9b00c730844d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BAE Systems - Graduate.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,26 +73,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Design Patterns/Design Patterns.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aacdc6d165730a3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/Design Patterns/Design Patterns.md",
+                "file": "Smart Communication - Software Developer.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Design Patterns/Design Patterns.md",
+                "file": "Robert Walters - Fullstack Java/React Investment Banking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/Design Patterns/Design Patterns.md",
+                "file": "Robert Walters - Fullstack Java/React Investment Banking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Design Patterns/Design Patterns.md"
+                "file": "Robert Walters - Fullstack Java/React Investment Banking.md"
               }
             }
           },
@@ -166,7 +202,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,13 +218,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "aacdc6d165730a3f",
+  "active": "df48efd70cb61869",
   "lastOpenFiles": [
-    "Observer Pattern.md",
-    "Java/Design Patterns/Design Patterns.md",
-    "Singleton Pattern.md",
-    "Factory Method Pattern.md",
+    "Applications/Applications.md",
+    "Robert Walters - Fullstack Java/React Investment Banking.md",
+    "Robert Walters - Fullstack Java",
+    "Hargreaves - Software Dev FullStack.md",
+    "BAE Systems - Graduate.md",
     "Java/Java Database.md",
+    "Smart Communication - Software Developer.md",
+    "Java/Design Patterns/Design Patterns.md",
+    "GSA - Software Developer.md",
+    "Java/Observer Pattern.md",
+    "Java/Singleton Pattern.md",
+    "Java/Factory Method Pattern.md",
     "Java/Design Patterns/Builder Design Pattern.md",
     "Pasted image 20240915175900.png",
     "Pasted image 20240915175747.png",
@@ -206,14 +250,8 @@
     "Merging.md",
     "Applications/Core Java Coding Interview PRoblems/Implement a `SecureNoteStorage` System.md",
     "Applications/Core Java Coding Interview PRoblems/Core Java Coding Interview Questions.md",
-    "Applications/Applications.md",
     "Applications/General Questions.md",
     "Applications/Data Structures Questions/Stack.md",
-    "Java/Foundation/List vs Set vs Map.md",
-    "Applications/Jobs/Millennium - Software Engineer - Fixed Income Execution.md",
-    "Applications/Jobs/Flutter - Associate Software Engineer.md",
-    "Applications/Jobs/Anaplan - Associate Software Engineer.md",
-    "Applications/Algorithms/Sorting/Sorting.md",
     "Applications/Algorithms/Sorting",
     "Applications/Algorithms",
     "Applications/Data Structures Questions/heap.png",
@@ -224,7 +262,6 @@
     "Projects/booking-system/Documentation/User Implementation/Testing",
     "Projects/booking-system/Documentation",
     "Java/Spring/Spring Security/Spring DefaultSecurityFilter.png",
-    "Java/Spring/Spring Security",
     "Filter.png",
     "Java/Spring/Spring Framework Runtime.png",
     "Java/Spring/Spring Framework.png"
