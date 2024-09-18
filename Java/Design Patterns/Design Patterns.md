@@ -17,3 +17,5 @@ singleton annotation is @service @controller @configuration and etc
 
 **Behavioural**
 - [[Observer Pattern]]
+- [[Iterator]]
+- [[Strategy Pattern]]
