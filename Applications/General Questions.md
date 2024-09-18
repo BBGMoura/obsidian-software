@@ -41,21 +41,57 @@ Collaboration is central to my work ethos. I strongly believe in knowledge shari
 - my team mates ovuhc for my growth mindset and proactives
 
 ### Overview of my skills
-I worked both on backend and frontend. 
-On the backend, I developed, maintained and tested restful applications using Java and Spring, PostgreSQL. One proect that I worked on seperating our sportsbook from the personal account management. I had to implementing an api which allowed us to use any other third part account mangement systems. I like to take a test  driven development approach with JUnit and Mockito.
+I have experience working on both the **backend** and **frontend** sides of software development.
 
-I also worked with event-driven architecture and messaging systems such as ActiveMQ. My most recent project consisted of creating market and pricing analysis system which was built on ActiveMQ to communicate between different applications. I also had to use MongoDB which was used to store the data feed, to analyse data structure.
+On the **backend**, I have developed, maintained, and tested **RESTful applications** using **Java, Spring**, and **PostgreSQL**. A notable project involved separating our sportsbook from the personal account management system, where I implemented an API to enable integration with third-party account management systems. I follow a **test-driven development (TDD)** approach, using **JUnit** and **Mockito** for testing.
 
-I used git for version control and jenkins for CI/CD pipelines in the releases i took part in. I also used dtatadog for log monitoring on production.
+Additionally, I have worked with **event-driven architecture** and messaging systems such as **ActiveMQ**. In my most recent project, I built a market and pricing analysis system, which leveraged ActiveMQ for communication between different applications. I also utilized **MongoDB** to store and analyze the data feeds.
 
-On the frontend, I used Javascript, React, CSS and HTML to create features for a web application using figma designs and change requests. One of my most notable projects on the frontend included cleaning up memory leaks in the react application which resulted in reducing memry usage and faster initial loading times for our login app.
+For version control, I used **Git**, and for CI/CD pipelines, I relied on **Jenkins**. I also incorporated **Datadog** for production log monitoring.
 
-ALso collaborated with global cross functional teams to partake in agile practices such as daily stand ups, pair programming, code reviews and writing documentation.
+On the **frontend**, I have experience with **JavaScript, React, CSS,** and **HTML** to create features based on **Figma** designs and change requests. One of my key frontend projects involved eliminating memory leaks in a React application, which reduced memory usage and significantly improved the initial load time of our login app.
+
+I regularly collaborate with global cross-functional teams, participating in **Agile practices** like daily standups, pair programming, code reviews, and writing documentation.
 
 ### How do you ensure your code is well tested?
+Firstly, when I have a new feature to implement, I take a **BDD (Behavior-Driven Development)** approach. This involves converting feature requirements into Gherkin syntax, which helps me better understand both the requirements and the functionality I need to produce. I also take part in **3 Amigos meetings**, where we collaborate to align on the feature. This process also helps me identify potential edge cases, such as handling incorrect user inputs.
 
+Once I start coding, I follow a **TDD (Test-Driven Development)** approach. I write tests before implementing the functionality, which guides the development and ensures the code meets the expected behavior. Afterward, I refactor the code to maintain cleanliness and efficiency.
 
+I focus on **three types of testing**:
+1. **Unit testing**: I isolate specific units to ensure they work independently. I prefer using **JUnit** and **Mockito** for this. Mockito allows me to mock dependencies, ensuring I’m testing individual methods in isolation, not the entire feature.
+2. **Integration testing**: This involves testing how my logic interacts with other parts of the application. For example, using `@DataJpaTest` to ensure proper repository-database interactions, or `@SpringBootTest` to load the full Spring application context. I also use slice annotations like `@WebMvcTest` to test specific layers with only the required beans.
+3. **End-to-end testing**: I use the **Postman test suite** to define and automate requests in sequence, testing both success and failure scenarios based on Gherkin scripts. This allows me to cover scenarios without manually calling endpoints. I also use **Swagger UI** or manually navigate the website to test from the user’s perspective.
+4. 
+Before committing code, I run all tests and build the project using **Maven** to ensure it’s production-ready. These tests—written using JUnit, Mockito, and Spring—are integrated into the **CI/CD pipeline**. This ensures that all functionality works correctly before deployment.
 
+## What do you consider clean code?
+**Clean code** is code that is easy to understand, maintain, and extend. It adheres to certain principles and practices that help developers write high-quality software. The main characteristics of clean code include:
+
+1. **Readability and Simplicity**: Clean code is written in a way that other developers can easily understand. This involves:
+    - Using meaningful and relevant variable, method, and class names.
+    - Keeping methods and functions short and focused on doing one thing well.
+
+1. **Maintainability**: Clean code is easy to maintain and update over time. It avoids unnecessary complexity, making it simple for developers to fix bugs or add new features without breaking existing functionality.
+    
+3. **Well-Organized**: Clean code follows proper structure and organization, making it intuitive to follow the flow of logic. It breaks down problems into smaller, manageable pieces rather than combining multiple responsibilities into a single function or class.
+    
+4. **DRY (Don’t Repeat Yourself)**: Clean code avoids redundancy. The **DRY principle** encourages eliminating duplicated code by ensuring that any piece of functionality is written only once and reused across the codebase.
+    
+5. **Single Responsibility Principle**: Each class, function, or method should have only one responsibility, making the code more modular and easier to manage.
+    
+6. **Loose Coupling**: Clean code ensures that different parts of the application are loosely coupled. This means minimizing dependencies between modules or classes to make them more flexible and easier to change or extend.
+    
+7. **Correct Error Handling**: Clean code anticipates potential errors and handles them appropriately. Good error handling ensures that the program can gracefully recover or notify users without crashing.
+    
+8. **Testability**: Clean code is thoroughly tested, usually by applying practices like **TDD (Test-Driven Development)**. Code that has good test coverage is more reliable and easier to modify without introducing bugs.
+    
+9. **OOP Principles**: Clean code often leverages **Object-Oriented Programming (OOP) principles** such as:
+    
+    - **Inheritance**: Avoiding code duplication by creating shared behavior in parent classes.
+    - **Polymorphism**: Simplifying complex conditional logic by using dynamic method calls.
+
+In summary, clean code not only works correctly but is also efficient, easy to understand, and easy to modify. Following best practices like DRY, single responsibility, and loose coupling helps ensure the codebase is scalable and adaptable over time.
 
 
 
