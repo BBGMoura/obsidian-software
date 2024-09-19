@@ -136,7 +136,32 @@ I started by thoroughly analyzing the logs and recreating the issue in a control
 **Result:**  
 The solution successfully resolved the duplicate payment issue, restoring data integrity and preventing financial discrepancies. As a result, customer complaints decreased significantly, and the business regained trust in the payment process. My manager and colleagues appreciated my methodical approach to identifying and resolving the issue, which also deepened my understanding of concurrency and thread safety.
 
-## CI/CD question
+## What is a devops mindset?
+It is a wayt of thinking that focuses on collabortation and automation.
+Firstly,  it encourages commiunivation between engineers, devops teams, qa teamand security team so everyone is working towards a common goal
+It focuses on continousa integration and continous deployment 
+-using collaboration to commit to a shared repository 
+- there is automated processes which ensure code is always in a deployable state so running tesdting scripts and building the code so that we are ablle to find issues arlier on in the proceesss
+
+I think monitoring is also a big part of that, havinga means to monitor longs and what is goinbg on inb all environmetns so there is visibility. And again so that problems can be detected eary and resolved as fast as possible and to gain knolwedge on applcaiton health.
+
+Overall, it focuses on receiving feedback early on tso that we are abled to refine our processes and learn from failure.  ENSURES WE HAVE MORE RELIABLE systesma nd are able to have high quality applications shipped off quicker.
+
+## your CI/CD experience
+**My experience with CI/CD pipelines involves participating in the release process using Jenkins. I was responsible for creating a release candidate by cutting the develop branch for upcoming releases. I ran a pieplescripts to set up dependencies, execute test scripts, and build the code. I also worked closely with the DevOps team during deployments, monitoring logs using Datadog to ensure smooth releases. In case of any issues, I would collaborate on troubleshooting and apply patches to production to resolve them promptly.**
+
+On top of release, i al;so have experience runningpi0penliens when commitng code to the main repository. ensuring that pieplines are run where the code is built using mavena dn tests are ran to ensure any issues that occur are found and so that  fixes cvan be apoplied as soon as possibkle.,
+
+
+- central shared repository where various users merge code to through the day
+- continous integration - code is automatically built when there is a push to the repository. ensuring tests are also ran to locate issues early on. this ensures code is always in a deployable state
+- artifact amanagement, once code is built and tested, it generates the artifacts which is stopre in artifact repositories such as jfrog
+- cd continous delivery - there are different pipelines to deploy the artifacts in different different environment slike qa and statinging
+- continous deployment - when code has been test and is ready, there is a pipeline to deploy automatically to the production environemnt
+- monitoring - using dtaadog to monitor applciation health and any issues occuring on the idfferent environments
+- feedback - there was feedback set up on slack to tell us if any of the jobs failed and so action could be taken 
+- a roll back mechanism was in place so that if anythign failed badly, we can revert back to the previous version to minimize downtime of environemtnes
+- 
 
 ## What is kubernetes? What is a pod?
 
