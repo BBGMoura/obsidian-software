@@ -88,10 +88,34 @@ Before committing code, I run all tests and build the project using **Maven** to
     
 9. **OOP Principles**: Clean code often leverages **Object-Oriented Programming (OOP) principles** such as:
     
-    - **Inheritance**: Avoiding code duplication by creating shared behavior in parent classes.
+    - **Inheritance**: Avoiding code duplication by creating shared behaviour in parent classes.
     - **Polymorphism**: Simplifying complex conditional logic by using dynamic method calls.
 
 In summary, clean code not only works correctly but is also efficient, easy to understand, and easy to modify. Following best practices like DRY, single responsibility, and loose coupling helps ensure the codebase is scalable and adaptable over time.
+
+## How do you react to stressful situations?
+Stress is a normal human reaction to a challenging situation. So for me, the number way to handle stress it by staying positive. At the end of the days, there are certain things you cant control and that's something that needs to be accepted. 
+
+The way I cope with that is by maintaining healthy habits like ensure I have proper plans, time management and communicating about my worries to my team. When I first joined FSB, I was given a project to complete where I had to make a front end app from scratch which included turning figma designs into a dynamic web page.  This was my first project which was not a bug and where I hadnt had any experience yet using css. So naturally I was stressed as I knew it was going to be challenging. I dealt with that by ensuring I had correct time management. I broke up a big task into smaller tasks, so it didn't feel so daunting. I  communicated with the other developers on my team, to get professional opinions on how could tackle the task. This helped me express to my scrum master, when I expected to finish. when I recieved suggestions on my code review to improve my code, I took that feedback on and refactored my code which actaully lead to me delivering my work but praise from my colleagues regarding em writing clean and good quality code.
+## What is an occasion where you thought you excelled in a complex task?
+Recently, I had to investigate an issue on our production servers that was causing duplicate payments. At first glance, it seemed straightforward because it involved a third-party payment processor. However, after thorough investigation—recreating the issue in a controlled environment, examining logs, and liaising with the third party—I realized the bug was actually a concurrency issue within our own application.
+
+What made this task particularly complex was my limited experience with concurrency and thread safety at the time, and the lack of detailed server logs. The logs only showed that the payment endpoint was being called, but not why it was happening twice, milliseconds apart.
+
+To tackle this, I added detailed logs to the relevant sections of the code, allowing me to pinpoint the exact sequence of events. This confirmed that the issue was due to concurrent requests leading to the application pulling incorrect data from the database before the previous thread had finished executing. After researching best practices for handling concurrency and considering several potential solutions, I decided to implement a database lock. This ensured that data integrity was maintained by preventing multiple threads from accessing and modifying the data simultaneously.
+
+As a result, I not only resolved the duplicate payment issue but also gained a deeper understanding of concurrency and thread safety, which I’ve since applied to other projects. This experience helped me grow as an engineer and demonstrated my ability to navigate and solve complex problems effectively.
+## Example of solving problem
+## What is kubernetes? What is a pod?
+
+## CI/CD question
+
+## Difference between Spring and Spring Boot
+
+## Advantages of spring
+
+## Hibernate
+
 
 
 
