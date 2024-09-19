@@ -94,9 +94,20 @@ Before committing code, I run all tests and build the project using **Maven** to
 In summary, clean code not only works correctly but is also efficient, easy to understand, and easy to modify. Following best practices like DRY, single responsibility, and loose coupling helps ensure the codebase is scalable and adaptable over time.
 
 ## How do you react to stressful situations?
-Stress is a normal human reaction to a challenging situation. So for me, the number way to handle stress it by staying positive. At the end of the days, there are certain things you cant control and that's something that needs to be accepted. 
+**Stress is a normal reaction to challenging situations, and for me, the key to handling stress is to stay positive and focus on what I can control. I accept that there are some things beyond my control, and I focus on maintaining healthy habits such as proper planning, time management, and open communication with my team.**
 
-The way I cope with that is by maintaining healthy habits like ensure I have proper plans, time management and communicating about my worries to my team. When I first joined FSB, I was given a project to complete where I had to make a front end app from scratch which included turning figma designs into a dynamic web page.  This was my first project which was not a bug and where I hadnt had any experience yet using css. So naturally I was stressed as I knew it was going to be challenging. I dealt with that by ensuring I had correct time management. I broke up a big task into smaller tasks, so it didn't feel so daunting. I  communicated with the other developers on my team, to get professional opinions on how could tackle the task. This helped me express to my scrum master, when I expected to finish. when I recieved suggestions on my code review to improve my code, I took that feedback on and refactored my code which actaully lead to me delivering my work but praise from my colleagues regarding em writing clean and good quality code.
+**For example, when I first joined FSB, I was assigned to build a frontend application from scratch, translating Figma designs into a dynamic web page. This was my first project that wasn’t related to bug fixing, and I hadn’t yet worked extensively with CSS. Naturally, I felt stressed because I knew it would be challenging.**
+
+**To manage this stress, I implemented several strategies:**
+
+1. **Time Management:** I broke down the project into smaller, manageable tasks. This helped me stay organized and prevented the overall project from feeling overwhelming. I set milestones for each component of the web page, which allowed me to track my progress and stay on schedule.
+    
+2. **Seeking Support:** I communicated with other developers on my team to get their professional opinions and guidance on how to tackle specific aspects of the project. This helped me gain confidence and clarity on the technical approach I should take.
+    
+3. **Feedback and Iteration:** After completing the initial version of the application, I proactively sought feedback from my colleagues during code reviews. I took their suggestions to heart and refactored my code, which ultimately improved the quality of the project.
+    
+
+**As a result, I successfully delivered the project on time and received positive feedback from my team for writing clean and high-quality code. This experience taught me that breaking down a complex task and maintaining open communication are essential strategies for handling stress effectively.**
 ## What is an occasion where you thought you excelled in a complex task?
 Recently, I had to investigate an issue on our production servers that was causing duplicate payments. At first glance, it seemed straightforward because it involved a third-party payment processor. However, after thorough investigation—recreating the issue in a controlled environment, examining logs, and liaising with the third party—I realized the bug was actually a concurrency issue within our own application.
 
@@ -106,9 +117,28 @@ To tackle this, I added detailed logs to the relevant sections of the code, allo
 
 As a result, I not only resolved the duplicate payment issue but also gained a deeper understanding of concurrency and thread safety, which I’ve since applied to other projects. This experience helped me grow as an engineer and demonstrated my ability to navigate and solve complex problems effectively.
 ## Example of solving problem
-## What is kubernetes? What is a pod?
+
+**Example of Problem Solving:**
+
+**Situation:**  
+In my previous role at FSB, I was tasked with resolving a critical issue where users were experiencing duplicate payments on our platform. This was a high-priority issue as it impacted customer trust and had financial implications for the business.
+
+**Task:**  
+My responsibility was to investigate the root cause, implement a solution, and ensure the issue was resolved without introducing new problems into the payment flow. The challenge was that this issue seemed related to a third-party payment processor, and I had limited visibility into their systems. Additionally, I had minimal experience with concurrency issues, which I suspected might be a contributing factor.
+
+**Action:**  
+I started by thoroughly analyzing the logs and recreating the issue in a controlled environment. After confirming it was a concurrency issue within our application, I realized that multiple payment requests were being processed simultaneously, leading to data inconsistencies.
+
+1. **Research & Diagnosis:** I researched concurrency issues, focusing on thread safety and database operations. I also consulted with senior developers to gain insights into potential solutions.
+2. **Implementation:** I added detailed logging to critical sections of the code to track the execution flow and pinpoint where the problem was occurring. Once I identified the issue, I implemented a database locking mechanism to prevent multiple threads from accessing and modifying the same data concurrently.
+3. **Testing:** I conducted rigorous testing in a staging environment to ensure the solution worked under various conditions and did not introduce new issues.
+
+**Result:**  
+The solution successfully resolved the duplicate payment issue, restoring data integrity and preventing financial discrepancies. As a result, customer complaints decreased significantly, and the business regained trust in the payment process. My manager and colleagues appreciated my methodical approach to identifying and resolving the issue, which also deepened my understanding of concurrency and thread safety.
 
 ## CI/CD question
+
+## What is kubernetes? What is a pod?
 
 ## Difference between Spring and Spring Boot
 
