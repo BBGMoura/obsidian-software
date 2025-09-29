@@ -9,3 +9,6 @@ These notes are based on ES6.
 
 ## Frameworks
 - [[React Database]]
+- [[NextJs]]
+
+## Typescript

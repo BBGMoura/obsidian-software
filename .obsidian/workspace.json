@@ -4,47 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "f821fd5edef2eea8",
+        "id": "cf97507e8d391383",
         "type": "tabs",
         "children": [
           {
-            "id": "37f3a967626da91d",
+            "id": "d4c35c87746baafc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Design Patterns/Design Patterns.md",
+                "file": "Javascript/Javascript Database.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Javascript Database"
             }
           },
           {
-            "id": "69386c70d11c137a",
+            "id": "8d7ca839b080869e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Design Patterns/Design Patterns.md",
+                "file": "NextJs/NextJs.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "8fa5b0973b519d5a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Applications/General Questions.md",
-                "mode": "source",
-                "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "NextJs"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -63,8 +55,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -73,13 +68,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "design patterns",
+                "query": "design pattern",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -87,7 +84,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applications/General Questions.md",
+                "file": "NextJs/NextJs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for NextJs"
             }
           },
           {
@@ -128,10 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applications/General Questions.md",
+                "file": "NextJs/NextJs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from NextJs"
             }
           },
           {
@@ -141,8 +144,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -151,8 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applications/General Questions.md"
-              }
+                "file": "NextJs/NextJs.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of NextJs"
             }
           },
           {
@@ -160,7 +172,9 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           }
         ]
@@ -172,7 +186,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -180,44 +194,47 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8fa5b0973b519d5a",
+  "active": "8d7ca839b080869e",
   "lastOpenFiles": [
-    "Strategy Pattern.md",
-    "Java/Design Patterns/Design Patterns.md",
-    "Iterator.md",
-    "Pasted image 20240916182447.png",
-    "Java/Observer Pattern.md",
-    "Applications/Applications.md",
-    "Robert Walters - Fullstack Java/React Investment Banking.md",
-    "Hargreaves - Software Dev FullStack.md",
-    "BAE Systems - Graduate.md",
-    "Smart Communication - Software Developer.md",
-    "Robert Walters - Fullstack Java",
-    "Java/Java Database.md",
-    "GSA - Software Developer.md",
-    "Java/Singleton Pattern.md",
-    "Java/Factory Method Pattern.md",
+    "NextJs/NextJs.md",
+    "Javascript/Javascript Database.md",
+    "React/React Database.md",
+    "NextJs",
+    "Shortcuts.md",
+    "Typescript",
+    "README.md",
+    "LeetCode Randomizer.md",
+    "Copying Files to Server.md",
+    "Commands for CMD Line.md",
+    "Checkboxes.md",
+    "Java/Design Patterns/Pasted image 20240915175502.png",
+    "Java/Design Patterns/Pasted image 20240915175747.png",
+    "Applications/Jobs/Smart Communication - Software Developer.md",
     "Java/Design Patterns/Builder Design Pattern.md",
-    "Pasted image 20240915175900.png",
-    "Pasted image 20240915175747.png",
-    "Pasted image 20240915175502.png",
-    "Java/Foundation/Scanner.md",
-    "Applications/Core Java Coding Interview PRoblems/Implement a `ShoppingCart` System.md",
-    "Java/OOP/Design Principles/Design Principles.md",
-    "Java/Testing/Stateful Testing.md",
-    "Applications/Algorithms/Merge Sorted Array.md",
-    "Applications/Algorithms/Two Pointer Technique.md",
-    "Applications/Algorithms/Sorting/Counting Sort.md",
-    "Applications/Algorithms/Two Pointer Technique Walkthrough.png",
-    "Applications/Algorithms/Algorithms.md",
-    "Excalidraw/Drawing 2024-09-04 09.48.30.excalidraw.md",
-    "Excalidraw",
-    "Merging.md",
-    "Applications/Core Java Coding Interview PRoblems/Implement a `SecureNoteStorage` System.md",
+    "Java/Design Patterns/Strategy Pattern.md",
+    "Java/Design Patterns/Iterator.md",
+    "Java/Design Patterns/Pasted image 20240915175900.png",
+    "Java/File Input & Output.md",
+    "Java/Java Database.md",
+    "Java/Custom Runtime Exception.md",
+    "Daily Notes/2024-08-13.md",
+    "Daily Notes/Feb 2024/2024-02-28.md",
+    "Daily Notes/2024-07-12.md",
+    "Daily Notes/2024-08-24.md",
+    "Calendar/2024-08-23 Lunch Time.md",
+    "Calendar/2024-08-23 Gym.md",
+    "Calendar/2024-08-23 Apply For Jobs.md",
+    "Applications/Applications.md",
     "Applications/Core Java Coding Interview PRoblems/Core Java Coding Interview Questions.md",
+    "Applications/Jobs/Hargreaves - Software Dev FullStack.md",
+    "Java/Design Patterns/Pasted image 20240916182447.png",
+    "Applications/Jobs/Robert Walters - Fullstack Java",
+    "Applications/Algorithms/Two Pointer Technique Walkthrough.png",
+    "Excalidraw",
     "Applications/Algorithms/Sorting",
     "Applications/Algorithms",
     "Applications/Data Structures Questions/heap.png",
@@ -225,8 +242,6 @@
     "Applications/Jobs",
     "Applications/Core Java Coding Interview PRoblems",
     "Projects/booking-system/Documentation/User Implementation",
-    "Projects/booking-system/Documentation/User Implementation/Testing",
-    "Projects/booking-system/Documentation",
     "Java/Spring/Spring Security/Spring DefaultSecurityFilter.png",
     "Filter.png",
     "Java/Spring/Spring Framework Runtime.png",

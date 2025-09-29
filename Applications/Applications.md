@@ -26,7 +26,7 @@
 | [[Smart Communication - Software Developer]]                        |                 |              |
 | [[BAE Systems - Graduate]]                                          |                 |              |
 | [[Hargreaves - Software Dev FullStack]]                             |                 |              |
-| [[Robert Walters - Fullstack Java/React Investment Banking]]        |                 |              |
+| [[React Investment Banking]]                                        |                 |              |
 
 # Studying
 - [[software/DSA/Data Structures Questions/Data Structures]]
